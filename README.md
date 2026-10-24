@@ -1,11 +1,11 @@
-# 🏎️ BMS Master — STM32 Nucleo G474RE V0 (Formula ITA)
+# BMS Master — STM32 Nucleo G474RE (Formula ITA)
 ### ECU Central de Gerenciamento do Acumulador de Tração (20s18p)
 
 Repositório oficial e unificado (**Monorepo**) de **Hardware**, **Firmware** e **Documentação de Engenharia** do BMS Master desenvolvido para o protótipo Formula SAE Electric da equipe **Formula ITA** (Temporada 2025-2026).
 
 ---
 
-## 📸 Renderização 3D da Carrier Board
+## Renderização 3D da Carrier Board
 
 A placa **BMS Master Carrier Shield** é uma PCB de 4 camadas projetada para acoplar o núcleo de processamento **ST NUCLEO-G474RE** via conectores Morpho, integrando circuitos de proteção automotiva, barreira galvânica e interface com o circuito de segurança (SDC).
 
@@ -26,7 +26,7 @@ A placa **BMS Master Carrier Shield** é uma PCB de 4 camadas projetada para aco
 
 ---
 
-## ⚡ Destaques do Projeto de Hardware
+## Destaques do Projeto de Hardware
 
 * **Topologia do Acumulador:** 20 blocos em série, cada bloco com 18 células em paralelo (**20s18p = 360 células** formato 21700).
 * **Processamento Central:** ST NUCLEO-G474RE (MCU ARM Cortex-M4F com FPU a 170 MHz, 512 kB Flash, 128 kB SRAM).
@@ -37,7 +37,7 @@ A placa **BMS Master Carrier Shield** é uma PCB de 4 camadas projetada para aco
 
 ---
 
-## 📑 Estrutura do Repositório (Monorepo)
+## Estrutura do Repositório (Monorepo)
 
 ```text
 BMS Master - STM - V0/
@@ -92,7 +92,7 @@ BMS Master - STM - V0/
 
 ---
 
-## 📊 Software-in-the-Loop (SIL) & Validação de Algoritmos
+## Software-in-the-Loop (SIL) & Validação de Algoritmos
 
 O firmware foi projetado segundo a arquitetura de **Core Desacoplado**, permitindo que 100% dos algoritmos de segurança, estimativa de estado e detecção de anomalias sejam validados no computador host antes do deployment no microcontrolador:
 
@@ -120,7 +120,7 @@ python tools/plot_telemetry.py
 
 ---
 
-## 🖥️ Como Abrir o Projeto Eletrônico no KiCad 10
+## Como Abrir o Projeto Eletrônico no KiCad 10
 
 1. Abra o **KiCad 10**.
 2. Selecione **Abrir Projeto** e aponte para:  
@@ -132,14 +132,14 @@ python tools/plot_telemetry.py
 
 ---
 
-## 📚 Documentação Técnica de Referência
+## Documentação Técnica de Referência
 
 Consulte a pasta [`docs/`](docs/) para aprofundamento técnico:
-* [📘 **Plano Mestre Consolidado**](docs/PLANO_MESTRE_BMS_MASTER_CONSOLIDADO.md) — Documento mestre de especificação técnica e funcional.
-* [⚖️ **Relatório de Auditoria FSAE EV**](docs/RELATORIO_AUDITORIA_SENIOR_JUIZ_FSAE.md) — Parecer técnico de conformidade com os artigos do regulamento FSAE.
-* [🔧 **Manual Operacional e de Montagem**](docs/MANUAL_OPERACIONAL_E_MONTAGEM_BMS.md) — Roteiro detalhado de fabricação, montagem de chicotes e testes de bancada.
-* [🔬 **Plano de Detecção de Fusível Rompido**](docs/PLANO_DETECCAO_FUSIVEL_METODO_1.md) — Formulação matemática do RLS incremental e teste Z-score.
-* [🧪 **Guia de Caracterização de Células 21700**](docs/GUIA_ENSAIO_CARACTERIZACAO_CELULAS_21700.md) — Protocolo de ensaio experimental HPPC em bancada.
+* [**Plano Mestre Consolidado**](docs/PLANO_MESTRE_BMS_MASTER_CONSOLIDADO.md) — Documento mestre de especificação técnica e funcional.
+* [**Relatório de Auditoria FSAE EV**](docs/RELATORIO_AUDITORIA_SENIOR_JUIZ_FSAE.md) — Parecer técnico de conformidade com os artigos do regulamento FSAE.
+* [**Manual Operacional e de Montagem**](docs/MANUAL_OPERACIONAL_E_MONTAGEM_BMS.md) — Roteiro detalhado de fabricação, montagem de chicotes e testes de bancada.
+* [**Plano de Detecção de Fusível Rompido**](docs/PLANO_DETECCAO_FUSIVEL_METODO_1.md) — Formulação matemática do RLS incremental e teste Z-score.
+* [**Guia de Caracterização de Células 21700**](docs/GUIA_ENSAIO_CARACTERIZACAO_CELULAS_21700.md) — Protocolo de ensaio experimental HPPC em bancada.
 
 ---
 
