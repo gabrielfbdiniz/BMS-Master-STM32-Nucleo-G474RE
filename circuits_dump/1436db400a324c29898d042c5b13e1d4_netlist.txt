@@ -1,0 +1,45 @@
+* Netlist created with www.circuit-diagram.org
+* AMS v3 by Carlos Cesar Eguti
+'Arduino Uno #12:0 #11:1 #16:2 #1:3 #4:4 #5:4 #15:5
+'Connector com:6 t=Plug
+'Connector t=Socket
+'Connector com:7 t=Plug
+'Connector t=Socket
+'Connector com:0 t=Plug
+'Connector com:6 t=Plug
+'Connector com:8 t=Socket
+'Connector com:9 t=Socket
+'Connector com:10 t=Plug
+'Connector com:15 t=Plug
+'Connector com:16 t=Socket
+'Connector com:17 t=Plug
+'Connector com:3 t=Socket
+'Connector com:18 t=Plug
+'Connector com:19 t=Socket
+'Connector com:19 t=Plug
+'Connector t=Socket
+'Connector com:1 t=Plug
+'Connector t=Socket
+'Connector com:3 t=Plug
+'Connector t=Socket
+D1 15 18
+R2 16 2 470
+R3 20 19 3300
+R4 5 20 3900
+'pushswitch b:17 a:18 t=Push closed=False
+'Connector t=Plug
+'Connector t=Socket
+'Connector com:11 t=Socket
+C5 6 4 0.001
+'Connector com:22 t=Plug
+'Connector com:13 t=Socket
+'Connector com:23 t=Plug
+'Connector com:24 t=Plug
+'Connector com:14 t=Socket
+'Connector com:12 t=Socket
+D6 25 6
+'switchdpdt a2:22 c1:24 b1:7 c2:23 a1:10 t=DPDT
+'inductor a:6 b:25 text= inductance=0.1 showInductance=False
+'transnpn emit:20 col:25 base:19 t=NPN
+'Connector com:4 t=Plug
+'Connector com:21 t=Socket

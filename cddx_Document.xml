@@ -1,0 +1,2450 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<circuit version="1.4" xmlns="http://schemas.circuit-diagram.org/circuitDiagramDocument/2012/document">
+	<properties>
+		<width>2660</width>
+		<height>1200</height>
+	</properties>
+	<definitions>
+		<src col="http://schemas.circuit-diagram.org/circuitDiagramDocument/2012/components/misc">
+			<add id="0" item="label" p4:guid="d93dd6a8-4f47-441a-83d9-e3aa719a2ecb" p4:version="1.0.0" xmlns:p4="http://schemas.circuit-diagram.org/circuitDiagramDocument/2012/document/component-descriptions" />
+			<add id="1" item="extconnection" p4:guid="c9e06233-ea3e-49c6-ad03-914e8871787b" p4:version="2.0.0" xmlns:p4="http://schemas.circuit-diagram.org/circuitDiagramDocument/2012/document/component-descriptions" />
+		</src>
+		<src>
+			<add id="2" item="Connector" p4:guid="e141b0b1-3fd6-4232-bf5a-b22baf7adade" p4:version="1.0.0" xmlns:p4="http://schemas.circuit-diagram.org/circuitDiagramDocument/2012/document/component-descriptions" />
+			<add id="3" item="Alternative Ground" p4:guid="6d2faabd-1070-489b-a8d4-f5b839ccde5e" p4:version="1.0.0" xmlns:p4="http://schemas.circuit-diagram.org/circuitDiagramDocument/2012/document/component-descriptions" />
+		</src>
+		<src col="http://schemas.circuit-diagram.org/circuitDiagramDocument/2012/components/common">
+			<add id="4" item="toggleswitch" p4:guid="421694bf-755a-4d50-b2ca-7273216ca17d" p4:version="1.0.0" xmlns:p4="http://schemas.circuit-diagram.org/circuitDiagramDocument/2012/document/component-descriptions" />
+			<add id="5" item="motor" p4:guid="be9baf1f-61e9-4463-8a18-17b5e021087f" p4:version="2.0.0" xmlns:p4="http://schemas.circuit-diagram.org/circuitDiagramDocument/2012/document/component-descriptions" />
+			<add id="6" item="fuse" p4:guid="7af9b261-baea-404d-b165-86e4e2089c03" p4:version="1.1.1" xmlns:p4="http://schemas.circuit-diagram.org/circuitDiagramDocument/2012/document/component-descriptions" />
+			<add id="7" item="Motor" p4:guid="be9baf1f-61e9-4463-8a18-17b5e021087f" p4:version="2.0.0" xmlns:p4="http://schemas.circuit-diagram.org/circuitDiagramDocument/2012/document/component-descriptions" />
+			<add id="8" item="battery" p4:guid="8979c617-b041-4069-8769-0b76dc0e6c52" p4:version="1.2.1" xmlns:p4="http://schemas.circuit-diagram.org/circuitDiagramDocument/2012/document/component-descriptions" />
+			<add id="9" item="relayspstno" p4:guid="3f8b1eda-6512-4308-956b-80c5bf931901" p4:version="1.1.0" xmlns:p4="http://schemas.circuit-diagram.org/circuitDiagramDocument/2012/document/component-descriptions" />
+			<add id="10" item="relayspstnc" p4:guid="3f8b1eda-6512-4308-956b-80c5bf931901" p4:version="1.1.0" xmlns:p4="http://schemas.circuit-diagram.org/circuitDiagramDocument/2012/document/component-descriptions" />
+			<add id="11" item="resistor" p4:guid="dab6d52b-51a0-49b0-bc40-3cda966148aa" p4:version="4.0.0" xmlns:p4="http://schemas.circuit-diagram.org/circuitDiagramDocument/2012/document/component-descriptions" />
+		</src>
+	</definitions>
+	<elements>
+		<w x="1920" y="380" o="h" sz="90" flp="false">
+			<fx>
+				<color r="34" g="139" b="34" a="255" />
+			</fx>
+		</w>
+		<w x="980" y="940" o="h" sz="140" flp="false">
+			<fx>
+				<color r="34" g="139" b="34" a="255" />
+			</fx>
+		</w>
+		<w x="810" y="940" o="h" sz="90" flp="false">
+			<fx>
+				<color r="34" g="139" b="34" a="255" />
+			</fx>
+		</w>
+		<w x="850" y="850" o="v" sz="60" flp="false" />
+		<w x="690" y="760" o="h" sz="170" flp="false" />
+		<c id="0" tp="{0}" x="1850" y="960" o="h" sz="50" flp="false">
+			<prs>
+				<p k="text" v="To WEGC" />
+			</prs>
+			<cns />
+		</c>
+		<c id="1" tp="{0}" x="1380" y="70" o="h" sz="50" flp="false">
+			<prs>
+				<p k="text" v="To TSMP in MP (Master Panel)" />
+			</prs>
+			<cns />
+		</c>
+		<w x="1420" y="90" o="v" sz="40" flp="false" />
+		<w x="1420" y="130" o="h" sz="60" flp="false" />
+		<w x="1480" y="90" o="v" sz="40" flp="false" />
+		<w x="1420" y="90" o="h" sz="60" flp="false" />
+		<c id="2" tp="{0}" x="1800" y="1090" o="h" sz="50" flp="false">
+			<prs>
+				<p k="text" v="XT30c" />
+			</prs>
+			<cns />
+		</c>
+		<w x="1790" y="1020" o="v" sz="60" flp="false" />
+		<w x="1790" y="1080" o="h" sz="40" flp="false" />
+		<w x="1830" y="1020" o="v" sz="60" flp="false" />
+		<w x="1790" y="1020" o="h" sz="40" flp="false" />
+		<w x="1790" y="930" o="v" sz="60" flp="false" />
+		<w x="1790" y="990" o="h" sz="40" flp="false" />
+		<w x="1830" y="930" o="v" sz="60" flp="false" />
+		<w x="1790" y="930" o="h" sz="40" flp="false" />
+		<w x="1100" y="230" o="v" sz="80" flp="false" />
+		<w x="1100" y="310" o="h" sz="40" flp="false" />
+		<w x="1140" y="230" o="v" sz="80" flp="false" />
+		<w x="1100" y="230" o="h" sz="40" flp="false" />
+		<c id="3" tp="{0}" x="1350" y="690" o="h" sz="50" flp="false">
+			<prs>
+				<p k="text" v="XT30d" />
+			</prs>
+			<cns />
+		</c>
+		<w x="1290" y="660" o="v" sz="40" flp="false" />
+		<w x="1290" y="700" o="h" sz="60" flp="false" />
+		<w x="1350" y="660" o="v" sz="40" flp="false" />
+		<w x="1290" y="660" o="h" sz="60" flp="false" />
+		<w x="1330" y="710" o="h" sz="40" flp="false" />
+		<c id="4" tp="{2}" x="1330" y="650" o="v" sz="30" flp="false">
+			<prs>
+				<p k="t" v="Plug" />
+			</prs>
+			<cns>
+				<cn id="0" pt="com" />
+			</cns>
+		</c>
+		<c id="5" tp="{2}" x="1330" y="680" o="v" sz="30" flp="true">
+			<prs>
+				<p k="t" v="Socket" />
+			</prs>
+			<cns>
+				<cn id="1" pt="com" />
+			</cns>
+		</c>
+		<c id="6" tp="{2}" x="1310" y="650" o="v" sz="30" flp="false">
+			<prs>
+				<p k="t" v="Plug" />
+			</prs>
+			<cns>
+				<cn id="0" pt="com" />
+			</cns>
+		</c>
+		<c id="7" tp="{2}" x="1310" y="680" o="v" sz="30" flp="true">
+			<prs>
+				<p k="t" v="Socket" />
+			</prs>
+			<cns>
+				<cn id="2" pt="com" />
+			</cns>
+		</c>
+		<c id="8" tp="{0}" x="1390" y="600" o="h" sz="50" flp="false">
+			<prs>
+				<p k="text" v="XLA-" />
+			</prs>
+			<cns />
+		</c>
+		<w x="2630" y="770" o="v" sz="10" flp="false" />
+		<w x="1920" y="410" o="h" sz="90" flp="false">
+			<fx>
+				<color r="34" g="139" b="34" a="255" />
+			</fx>
+		</w>
+		<w x="1290" y="380" o="h" sz="310" flp="false">
+			<fx>
+				<color r="34" g="139" b="34" a="255" />
+			</fx>
+		</w>
+		<c id="9" tp="{0}" x="580" y="550" o="v" sz="50" flp="false">
+			<prs>
+				<p k="text" v="Comm Link" />
+			</prs>
+			<cns />
+		</c>
+		<w x="570" y="1080" o="h" sz="1150" flp="false">
+			<fx>
+				<color r="100" g="149" b="237" a="255" />
+			</fx>
+		</w>
+		<w x="1150" y="430" o="v" sz="60" flp="false" />
+		<c id="10" tp="{0}" x="1120" y="480" o="h" sz="50" flp="false">
+			<prs>
+				<p k="text" v="GND" />
+			</prs>
+			<cns />
+		</c>
+		<c id="11" tp="{0}" x="1160" y="460" o="h" sz="50" flp="false">
+			<prs>
+				<p k="text" v="Circuit" />
+			</prs>
+			<cns />
+		</c>
+		<c id="12" tp="{0}" x="1120" y="460" o="h" sz="50" flp="false">
+			<prs>
+				<p k="text" v="SD" />
+			</prs>
+			<cns />
+		</c>
+		<w x="1040" y="460" o="h" sz="70" flp="false" />
+		<w x="1040" y="310" o="v" sz="150" flp="false" />
+		<w x="860" y="480" o="h" sz="250" flp="false" />
+		<c id="13" tp="{0}" x="1140" y="530" o="h" sz="50" flp="false">
+			<prs>
+				<p k="text" v="Pre Charger " />
+			</prs>
+			<cns />
+		</c>
+		<c id="14" tp="{0}" x="1160" y="450" o="h" sz="50" flp="false">
+			<prs>
+				<p k="text" v="ShutDown " />
+			</prs>
+			<cns />
+		</c>
+		<w x="1060" y="440" o="h" sz="50" flp="false" />
+		<c id="15" tp="{0}" x="1150" y="240" o="h" sz="50" flp="false">
+			<prs>
+				<p k="text" v="Ref-" />
+			</prs>
+			<cns />
+		</c>
+		<c id="16" tp="{0}" x="1150" y="260" o="h" sz="50" flp="false">
+			<prs>
+				<p k="text" v="Charging" />
+			</prs>
+			<cns />
+		</c>
+		<c id="17" tp="{0}" x="1150" y="280" o="h" sz="50" flp="false">
+			<prs>
+				<p k="text" v="Ref+" />
+			</prs>
+			<cns />
+		</c>
+		<c id="18" tp="{0}" x="1120" y="440" o="h" sz="50" flp="false">
+			<prs>
+				<p k="text" v="R2D2" />
+			</prs>
+			<cns />
+		</c>
+		<w x="1060" y="310" o="v" sz="130" flp="false" />
+		<w x="860" y="290" o="h" sz="30" flp="false" />
+		<w x="1200" y="290" o="v" sz="60" flp="false">
+			<fx>
+				<color r="34" g="139" b="34" a="255" />
+			</fx>
+		</w>
+		<w x="1090" y="350" o="v" sz="220" flp="false">
+			<fx>
+				<color r="34" g="139" b="34" a="255" />
+			</fx>
+		</w>
+		<w x="1090" y="350" o="h" sz="110" flp="false">
+			<fx>
+				<color r="34" g="139" b="34" a="255" />
+			</fx>
+		</w>
+		<c id="19" tp="{2}" x="1090" y="250" o="h" sz="30" flp="false">
+			<fx>
+				<color r="34" g="139" b="34" a="255" />
+			</fx>
+			<prs>
+				<p k="t" v="Plug" />
+			</prs>
+			<cns>
+				<cn id="3" pt="com" />
+			</cns>
+		</c>
+		<c id="20" tp="{2}" x="1120" y="290" o="h" sz="80" flp="true">
+			<fx>
+				<color r="34" g="139" b="34" a="255" />
+			</fx>
+			<prs>
+				<p k="t" v="Socket" />
+			</prs>
+			<cns>
+				<cn id="4" pt="com" />
+			</cns>
+		</c>
+		<w x="30" y="240" o="h" sz="520" flp="false">
+			<fx>
+				<color r="100" g="149" b="237" a="255" />
+			</fx>
+		</w>
+		<w x="570" y="160" o="v" sz="920" flp="false">
+			<fx>
+				<color r="100" g="149" b="237" a="255" />
+			</fx>
+		</w>
+		<c id="21" tp="{0}" x="1380" y="480" o="h" sz="50" flp="false">
+			<prs>
+				<p k="text" v="XLA+" />
+			</prs>
+			<cns />
+		</c>
+		<c id="22" tp="{2}" x="1370" y="500" o="h" sz="30" flp="false">
+			<fx>
+				<color r="34" g="139" b="34" a="255" />
+			</fx>
+			<prs>
+				<p k="t" v="Plug" />
+			</prs>
+			<cns>
+				<cn id="0" pt="com" />
+			</cns>
+		</c>
+		<c id="23" tp="{2}" x="1400" y="500" o="h" sz="30" flp="true">
+			<fx>
+				<color r="34" g="139" b="34" a="255" />
+			</fx>
+			<prs>
+				<p k="t" v="Socket" />
+			</prs>
+			<cns>
+				<cn id="5" pt="com" />
+			</cns>
+		</c>
+		<c id="24" tp="{2}" x="1370" y="620" o="h" sz="30" flp="false">
+			<fx>
+				<color r="34" g="139" b="34" a="255" />
+			</fx>
+			<prs>
+				<p k="t" v="Plug" />
+			</prs>
+			<cns>
+				<cn id="0" pt="com" />
+			</cns>
+		</c>
+		<c id="25" tp="{2}" x="1400" y="620" o="h" sz="30" flp="true">
+			<fx>
+				<color r="34" g="139" b="34" a="255" />
+			</fx>
+			<prs>
+				<p k="t" v="Socket" />
+			</prs>
+			<cns>
+				<cn id="6" pt="com" />
+			</cns>
+		</c>
+		<c id="26" tp="{0}" x="1750" y="810" o="h" sz="50" flp="false">
+			<prs>
+				<p k="text" v="CEM2" />
+			</prs>
+			<cns />
+		</c>
+		<c id="27" tp="{0}" x="1750" y="730" o="h" sz="50" flp="false">
+			<prs>
+				<p k="text" v="CEM1" />
+			</prs>
+			<cns />
+		</c>
+		<c id="28" tp="{0}" x="1110" y="320" o="h" sz="50" flp="false">
+			<prs>
+				<p k="text" v="MR30a" />
+			</prs>
+			<cns />
+		</c>
+		<c id="29" tp="{2}" x="1090" y="270" o="h" sz="30" flp="false">
+			<fx>
+				<color r="34" g="139" b="34" a="255" />
+			</fx>
+			<prs>
+				<p k="t" v="Plug" />
+			</prs>
+			<cns>
+				<cn id="3" pt="com" />
+			</cns>
+		</c>
+		<c id="30" tp="{2}" x="1120" y="270" o="h" sz="320" flp="true">
+			<fx>
+				<color r="34" g="139" b="34" a="255" />
+			</fx>
+			<prs>
+				<p k="t" v="Socket" />
+			</prs>
+			<cns>
+				<cn id="5" pt="com" />
+			</cns>
+		</c>
+		<c id="31" tp="{2}" x="1090" y="290" o="h" sz="30" flp="false">
+			<fx>
+				<color r="34" g="139" b="34" a="255" />
+			</fx>
+			<prs>
+				<p k="t" v="Plug" />
+			</prs>
+			<cns>
+				<cn id="3" pt="com" />
+			</cns>
+		</c>
+		<c id="32" tp="{2}" x="1120" y="250" o="h" sz="340" flp="true">
+			<fx>
+				<color r="34" g="139" b="34" a="255" />
+			</fx>
+			<prs>
+				<p k="t" v="Socket" />
+			</prs>
+			<cns>
+				<cn id="6" pt="com" />
+			</cns>
+		</c>
+		<c id="33" tp="{0}" x="900" y="240" o="h" sz="50" flp="false">
+			<prs>
+				<p k="text" v="Pre Charge Control" />
+			</prs>
+			<cns />
+		</c>
+		<w x="1440" y="140" o="v" sz="240" flp="false">
+			<fx>
+				<color r="34" g="139" b="34" a="255" />
+			</fx>
+		</w>
+		<c id="34" tp="{0}" x="1480" y="120" o="h" sz="50" flp="false">
+			<prs>
+				<p k="text" v="XT30a" />
+			</prs>
+			<cns />
+		</c>
+		<c id="35" tp="{2}" x="1460" y="80" o="v" sz="30" flp="false">
+			<fx>
+				<color r="34" g="139" b="34" a="255" />
+			</fx>
+			<prs>
+				<p k="t" v="Plug" />
+			</prs>
+			<cns />
+		</c>
+		<c id="36" tp="{2}" x="1460" y="110" o="v" sz="30" flp="true">
+			<fx>
+				<color r="34" g="139" b="34" a="255" />
+			</fx>
+			<prs>
+				<p k="t" v="Socket" />
+			</prs>
+			<cns>
+				<cn id="6" pt="com" />
+			</cns>
+		</c>
+		<c id="37" tp="{2}" x="1440" y="80" o="v" sz="30" flp="false">
+			<fx>
+				<color r="34" g="139" b="34" a="255" />
+			</fx>
+			<prs>
+				<p k="t" v="Plug" />
+			</prs>
+			<cns />
+		</c>
+		<c id="38" tp="{2}" x="1440" y="110" o="v" sz="30" flp="true">
+			<fx>
+				<color r="34" g="139" b="34" a="255" />
+			</fx>
+			<prs>
+				<p k="t" v="Socket" />
+			</prs>
+			<cns>
+				<cn id="5" pt="com" />
+			</cns>
+		</c>
+		<w x="1100" y="1060" o="h" sz="680" flp="false">
+			<fx>
+				<color r="34" g="139" b="34" a="255" />
+			</fx>
+		</w>
+		<w x="1120" y="1040" o="h" sz="660" flp="false">
+			<fx>
+				<color r="34" g="139" b="34" a="255" />
+			</fx>
+		</w>
+		<c id="39" tp="{2}" x="1780" y="1040" o="h" sz="30" flp="false">
+			<fx>
+				<color r="34" g="139" b="34" a="255" />
+			</fx>
+			<prs>
+				<p k="t" v="Plug" />
+			</prs>
+			<cns>
+				<cn id="6" pt="com" />
+			</cns>
+		</c>
+		<c id="40" tp="{2}" x="1810" y="1040" o="h" sz="30" flp="true">
+			<fx>
+				<color r="34" g="139" b="34" a="255" />
+			</fx>
+			<prs>
+				<p k="t" v="Socket" />
+			</prs>
+			<cns />
+		</c>
+		<c id="41" tp="{2}" x="1780" y="1060" o="h" sz="30" flp="false">
+			<fx>
+				<color r="34" g="139" b="34" a="255" />
+			</fx>
+			<prs>
+				<p k="t" v="Plug" />
+			</prs>
+			<cns>
+				<cn id="4" pt="com" />
+			</cns>
+		</c>
+		<c id="42" tp="{2}" x="1810" y="1060" o="h" sz="30" flp="true">
+			<fx>
+				<color r="34" g="139" b="34" a="255" />
+			</fx>
+			<prs>
+				<p k="t" v="Socket" />
+			</prs>
+			<cns />
+		</c>
+		<c id="43" tp="{0}" x="1840" y="1050" o="h" sz="50" flp="false">
+			<prs>
+				<p k="text" v="To R2ML" />
+			</prs>
+			<cns />
+		</c>
+		<c id="44" tp="{1}" x="1070" y="920" o="h" sz="30" flp="false">
+			<prs>
+				<p k="text" v="C+" />
+				<p k="textpos" v="False" />
+			</prs>
+			<cns>
+				<cn id="4" pt="com" />
+			</cns>
+		</c>
+		<w x="1530" y="380" o="v" sz="190" flp="false">
+			<fx>
+				<color r="34" g="139" b="34" a="255" />
+			</fx>
+		</w>
+		<c id="45" tp="{0}" x="1800" y="1000" o="h" sz="50" flp="false">
+			<prs>
+				<p k="text" v="XT30b" />
+			</prs>
+			<cns />
+		</c>
+		<c id="46" tp="{1}" x="650" y="940" o="v" sz="30" flp="false">
+			<prs>
+				<p k="text" v="B3" />
+				<p k="textpos" v="True" />
+			</prs>
+			<cns>
+				<cn id="7" pt="com" />
+			</cns>
+		</c>
+		<c id="47" tp="{1}" x="830" y="360" o="v" sz="20" flp="false">
+			<prs>
+				<p k="text" v="A3" />
+				<p k="textpos" v="False" />
+			</prs>
+			<cns>
+				<cn id="8" pt="com" />
+			</cns>
+		</c>
+		<w x="2100" y="580" o="v" sz="100" flp="false" />
+		<w x="290" y="1040" o="h" sz="100" flp="false" />
+		<w x="390" y="1010" o="v" sz="30" flp="false" />
+		<w x="320" y="970" o="v" sz="40" flp="false" />
+		<w x="710" y="960" o="h" sz="110" flp="false" />
+		<w x="820" y="880" o="v" sz="80" flp="false" />
+		<w x="710" y="880" o="h" sz="110" flp="false" />
+		<w x="710" y="880" o="v" sz="80" flp="false" />
+		<w x="880" y="550" o="h" sz="110" flp="false" />
+		<w x="990" y="550" o="v" sz="80" flp="false" />
+		<w x="880" y="630" o="h" sz="110" flp="false" />
+		<w x="880" y="550" o="v" sz="80" flp="false" />
+		<w x="990" y="360" o="v" sz="90" flp="false" />
+		<w x="880" y="360" o="h" sz="110" flp="false" />
+		<w x="880" y="450" o="h" sz="110" flp="false" />
+		<w x="880" y="360" o="v" sz="90" flp="false" />
+		<c id="48" tp="{0}" x="150" y="1110" o="v" sz="50" flp="false">
+			<prs>
+				<p k="text" v="XT60c" />
+			</prs>
+			<cns />
+		</c>
+		<c id="49" tp="{4}" x="320" y="1010" o="h" sz="70" flp="false">
+			<prs>
+				<p k="t" v="Toggle" />
+				<p k="closed" v="False" />
+			</prs>
+			<cns>
+				<cn id="9" pt="b" />
+				<cn id="10" pt="a" />
+			</cns>
+		</c>
+		<w x="290" y="1040" o="v" sz="120" flp="false" />
+		<w x="270" y="1030" o="v" sz="110" flp="false" />
+		<w x="200" y="1160" o="h" sz="90" flp="false" />
+		<w x="200" y="1140" o="h" sz="70" flp="false" />
+		<w x="190" y="1120" o="v" sz="60" flp="false" />
+		<w x="150" y="1120" o="h" sz="40" flp="false" />
+		<w x="150" y="1120" o="v" sz="60" flp="false" />
+		<w x="150" y="1180" o="h" sz="40" flp="false" />
+		<c id="50" tp="{2}" x="170" y="1160" o="h" sz="30" flp="true">
+			<prs>
+				<p k="t" v="Plug" />
+			</prs>
+			<cns>
+				<cn id="9" pt="com" />
+			</cns>
+		</c>
+		<c id="51" tp="{2}" x="140" y="1160" o="h" sz="30" flp="false">
+			<prs>
+				<p k="t" v="Socket" />
+			</prs>
+			<cns />
+		</c>
+		<c id="52" tp="{2}" x="170" y="1140" o="h" sz="30" flp="true">
+			<prs>
+				<p k="t" v="Plug" />
+			</prs>
+			<cns>
+				<cn id="11" pt="com" />
+			</cns>
+		</c>
+		<c id="53" tp="{2}" x="140" y="1140" o="h" sz="30" flp="false">
+			<prs>
+				<p k="t" v="Socket" />
+			</prs>
+			<cns />
+		</c>
+		<w x="150" y="1030" o="h" sz="120" flp="false" />
+		<w x="150" y="970" o="h" sz="170" flp="false" />
+		<c id="54" tp="{5}" x="230" y="970" o="v" sz="60" flp="false">
+			<prs>
+				<p k="t" v="Generic" />
+			</prs>
+			<cns>
+				<cn id="11" pt="b" />
+				<cn id="10" pt="a" />
+			</cns>
+		</c>
+		<c id="55" tp="{5}" x="150" y="970" o="v" sz="60" flp="false">
+			<prs>
+				<p k="t" v="Generic" />
+			</prs>
+			<cns>
+				<cn id="11" pt="b" />
+				<cn id="10" pt="a" />
+			</cns>
+		</c>
+		<c id="56" tp="{5}" x="270" y="970" o="v" sz="60" flp="false">
+			<prs>
+				<p k="t" v="Generic" />
+			</prs>
+			<cns>
+				<cn id="11" pt="b" />
+				<cn id="10" pt="a" />
+			</cns>
+		</c>
+		<c id="57" tp="{5}" x="190" y="970" o="v" sz="60" flp="false">
+			<prs>
+				<p k="t" v="Generic" />
+			</prs>
+			<cns>
+				<cn id="11" pt="b" />
+				<cn id="10" pt="a" />
+			</cns>
+		</c>
+		<c id="58" tp="{0}" x="670" y="250" o="h" sz="50" flp="false">
+			<prs>
+				<p k="text" v="CS" />
+			</prs>
+			<cns />
+		</c>
+		<c id="59" tp="{0}" x="670" y="260" o="h" sz="50" flp="false">
+			<prs>
+				<p k="text" v="Current Sensor" />
+			</prs>
+			<cns />
+		</c>
+		<w x="730" y="280" o="v" sz="100" flp="false">
+			<fx>
+				<color r="34" g="139" b="34" a="255" />
+			</fx>
+		</w>
+		<w x="690" y="280" o="h" sz="40" flp="false">
+			<fx>
+				<color r="34" g="139" b="34" a="255" />
+			</fx>
+		</w>
+		<w x="690" y="280" o="v" sz="40" flp="false">
+			<fx>
+				<color r="34" g="139" b="34" a="255" />
+			</fx>
+		</w>
+		<w x="660" y="300" o="h" sz="100" flp="false">
+			<fx>
+				<color r="255" g="165" b="0" a="255" />
+			</fx>
+		</w>
+		<w x="760" y="230" o="v" sz="70" flp="false">
+			<fx>
+				<color r="255" g="165" b="0" a="255" />
+			</fx>
+		</w>
+		<w x="660" y="230" o="h" sz="100" flp="false">
+			<fx>
+				<color r="255" g="165" b="0" a="255" />
+			</fx>
+		</w>
+		<w x="660" y="230" o="v" sz="70" flp="false">
+			<fx>
+				<color r="255" g="165" b="0" a="255" />
+			</fx>
+		</w>
+		<c id="60" tp="{0}" x="460" y="830" o="v" sz="50" flp="false">
+			<prs>
+				<p k="text" v="Comm4" />
+			</prs>
+			<cns />
+		</c>
+		<c id="61" tp="{0}" x="460" y="690" o="v" sz="50" flp="false">
+			<prs>
+				<p k="text" v="Comm3" />
+			</prs>
+			<cns />
+		</c>
+		<c id="62" tp="{0}" x="460" y="550" o="v" sz="50" flp="false">
+			<prs>
+				<p k="text" v="Comm2" />
+			</prs>
+			<cns />
+		</c>
+		<c id="63" tp="{0}" x="460" y="410" o="v" sz="50" flp="false">
+			<prs>
+				<p k="text" v="Comm1" />
+			</prs>
+			<cns />
+		</c>
+		<c id="64" tp="{0}" x="580" y="190" o="v" sz="50" flp="false">
+			<prs>
+				<p k="text" v="POWER CIRCUIT" />
+			</prs>
+			<cns />
+		</c>
+		<c id="65" tp="{0}" x="580" y="170" o="v" sz="50" flp="false">
+			<prs>
+				<p k="text" v="ACC - ACCUMULATOR CONTAINER" />
+			</prs>
+			<cns />
+		</c>
+		<c id="66" tp="{0}" x="40" y="280" o="v" sz="50" flp="false">
+			<prs>
+				<p k="text" v="CELL PACKS" />
+			</prs>
+			<cns />
+		</c>
+		<c id="67" tp="{2}" x="1810" y="950" o="h" sz="30" flp="true">
+			<fx>
+				<color r="34" g="139" b="34" a="255" />
+			</fx>
+			<prs>
+				<p k="t" v="Plug" />
+			</prs>
+			<cns />
+		</c>
+		<c id="68" tp="{2}" x="1780" y="950" o="h" sz="30" flp="false">
+			<fx>
+				<color r="34" g="139" b="34" a="255" />
+			</fx>
+			<prs>
+				<p k="t" v="Socket" />
+			</prs>
+			<cns>
+				<cn id="6" pt="com" />
+			</cns>
+		</c>
+		<c id="69" tp="{2}" x="1810" y="970" o="h" sz="30" flp="true">
+			<fx>
+				<color r="34" g="139" b="34" a="255" />
+			</fx>
+			<prs>
+				<p k="t" v="Plug" />
+			</prs>
+			<cns />
+		</c>
+		<c id="70" tp="{2}" x="1780" y="970" o="h" sz="30" flp="false">
+			<fx>
+				<color r="34" g="139" b="34" a="255" />
+			</fx>
+			<prs>
+				<p k="t" v="Socket" />
+			</prs>
+			<cns>
+				<cn id="4" pt="com" />
+			</cns>
+		</c>
+		<w x="1100" y="570" o="v" sz="490" flp="false">
+			<fx>
+				<color r="34" g="139" b="34" a="255" />
+			</fx>
+		</w>
+		<w x="690" y="910" o="h" sz="30" flp="false" />
+		<c id="71" tp="{0}" x="400" y="810" o="v" sz="50" flp="false">
+			<prs>
+				<p k="text" v="BMS4" />
+			</prs>
+			<cns />
+		</c>
+		<c id="72" tp="{0}" x="400" y="670" o="v" sz="50" flp="false">
+			<prs>
+				<p k="text" v="BMS3" />
+			</prs>
+			<cns />
+		</c>
+		<c id="73" tp="{0}" x="400" y="530" o="v" sz="50" flp="false">
+			<prs>
+				<p k="text" v="BMS2" />
+			</prs>
+			<cns />
+		</c>
+		<c id="74" tp="{0}" x="400" y="390" o="v" sz="50" flp="false">
+			<prs>
+				<p k="text" v="BMS1" />
+			</prs>
+			<cns />
+		</c>
+		<w x="450" y="700" o="h" sz="60" flp="false" />
+		<w x="450" y="800" o="v" sz="80" flp="false">
+			<fx>
+				<color r="255" g="165" b="0" a="255" />
+			</fx>
+		</w>
+		<w x="370" y="880" o="h" sz="80" flp="false">
+			<fx>
+				<color r="255" g="165" b="0" a="255" />
+			</fx>
+		</w>
+		<w x="370" y="800" o="h" sz="80" flp="false">
+			<fx>
+				<color r="255" g="165" b="0" a="255" />
+			</fx>
+		</w>
+		<w x="370" y="800" o="v" sz="80" flp="false">
+			<fx>
+				<color r="255" g="165" b="0" a="255" />
+			</fx>
+		</w>
+		<w x="450" y="660" o="v" sz="80" flp="false">
+			<fx>
+				<color r="255" g="165" b="0" a="255" />
+			</fx>
+		</w>
+		<w x="370" y="740" o="h" sz="80" flp="false">
+			<fx>
+				<color r="255" g="165" b="0" a="255" />
+			</fx>
+		</w>
+		<w x="370" y="660" o="h" sz="80" flp="false">
+			<fx>
+				<color r="255" g="165" b="0" a="255" />
+			</fx>
+		</w>
+		<w x="370" y="660" o="v" sz="80" flp="false">
+			<fx>
+				<color r="255" g="165" b="0" a="255" />
+			</fx>
+		</w>
+		<w x="450" y="520" o="v" sz="80" flp="false">
+			<fx>
+				<color r="255" g="165" b="0" a="255" />
+			</fx>
+		</w>
+		<w x="370" y="600" o="h" sz="80" flp="false">
+			<fx>
+				<color r="255" g="165" b="0" a="255" />
+			</fx>
+		</w>
+		<w x="370" y="520" o="h" sz="80" flp="false">
+			<fx>
+				<color r="255" g="165" b="0" a="255" />
+			</fx>
+		</w>
+		<w x="370" y="520" o="v" sz="80" flp="false">
+			<fx>
+				<color r="255" g="165" b="0" a="255" />
+			</fx>
+		</w>
+		<w x="450" y="380" o="v" sz="80" flp="false">
+			<fx>
+				<color r="255" g="165" b="0" a="255" />
+			</fx>
+		</w>
+		<w x="370" y="460" o="h" sz="80" flp="false">
+			<fx>
+				<color r="255" g="165" b="0" a="255" />
+			</fx>
+		</w>
+		<w x="370" y="380" o="h" sz="80" flp="false">
+			<fx>
+				<color r="255" g="165" b="0" a="255" />
+			</fx>
+		</w>
+		<w x="370" y="380" o="v" sz="80" flp="false">
+			<fx>
+				<color r="255" g="165" b="0" a="255" />
+			</fx>
+		</w>
+		<w x="290" y="880" o="v" sz="60" flp="false">
+			<fx>
+				<color r="34" g="139" b="34" a="255" />
+			</fx>
+		</w>
+		<c id="75" tp="{2}" x="380" y="940" o="h" sz="180" flp="false">
+			<fx>
+				<color r="34" g="139" b="34" a="255" />
+			</fx>
+			<prs>
+				<p k="t" v="Socket" />
+			</prs>
+			<cns>
+				<cn id="12" pt="com" />
+			</cns>
+		</c>
+		<c id="76" tp="{2}" x="560" y="940" o="h" sz="60" flp="true">
+			<fx>
+				<color r="34" g="139" b="34" a="255" />
+			</fx>
+			<prs>
+				<p k="t" v="Plug" />
+			</prs>
+			<cns>
+				<cn id="7" pt="com" />
+			</cns>
+		</c>
+		<c id="77" tp="{2}" x="380" y="320" o="h" sz="180" flp="false">
+			<fx>
+				<color r="34" g="139" b="34" a="255" />
+			</fx>
+			<prs>
+				<p k="t" v="Socket" />
+			</prs>
+			<cns>
+				<cn id="13" pt="com" />
+			</cns>
+		</c>
+		<c id="78" tp="{2}" x="560" y="320" o="h" sz="130" flp="true">
+			<fx>
+				<color r="34" g="139" b="34" a="255" />
+			</fx>
+			<prs>
+				<p k="t" v="Plug" />
+			</prs>
+			<cns>
+				<cn id="8" pt="com" />
+			</cns>
+		</c>
+		<w x="550" y="240" o="v" sz="840" flp="false">
+			<fx>
+				<color r="100" g="149" b="237" a="255" />
+			</fx>
+		</w>
+		<c id="79" tp="{0}" x="1800" y="640" o="v" sz="50" flp="false">
+			<prs>
+				<p k="text" v="InterLock" />
+			</prs>
+			<cns />
+		</c>
+		<c id="80" tp="{0}" x="1740" y="440" o="v" sz="50" flp="false">
+			<prs>
+				<p k="text" v="InterLock" />
+			</prs>
+			<cns />
+		</c>
+		<w x="1730" y="470" o="h" sz="100" flp="false" />
+		<w x="1730" y="450" o="h" sz="100" flp="false" />
+		<c id="81" tp="{1}" x="1790" y="650" o="h" sz="30" flp="false">
+			<prs>
+				<p k="text" v="LV1-" />
+				<p k="textpos" v="True" />
+			</prs>
+			<cns>
+				<cn id="14" pt="com" />
+			</cns>
+		</c>
+		<c id="82" tp="{1}" x="1790" y="630" o="h" sz="30" flp="false">
+			<prs>
+				<p k="text" v="LV2-" />
+				<p k="textpos" v="True" />
+			</prs>
+			<cns>
+				<cn id="15" pt="com" />
+			</cns>
+		</c>
+		<w x="1590" y="600" o="h" sz="140" flp="false">
+			<fx>
+				<color r="34" g="139" b="34" a="255" />
+			</fx>
+		</w>
+		<w x="1530" y="570" o="h" sz="200" flp="false">
+			<fx>
+				<color r="34" g="139" b="34" a="255" />
+			</fx>
+		</w>
+		<c id="83" tp="{0}" x="1730" y="540" o="v" sz="50" flp="false">
+			<prs>
+				<p k="text" v="Charger Main Connector" />
+			</prs>
+			<cns />
+		</c>
+		<c id="84" tp="{0}" x="1770" y="530" o="v" sz="50" flp="false">
+			<prs>
+				<p k="text" v="CMC" />
+			</prs>
+			<cns />
+		</c>
+		<w x="1690" y="630" o="v" sz="20" flp="false" />
+		<w x="1690" y="650" o="h" sz="40" flp="false" />
+		<w x="1690" y="630" o="h" sz="40" flp="false" />
+		<w x="1500" y="380" o="v" sz="450" flp="false">
+			<fx>
+				<color r="34" g="139" b="34" a="255" />
+			</fx>
+		</w>
+		<w x="1590" y="600" o="v" sz="280" flp="false">
+			<fx>
+				<color r="34" g="139" b="34" a="255" />
+			</fx>
+		</w>
+		<c id="85" tp="{1}" x="1790" y="600" o="h" sz="30" flp="false">
+			<prs>
+				<p k="text" v="HV-" />
+				<p k="textpos" v="True" />
+			</prs>
+			<cns>
+				<cn id="16" pt="com" />
+			</cns>
+		</c>
+		<c id="86" tp="{1}" x="1790" y="570" o="h" sz="30" flp="false">
+			<prs>
+				<p k="text" v="HV+" />
+				<p k="textpos" v="True" />
+			</prs>
+			<cns>
+				<cn id="17" pt="com" />
+			</cns>
+		</c>
+		<w x="1720" y="690" o="h" sz="140" flp="false">
+			<fx>
+				<color r="100" g="149" b="237" a="255" />
+			</fx>
+		</w>
+		<w x="1720" y="520" o="v" sz="170" flp="false">
+			<fx>
+				<color r="100" g="149" b="237" a="255" />
+			</fx>
+		</w>
+		<w x="1860" y="520" o="v" sz="170" flp="false">
+			<fx>
+				<color r="100" g="149" b="237" a="255" />
+			</fx>
+		</w>
+		<w x="1720" y="520" o="h" sz="140" flp="false">
+			<fx>
+				<color r="100" g="149" b="237" a="255" />
+			</fx>
+		</w>
+		<c id="87" tp="{2}" x="1730" y="650" o="h" sz="30" flp="false">
+			<prs>
+				<p k="t" v="Plug" />
+			</prs>
+			<cns>
+				<cn id="18" pt="com" />
+			</cns>
+		</c>
+		<c id="88" tp="{2}" x="1730" y="630" o="h" sz="30" flp="false">
+			<prs>
+				<p k="t" v="Plug" />
+			</prs>
+			<cns>
+				<cn id="18" pt="com" />
+			</cns>
+		</c>
+		<c id="89" tp="{2}" x="1730" y="600" o="h" sz="30" flp="false">
+			<prs>
+				<p k="t" v="Plug" />
+			</prs>
+			<cns>
+				<cn id="6" pt="com" />
+			</cns>
+		</c>
+		<c id="90" tp="{2}" x="1730" y="570" o="h" sz="30" flp="false">
+			<prs>
+				<p k="t" v="Plug" />
+			</prs>
+			<cns>
+				<cn id="5" pt="com" />
+			</cns>
+		</c>
+		<c id="91" tp="{2}" x="1760" y="570" o="h" sz="30" flp="true">
+			<prs>
+				<p k="t" v="Socket" />
+			</prs>
+			<cns>
+				<cn id="17" pt="com" />
+			</cns>
+		</c>
+		<c id="92" tp="{2}" x="1760" y="650" o="h" sz="30" flp="true">
+			<prs>
+				<p k="t" v="Socket" />
+			</prs>
+			<cns>
+				<cn id="14" pt="com" />
+			</cns>
+		</c>
+		<c id="93" tp="{2}" x="1760" y="630" o="h" sz="30" flp="true">
+			<prs>
+				<p k="t" v="Socket" />
+			</prs>
+			<cns>
+				<cn id="15" pt="com" />
+			</cns>
+		</c>
+		<c id="94" tp="{2}" x="1760" y="600" o="h" sz="30" flp="true">
+			<prs>
+				<p k="t" v="Socket" />
+			</prs>
+			<cns>
+				<cn id="16" pt="com" />
+			</cns>
+		</c>
+		<c id="95" tp="{1}" x="1120" y="920" o="h" sz="30" flp="false">
+			<prs>
+				<p k="text" v="C-" />
+				<p k="textpos" v="True" />
+			</prs>
+			<cns>
+				<cn id="6" pt="com" />
+			</cns>
+		</c>
+		<c id="96" tp="{1}" x="1830" y="860" o="h" sz="20" flp="false">
+			<prs>
+				<p k="text" v="B5" />
+				<p k="textpos" v="True" />
+			</prs>
+			<cns>
+				<cn id="19" pt="com" />
+			</cns>
+		</c>
+		<c id="97" tp="{2}" x="1770" y="880" o="h" sz="60" flp="true">
+			<fx>
+				<color r="34" g="139" b="34" a="255" />
+			</fx>
+			<prs>
+				<p k="t" v="Plug" />
+			</prs>
+			<cns>
+				<cn id="19" pt="com" />
+			</cns>
+		</c>
+		<c id="98" tp="{2}" x="1770" y="860" o="h" sz="60" flp="true">
+			<fx>
+				<color r="34" g="139" b="34" a="255" />
+			</fx>
+			<prs>
+				<p k="t" v="Plug" />
+			</prs>
+			<cns>
+				<cn id="19" pt="com" />
+			</cns>
+		</c>
+		<c id="99" tp="{0}" x="1660" y="760" o="v" sz="50" flp="false">
+			<prs>
+				<p k="text" v="12+ Power" />
+			</prs>
+			<cns />
+		</c>
+		<c id="100" tp="{1}" x="520" y="320" o="v" sz="20" flp="false">
+			<prs>
+				<p k="text" v="A2" />
+				<p k="textpos" v="True" />
+			</prs>
+			<cns>
+				<cn id="13" pt="com" />
+			</cns>
+		</c>
+		<c id="101" tp="{1}" x="260" y="320" o="v" sz="20" flp="false">
+			<prs>
+				<p k="text" v="A1" />
+				<p k="textpos" v="True" />
+			</prs>
+			<cns>
+				<cn id="13" pt="com" />
+			</cns>
+		</c>
+		<c id="102" tp="{3}" x="1370" y="710" o="v" sz="30" flp="false">
+			<prs>
+				<p k="type" v="Earth" />
+			</prs>
+			<cns>
+				<cn id="1" pt="a" />
+			</cns>
+		</c>
+		<c id="103" tp="{3}" x="1310" y="710" o="v" sz="30" flp="false">
+			<prs>
+				<p k="type" v="Earth" />
+			</prs>
+			<cns>
+				<cn id="2" pt="a" />
+			</cns>
+		</c>
+		<w x="800" y="910" o="h" sz="50" flp="false" />
+		<w x="110" y="680" o="v" sz="260" flp="false">
+			<fx>
+				<color r="34" g="139" b="34" a="255" />
+			</fx>
+		</w>
+		<w x="110" y="470" o="v" sz="110" flp="false">
+			<fx>
+				<color r="34" g="139" b="34" a="255" />
+			</fx>
+		</w>
+		<w x="110" y="320" o="v" sz="100" flp="false">
+			<fx>
+				<color r="34" g="139" b="34" a="255" />
+			</fx>
+		</w>
+		<w x="110" y="320" o="h" sz="270" flp="false">
+			<fx>
+				<color r="34" g="139" b="34" a="255" />
+			</fx>
+		</w>
+		<w x="290" y="320" o="v" sz="60" flp="false">
+			<fx>
+				<color r="34" g="139" b="34" a="255" />
+			</fx>
+		</w>
+		<c id="104" tp="{6}" x="110" y="420" o="v" sz="50" flp="false">
+			<fx>
+				<color r="34" g="139" b="34" a="255" />
+			</fx>
+			<prs>
+				<p k="value" v="0.5" />
+			</prs>
+			<cns>
+				<cn id="12" pt="b" />
+				<cn id="13" pt="a" />
+			</cns>
+		</c>
+		<c id="105" tp="{0}" x="80" y="600" o="v" sz="50" flp="false">
+			<prs>
+				<p k="text" v="Indicator" />
+			</prs>
+			<cns />
+		</c>
+		<c id="106" tp="{0}" x="70" y="590" o="v" sz="50" flp="false">
+			<prs>
+				<p k="text" v="Voltage" />
+			</prs>
+			<cns />
+		</c>
+		<w x="60" y="580" o="v" sz="100" flp="false">
+			<fx>
+				<color r="100" g="149" b="237" a="255" />
+			</fx>
+		</w>
+		<w x="150" y="580" o="v" sz="100" flp="false">
+			<fx>
+				<color r="100" g="149" b="237" a="255" />
+			</fx>
+		</w>
+		<w x="60" y="680" o="h" sz="90" flp="false">
+			<fx>
+				<color r="100" g="149" b="237" a="255" />
+			</fx>
+		</w>
+		<w x="60" y="580" o="h" sz="90" flp="false">
+			<fx>
+				<color r="100" g="149" b="237" a="255" />
+			</fx>
+		</w>
+		<c id="107" tp="{1}" x="2100" y="560" o="v" sz="20" flp="false">
+			<prs>
+				<p k="text" v="W" />
+				<p k="textpos" v="False" />
+			</prs>
+			<cns>
+				<cn id="20" pt="com" />
+			</cns>
+		</c>
+		<c id="108" tp="{1}" x="2070" y="560" o="v" sz="20" flp="false">
+			<prs>
+				<p k="text" v="V" />
+				<p k="textpos" v="False" />
+			</prs>
+			<cns>
+				<cn id="21" pt="com" />
+			</cns>
+		</c>
+		<c id="109" tp="{1}" x="2040" y="560" o="v" sz="20" flp="false">
+			<prs>
+				<p k="text" v="U" />
+				<p k="textpos" v="False" />
+			</prs>
+			<cns>
+				<cn id="22" pt="com" />
+			</cns>
+		</c>
+		<c id="110" tp="{0}" x="1140" y="640" o="h" sz="50" flp="false">
+			<prs>
+				<p k="text" v="Resistor" />
+			</prs>
+			<cns />
+		</c>
+		<c id="111" tp="{1}" x="1830" y="880" o="h" sz="20" flp="false">
+			<prs>
+				<p k="text" v="B4" />
+				<p k="textpos" v="True" />
+			</prs>
+			<cns>
+				<cn id="19" pt="com" />
+			</cns>
+		</c>
+		<c id="112" tp="{1}" x="1800" y="830" o="h" sz="30" flp="false">
+			<prs>
+				<p k="text" v="HV+" />
+				<p k="textpos" v="True" />
+			</prs>
+			<cns>
+				<cn id="23" pt="com" />
+			</cns>
+		</c>
+		<c id="113" tp="{0}" x="1880" y="480" o="v" sz="50" flp="false">
+			<prs>
+				<p k="text" v="TSIL" />
+			</prs>
+			<cns />
+		</c>
+		<c id="114" tp="{0}" x="1660" y="40" o="h" sz="50" flp="false">
+			<prs>
+				<p k="text" v="MSDIL" />
+			</prs>
+			<cns />
+		</c>
+		<c id="115" tp="{0}" x="310" y="850" o="v" sz="50" flp="false">
+			<prs>
+				<p k="text" v="Cell Voltage" />
+			</prs>
+			<cns />
+		</c>
+		<c id="116" tp="{0}" x="310" y="710" o="v" sz="50" flp="false">
+			<prs>
+				<p k="text" v="Cell Voltage" />
+			</prs>
+			<cns />
+		</c>
+		<c id="117" tp="{0}" x="310" y="570" o="v" sz="50" flp="false">
+			<prs>
+				<p k="text" v="Cell Voltage" />
+			</prs>
+			<cns />
+		</c>
+		<c id="118" tp="{0}" x="320" y="810" o="v" sz="50" flp="false">
+			<prs>
+				<p k="text" v="Temp" />
+			</prs>
+			<cns />
+		</c>
+		<c id="119" tp="{0}" x="320" y="670" o="v" sz="50" flp="false">
+			<prs>
+				<p k="text" v="Temp" />
+			</prs>
+			<cns />
+		</c>
+		<c id="120" tp="{0}" x="320" y="530" o="v" sz="50" flp="false">
+			<prs>
+				<p k="text" v="Temp" />
+			</prs>
+			<cns />
+		</c>
+		<c id="121" tp="{0}" x="310" y="430" o="v" sz="50" flp="false">
+			<prs>
+				<p k="text" v="Cell Voltage" />
+			</prs>
+			<cns />
+		</c>
+		<c id="122" tp="{0}" x="320" y="390" o="v" sz="50" flp="false">
+			<prs>
+				<p k="text" v="Temp" />
+			</prs>
+			<cns />
+		</c>
+		<c id="123" tp="{0}" x="40" y="260" o="v" sz="50" flp="false">
+			<prs>
+				<p k="text" v="ACCUMULATOR CONTAINER" />
+			</prs>
+			<cns />
+		</c>
+		<w x="2000" y="680" o="h" sz="100" flp="false" />
+		<w x="2070" y="570" o="v" sz="90" flp="false" />
+		<w x="2010" y="660" o="h" sz="60" flp="false" />
+		<w x="2040" y="580" o="v" sz="60" flp="false" />
+		<w x="2000" y="640" o="h" sz="40" flp="false" />
+		<c id="124" tp="{7}" x="2000" y="640" o="v" sz="40" flp="false">
+			<prs>
+				<p k="t" v="ThreePhase" />
+			</prs>
+			<cns>
+				<cn id="20" pt="b" />
+				<cn id="21" pt="#0" />
+				<cn id="22" pt="a" />
+			</cns>
+		</c>
+		<c id="125" tp="{0}" x="2000" y="320" o="v" sz="50" flp="false">
+			<prs>
+				<p k="text" v="WEG Inverter" />
+			</prs>
+			<cns />
+		</c>
+		<c id="126" tp="{0}" x="1130" y="630" o="h" sz="50" flp="false">
+			<prs>
+				<p k="text" v="Discharge" />
+			</prs>
+			<cns />
+		</c>
+		<c id="127" tp="{0}" x="1140" y="540" o="h" sz="50" flp="false">
+			<prs>
+				<p k="text" v="Resistor" />
+			</prs>
+			<cns />
+		</c>
+		<c id="128" tp="{0}" x="900" y="960" o="v" sz="50" flp="false">
+			<prs>
+				<p k="text" v="HV Main Fuse" />
+			</prs>
+			<cns />
+		</c>
+		<c id="129" tp="{0}" x="900" y="230" o="h" sz="50" flp="false">
+			<prs>
+				<p k="text" v="PCC" />
+			</prs>
+			<cns />
+		</c>
+		<c id="130" tp="{0}" x="1590" y="30" o="h" sz="50" flp="false">
+			<prs>
+				<p k="text" v="MSD" />
+			</prs>
+			<cns />
+		</c>
+		<c id="131" tp="{0}" x="1800" y="730" o="v" sz="50" flp="false">
+			<prs>
+				<p k="text" v="Energy Meter" />
+			</prs>
+			<cns />
+		</c>
+		<c id="132" tp="{0}" x="1820" y="350" o="v" sz="50" flp="false">
+			<prs>
+				<p k="text" v="TSC" />
+			</prs>
+			<cns />
+		</c>
+		<c id="133" tp="{0}" x="1170" y="760" o="v" sz="50" flp="false">
+			<prs>
+				<p k="text" v="RLD" />
+			</prs>
+			<cns />
+		</c>
+		<c id="134" tp="{0}" x="760" y="900" o="v" sz="50" flp="false">
+			<prs>
+				<p k="text" v="IL-" />
+			</prs>
+			<cns />
+		</c>
+		<c id="135" tp="{0}" x="920" y="620" o="v" sz="50" flp="false">
+			<prs>
+				<p k="text" v="RLPC" />
+			</prs>
+			<cns />
+		</c>
+		<c id="136" tp="{0}" x="930" y="430" o="v" sz="50" flp="false">
+			<prs>
+				<p k="text" v="IL+" />
+			</prs>
+			<cns />
+		</c>
+		<c id="137" tp="{0}" x="1280" y="480" o="v" sz="50" flp="false">
+			<prs>
+				<p k="text" v="IMD" />
+			</prs>
+			<cns />
+		</c>
+		<c id="138" tp="{0}" x="670" y="540" o="v" sz="50" flp="false">
+			<prs>
+				<p k="text" v="AMS MAIN" />
+			</prs>
+			<cns />
+		</c>
+		<w x="1200" y="800" o="v" sz="50" flp="false" />
+		<w x="450" y="560" o="h" sz="210" flp="false" />
+		<w x="310" y="680" o="h" sz="60" flp="false" />
+		<w x="510" y="560" o="v" sz="140" flp="false" />
+		<w x="310" y="820" o="h" sz="60" flp="false" />
+		<w x="450" y="840" o="h" sz="60" flp="false" />
+		<w x="510" y="420" o="v" sz="140" flp="false" />
+		<w x="310" y="420" o="h" sz="60" flp="false" />
+		<w x="890" y="220" o="v" sz="90" flp="false">
+			<fx>
+				<color r="255" g="165" b="0" a="255" />
+			</fx>
+		</w>
+		<w x="1090" y="220" o="v" sz="90" flp="false">
+			<fx>
+				<color r="255" g="165" b="0" a="255" />
+			</fx>
+		</w>
+		<w x="510" y="700" o="v" sz="140" flp="false" />
+		<w x="450" y="420" o="h" sz="60" flp="false" />
+		<w x="1430" y="380" o="v" sz="120" flp="false">
+			<fx>
+				<color r="34" g="139" b="34" a="255" />
+			</fx>
+		</w>
+		<w x="1430" y="620" o="v" sz="260" flp="false">
+			<fx>
+				<color r="34" g="139" b="34" a="255" />
+			</fx>
+		</w>
+		<w x="1200" y="700" o="v" sz="20" flp="false" />
+		<w x="890" y="310" o="h" sz="200" flp="false">
+			<fx>
+				<color r="255" g="165" b="0" a="255" />
+			</fx>
+		</w>
+		<w x="1230" y="680" o="v" sz="40" flp="false">
+			<fx>
+				<color r="34" g="139" b="34" a="255" />
+			</fx>
+		</w>
+		<w x="970" y="600" o="h" sz="70" flp="false" />
+		<w x="1040" y="460" o="v" sz="390" flp="false" />
+		<w x="970" y="410" o="h" sz="50" flp="false" />
+		<w x="1020" y="310" o="v" sz="100" flp="false" />
+		<w x="850" y="850" o="h" sz="350" flp="false" />
+		<w x="860" y="700" o="h" sz="340" flp="false" />
+		<w x="690" y="760" o="v" sz="150" flp="false" />
+		<w x="860" y="290" o="v" sz="470" flp="false" />
+		<w x="860" y="600" o="h" sz="30" flp="false" />
+		<w x="860" y="410" o="h" sz="30" flp="false" />
+		<w x="310" y="840" o="h" sz="60" flp="false" />
+		<w x="310" y="700" o="h" sz="60" flp="false" />
+		<w x="310" y="540" o="h" sz="60" flp="false" />
+		<w x="310" y="400" o="h" sz="60" flp="false" />
+		<w x="660" y="710" o="h" sz="130" flp="false">
+			<fx>
+				<color r="255" g="165" b="0" a="255" />
+			</fx>
+		</w>
+		<w x="790" y="530" o="v" sz="180" flp="false">
+			<fx>
+				<color r="255" g="165" b="0" a="255" />
+			</fx>
+		</w>
+		<w x="1270" y="650" o="h" sz="100" flp="false">
+			<fx>
+				<color r="255" g="165" b="0" a="255" />
+			</fx>
+		</w>
+		<w x="1370" y="470" o="v" sz="180" flp="false">
+			<fx>
+				<color r="255" g="165" b="0" a="255" />
+			</fx>
+		</w>
+		<w x="1270" y="470" o="h" sz="100" flp="false">
+			<fx>
+				<color r="255" g="165" b="0" a="255" />
+			</fx>
+		</w>
+		<w x="660" y="530" o="h" sz="130" flp="false">
+			<fx>
+				<color r="255" g="165" b="0" a="255" />
+			</fx>
+		</w>
+		<w x="660" y="530" o="v" sz="180" flp="false">
+			<fx>
+				<color r="255" g="165" b="0" a="255" />
+			</fx>
+		</w>
+		<w x="1270" y="470" o="v" sz="180" flp="false">
+			<fx>
+				<color r="255" g="165" b="0" a="255" />
+			</fx>
+		</w>
+		<w x="170" y="620" o="h" sz="140" flp="false">
+			<fx>
+				<color r="255" g="165" b="0" a="255" />
+			</fx>
+		</w>
+		<w x="310" y="500" o="v" sz="120" flp="false">
+			<fx>
+				<color r="255" g="165" b="0" a="255" />
+			</fx>
+		</w>
+		<w x="170" y="500" o="h" sz="140" flp="false">
+			<fx>
+				<color r="255" g="165" b="0" a="255" />
+			</fx>
+		</w>
+		<w x="170" y="500" o="v" sz="120" flp="false">
+			<fx>
+				<color r="255" g="165" b="0" a="255" />
+			</fx>
+		</w>
+		<w x="170" y="480" o="h" sz="140" flp="false">
+			<fx>
+				<color r="255" g="165" b="0" a="255" />
+			</fx>
+		</w>
+		<w x="310" y="360" o="v" sz="120" flp="false">
+			<fx>
+				<color r="255" g="165" b="0" a="255" />
+			</fx>
+		</w>
+		<w x="170" y="360" o="h" sz="140" flp="false">
+			<fx>
+				<color r="255" g="165" b="0" a="255" />
+			</fx>
+		</w>
+		<w x="170" y="360" o="v" sz="120" flp="false">
+			<fx>
+				<color r="255" g="165" b="0" a="255" />
+			</fx>
+		</w>
+		<w x="170" y="640" o="h" sz="140" flp="false">
+			<fx>
+				<color r="255" g="165" b="0" a="255" />
+			</fx>
+		</w>
+		<w x="170" y="640" o="v" sz="120" flp="false">
+			<fx>
+				<color r="255" g="165" b="0" a="255" />
+			</fx>
+		</w>
+		<w x="310" y="640" o="v" sz="120" flp="false">
+			<fx>
+				<color r="255" g="165" b="0" a="255" />
+			</fx>
+		</w>
+		<w x="170" y="760" o="h" sz="140" flp="false">
+			<fx>
+				<color r="255" g="165" b="0" a="255" />
+			</fx>
+		</w>
+		<w x="310" y="780" o="v" sz="120" flp="false">
+			<fx>
+				<color r="255" g="165" b="0" a="255" />
+			</fx>
+		</w>
+		<w x="170" y="780" o="h" sz="140" flp="false">
+			<fx>
+				<color r="255" g="165" b="0" a="255" />
+			</fx>
+		</w>
+		<w x="170" y="780" o="v" sz="120" flp="false">
+			<fx>
+				<color r="255" g="165" b="0" a="255" />
+			</fx>
+		</w>
+		<w x="170" y="900" o="h" sz="140" flp="false">
+			<fx>
+				<color r="255" g="165" b="0" a="255" />
+			</fx>
+		</w>
+		<w x="310" y="560" o="h" sz="60" flp="false" />
+		<w x="1120" y="950" o="h" sz="660" flp="false">
+			<fx>
+				<color r="34" g="139" b="34" a="255" />
+			</fx>
+		</w>
+		<w x="890" y="220" o="h" sz="200" flp="false">
+			<fx>
+				<color r="255" g="165" b="0" a="255" />
+			</fx>
+		</w>
+		<c id="139" tp="{1}" x="510" y="940" o="v" sz="30" flp="false">
+			<prs>
+				<p k="text" v="B2" />
+				<p k="textpos" v="True" />
+			</prs>
+			<cns>
+				<cn id="12" pt="com" />
+			</cns>
+		</c>
+		<c id="140" tp="{1}" x="1520" y="880" o="v" sz="30" flp="false">
+			<prs>
+				<p k="text" v="B4" />
+				<p k="textpos" v="True" />
+			</prs>
+			<cns>
+				<cn id="6" pt="com" />
+			</cns>
+		</c>
+		<c id="141" tp="{1}" x="350" y="940" o="v" sz="30" flp="false">
+			<prs>
+				<p k="text" v="B1" />
+				<p k="textpos" v="True" />
+			</prs>
+			<cns>
+				<cn id="12" pt="com" />
+			</cns>
+		</c>
+		<w x="290" y="460" o="v" sz="60" flp="false">
+			<fx>
+				<color r="34" g="139" b="34" a="255" />
+			</fx>
+		</w>
+		<w x="290" y="600" o="v" sz="60" flp="false">
+			<fx>
+				<color r="34" g="139" b="34" a="255" />
+			</fx>
+		</w>
+		<w x="290" y="740" o="v" sz="60" flp="false">
+			<fx>
+				<color r="34" g="139" b="34" a="255" />
+			</fx>
+		</w>
+		<c id="142" tp="{2}" x="260" y="880" o="h" sz="30" flp="true">
+			<fx>
+				<color r="34" g="139" b="34" a="255" />
+			</fx>
+			<prs>
+				<p k="t" v="Plug" />
+			</prs>
+			<cns>
+				<cn id="12" pt="com" />
+			</cns>
+		</c>
+		<c id="143" tp="{2}" x="260" y="800" o="h" sz="30" flp="true">
+			<fx>
+				<color r="34" g="139" b="34" a="255" />
+			</fx>
+			<prs>
+				<p k="t" v="Plug" />
+			</prs>
+			<cns>
+				<cn id="24" pt="com" />
+			</cns>
+		</c>
+		<c id="144" tp="{2}" x="260" y="740" o="h" sz="30" flp="true">
+			<fx>
+				<color r="34" g="139" b="34" a="255" />
+			</fx>
+			<prs>
+				<p k="t" v="Plug" />
+			</prs>
+			<cns>
+				<cn id="24" pt="com" />
+			</cns>
+		</c>
+		<c id="145" tp="{2}" x="230" y="460" o="h" sz="30" flp="false">
+			<prs>
+				<p k="t" v="Socket" />
+			</prs>
+			<cns>
+				<cn id="25" pt="com" />
+			</cns>
+		</c>
+		<c id="146" tp="{2}" x="230" y="520" o="h" sz="30" flp="false">
+			<prs>
+				<p k="t" v="Socket" />
+			</prs>
+			<cns>
+				<cn id="26" pt="com" />
+			</cns>
+		</c>
+		<c id="147" tp="{2}" x="260" y="380" o="h" sz="30" flp="true">
+			<fx>
+				<color r="34" g="139" b="34" a="255" />
+			</fx>
+			<prs>
+				<p k="t" v="Plug" />
+			</prs>
+			<cns>
+				<cn id="13" pt="com" />
+			</cns>
+		</c>
+		<c id="148" tp="{2}" x="230" y="380" o="h" sz="30" flp="false">
+			<prs>
+				<p k="t" v="Socket" />
+			</prs>
+			<cns>
+				<cn id="27" pt="com" />
+			</cns>
+		</c>
+		<c id="149" tp="{2}" x="230" y="880" o="h" sz="30" flp="false">
+			<prs>
+				<p k="t" v="Socket" />
+			</prs>
+			<cns>
+				<cn id="28" pt="com" />
+			</cns>
+		</c>
+		<c id="150" tp="{2}" x="260" y="460" o="h" sz="30" flp="true">
+			<fx>
+				<color r="34" g="139" b="34" a="255" />
+			</fx>
+			<prs>
+				<p k="t" v="Plug" />
+			</prs>
+			<cns>
+				<cn id="29" pt="com" />
+			</cns>
+		</c>
+		<c id="151" tp="{2}" x="260" y="520" o="h" sz="30" flp="true">
+			<fx>
+				<color r="34" g="139" b="34" a="255" />
+			</fx>
+			<prs>
+				<p k="t" v="Plug" />
+			</prs>
+			<cns>
+				<cn id="29" pt="com" />
+			</cns>
+		</c>
+		<c id="152" tp="{2}" x="260" y="600" o="h" sz="30" flp="true">
+			<fx>
+				<color r="34" g="139" b="34" a="255" />
+			</fx>
+			<prs>
+				<p k="t" v="Plug" />
+			</prs>
+			<cns>
+				<cn id="30" pt="com" />
+			</cns>
+		</c>
+		<c id="153" tp="{2}" x="260" y="660" o="h" sz="30" flp="true">
+			<fx>
+				<color r="34" g="139" b="34" a="255" />
+			</fx>
+			<prs>
+				<p k="t" v="Plug" />
+			</prs>
+			<cns>
+				<cn id="30" pt="com" />
+			</cns>
+		</c>
+		<c id="154" tp="{2}" x="230" y="600" o="h" sz="30" flp="false">
+			<prs>
+				<p k="t" v="Socket" />
+			</prs>
+			<cns>
+				<cn id="31" pt="com" />
+			</cns>
+		</c>
+		<c id="155" tp="{2}" x="230" y="660" o="h" sz="30" flp="false">
+			<prs>
+				<p k="t" v="Socket" />
+			</prs>
+			<cns>
+				<cn id="32" pt="com" />
+			</cns>
+		</c>
+		<c id="156" tp="{2}" x="230" y="740" o="h" sz="30" flp="false">
+			<prs>
+				<p k="t" v="Socket" />
+			</prs>
+			<cns>
+				<cn id="33" pt="com" />
+			</cns>
+		</c>
+		<c id="157" tp="{2}" x="230" y="800" o="h" sz="30" flp="false">
+			<prs>
+				<p k="t" v="Socket" />
+			</prs>
+			<cns>
+				<cn id="34" pt="com" />
+			</cns>
+		</c>
+		<w x="1820" y="860" o="v" sz="20" flp="false">
+			<fx>
+				<color r="34" g="139" b="34" a="255" />
+			</fx>
+		</w>
+		<c id="158" tp="{2}" x="1770" y="750" o="h" sz="30" flp="true">
+			<prs>
+				<p k="t" v="Plug" />
+			</prs>
+			<cns>
+				<cn id="35" pt="com" />
+			</cns>
+		</c>
+		<c id="159" tp="{2}" x="1770" y="770" o="h" sz="30" flp="true">
+			<prs>
+				<p k="t" v="Plug" />
+			</prs>
+			<cns>
+				<cn id="36" pt="com" />
+			</cns>
+		</c>
+		<w x="1460" y="140" o="v" sz="740" flp="false">
+			<fx>
+				<color r="34" g="139" b="34" a="255" />
+			</fx>
+		</w>
+		<w x="1500" y="830" o="h" sz="240" flp="false">
+			<fx>
+				<color r="34" g="139" b="34" a="255" />
+			</fx>
+		</w>
+		<c id="160" tp="{2}" x="1770" y="830" o="h" sz="30" flp="true">
+			<prs>
+				<p k="t" v="Plug" />
+			</prs>
+			<cns>
+				<cn id="23" pt="com" />
+			</cns>
+		</c>
+		<w x="1560" y="410" o="v" sz="450" flp="false">
+			<fx>
+				<color r="34" g="139" b="34" a="255" />
+			</fx>
+		</w>
+		<w x="1560" y="860" o="h" sz="180" flp="false">
+			<fx>
+				<color r="34" g="139" b="34" a="255" />
+			</fx>
+		</w>
+		<w x="1660" y="880" o="h" sz="80" flp="false">
+			<fx>
+				<color r="34" g="139" b="34" a="255" />
+			</fx>
+		</w>
+		<w x="1100" y="970" o="h" sz="680" flp="false">
+			<fx>
+				<color r="34" g="139" b="34" a="255" />
+			</fx>
+		</w>
+		<w x="1120" y="880" o="v" sz="160" flp="false">
+			<fx>
+				<color r="34" g="139" b="34" a="255" />
+			</fx>
+		</w>
+		<w x="1560" y="410" o="h" sz="270" flp="false">
+			<fx>
+				<color r="34" g="139" b="34" a="255" />
+			</fx>
+		</w>
+		<w x="30" y="1080" o="h" sz="520" flp="false">
+			<fx>
+				<color r="100" g="149" b="237" a="255" />
+			</fx>
+		</w>
+		<w x="30" y="240" o="v" sz="840" flp="false">
+			<fx>
+				<color r="100" g="149" b="237" a="255" />
+			</fx>
+		</w>
+		<w x="1720" y="160" o="v" sz="920" flp="false">
+			<fx>
+				<color r="100" g="149" b="237" a="255" />
+			</fx>
+		</w>
+		<w x="570" y="160" o="h" sz="1150" flp="false">
+			<fx>
+				<color r="100" g="149" b="237" a="255" />
+			</fx>
+		</w>
+		<c id="161" tp="{1}" x="1800" y="750" o="h" sz="30" flp="false">
+			<prs>
+				<p k="text" v="+" />
+				<p k="textpos" v="True" />
+			</prs>
+			<cns>
+				<cn id="35" pt="com" />
+			</cns>
+		</c>
+		<c id="162" tp="{2}" x="1740" y="880" o="h" sz="30" flp="false">
+			<prs>
+				<p k="t" v="Socket" />
+			</prs>
+			<cns>
+				<cn id="6" pt="com" />
+			</cns>
+		</c>
+		<c id="163" tp="{1}" x="1800" y="770" o="h" sz="30" flp="false">
+			<prs>
+				<p k="text" v="-" />
+				<p k="textpos" v="True" />
+			</prs>
+			<cns>
+				<cn id="36" pt="com" />
+			</cns>
+		</c>
+		<c id="164" tp="{2}" x="1710" y="750" o="h" sz="60" flp="false">
+			<prs>
+				<p k="t" v="Socket" />
+			</prs>
+			<cns />
+		</c>
+		<c id="165" tp="{2}" x="1710" y="770" o="h" sz="60" flp="false">
+			<prs>
+				<p k="t" v="Socket" />
+			</prs>
+			<cns />
+		</c>
+		<c id="166" tp="{2}" x="1740" y="860" o="h" sz="30" flp="false">
+			<prs>
+				<p k="t" v="Socket" />
+			</prs>
+			<cns>
+				<cn id="37" pt="com" />
+			</cns>
+		</c>
+		<c id="167" tp="{2}" x="1740" y="830" o="h" sz="30" flp="false">
+			<prs>
+				<p k="t" v="Socket" />
+			</prs>
+			<cns>
+				<cn id="5" pt="com" />
+			</cns>
+		</c>
+		<w x="1790" y="720" o="v" sz="200" flp="false">
+			<fx>
+				<color r="255" g="0" b="0" a="255" />
+			</fx>
+		</w>
+		<w x="1790" y="720" o="h" sz="100" flp="false">
+			<fx>
+				<color r="255" g="0" b="0" a="255" />
+			</fx>
+		</w>
+		<w x="1890" y="720" o="v" sz="200" flp="false">
+			<fx>
+				<color r="255" g="0" b="0" a="255" />
+			</fx>
+		</w>
+		<w x="1790" y="920" o="h" sz="100" flp="false">
+			<fx>
+				<color r="255" g="0" b="0" a="255" />
+			</fx>
+		</w>
+		<c id="168" tp="{1}" x="2010" y="410" o="h" sz="30" flp="false">
+			<prs>
+				<p k="text" v="B-" />
+				<p k="textpos" v="True" />
+			</prs>
+			<cns>
+				<cn id="38" pt="com" />
+			</cns>
+		</c>
+		<c id="169" tp="{1}" x="2010" y="380" o="h" sz="30" flp="false">
+			<prs>
+				<p k="text" v="B+" />
+				<p k="textpos" v="True" />
+			</prs>
+			<cns>
+				<cn id="39" pt="com" />
+			</cns>
+		</c>
+		<w x="2150" y="300" o="v" sz="300" flp="false">
+			<fx>
+				<color r="255" g="0" b="0" a="255" />
+			</fx>
+		</w>
+		<w x="1990" y="600" o="h" sz="160" flp="false">
+			<fx>
+				<color r="255" g="0" b="0" a="255" />
+			</fx>
+		</w>
+		<w x="1990" y="300" o="h" sz="160" flp="false">
+			<fx>
+				<color r="255" g="0" b="0" a="255" />
+			</fx>
+		</w>
+		<w x="1990" y="300" o="v" sz="300" flp="false">
+			<fx>
+				<color r="255" g="0" b="0" a="255" />
+			</fx>
+		</w>
+		<w x="1920" y="450" o="v" sz="20" flp="false" />
+		<w x="1890" y="470" o="h" sz="30" flp="false" />
+		<w x="1890" y="450" o="h" sz="30" flp="false" />
+		<w x="1890" y="410" o="h" sz="30" flp="false" />
+		<w x="1940" y="340" o="v" sz="160" flp="false">
+			<fx>
+				<color r="100" g="149" b="237" a="255" />
+			</fx>
+		</w>
+		<c id="170" tp="{2}" x="1860" y="470" o="h" sz="30" flp="true">
+			<prs>
+				<p k="t" v="Plug" />
+			</prs>
+			<cns>
+				<cn id="40" pt="com" />
+			</cns>
+		</c>
+		<c id="171" tp="{2}" x="1830" y="470" o="h" sz="30" flp="false">
+			<prs>
+				<p k="t" v="Socket" />
+			</prs>
+			<cns>
+				<cn id="41" pt="com" />
+			</cns>
+		</c>
+		<c id="172" tp="{2}" x="1860" y="450" o="h" sz="30" flp="true">
+			<prs>
+				<p k="t" v="Plug" />
+			</prs>
+			<cns>
+				<cn id="40" pt="com" />
+			</cns>
+		</c>
+		<c id="173" tp="{2}" x="1830" y="450" o="h" sz="30" flp="false">
+			<prs>
+				<p k="t" v="Socket" />
+			</prs>
+			<cns>
+				<cn id="42" pt="com" />
+			</cns>
+		</c>
+		<w x="1890" y="380" o="h" sz="30" flp="false" />
+		<c id="174" tp="{2}" x="1860" y="410" o="h" sz="30" flp="true">
+			<prs>
+				<p k="t" v="Plug" />
+			</prs>
+			<cns>
+				<cn id="38" pt="com" />
+			</cns>
+		</c>
+		<c id="175" tp="{2}" x="1830" y="410" o="h" sz="30" flp="false">
+			<prs>
+				<p k="t" v="Socket" />
+			</prs>
+			<cns>
+				<cn id="37" pt="com" />
+			</cns>
+		</c>
+		<c id="176" tp="{2}" x="1860" y="380" o="h" sz="30" flp="true">
+			<prs>
+				<p k="t" v="Plug" />
+			</prs>
+			<cns>
+				<cn id="39" pt="com" />
+			</cns>
+		</c>
+		<c id="177" tp="{2}" x="1830" y="380" o="h" sz="30" flp="false">
+			<prs>
+				<p k="t" v="Socket" />
+			</prs>
+			<cns>
+				<cn id="43" pt="com" />
+			</cns>
+		</c>
+		<w x="1810" y="500" o="h" sz="130" flp="false">
+			<fx>
+				<color r="100" g="149" b="237" a="255" />
+			</fx>
+		</w>
+		<w x="1810" y="340" o="h" sz="130" flp="false">
+			<fx>
+				<color r="100" g="149" b="237" a="255" />
+			</fx>
+		</w>
+		<w x="1810" y="340" o="v" sz="160" flp="false">
+			<fx>
+				<color r="100" g="149" b="237" a="255" />
+			</fx>
+		</w>
+		<w x="1630" y="380" o="h" sz="200" flp="false">
+			<fx>
+				<color r="34" g="139" b="34" a="255" />
+			</fx>
+		</w>
+		<w x="1630" y="140" o="v" sz="240" flp="false">
+			<fx>
+				<color r="34" g="139" b="34" a="255" />
+			</fx>
+		</w>
+		<w x="1600" y="140" o="v" sz="240" flp="false">
+			<fx>
+				<color r="34" g="139" b="34" a="255" />
+			</fx>
+		</w>
+		<w x="1690" y="50" o="v" sz="30" flp="false" />
+		<w x="1670" y="50" o="h" sz="20" flp="false" />
+		<w x="1670" y="50" o="v" sz="30" flp="false" />
+		<w x="1600" y="50" o="h" sz="30" flp="false">
+			<fx>
+				<color r="34" g="139" b="34" a="255" />
+			</fx>
+		</w>
+		<w x="1630" y="50" o="v" sz="30" flp="false">
+			<fx>
+				<color r="34" g="139" b="34" a="255" />
+			</fx>
+		</w>
+		<c id="178" tp="{2}" x="1690" y="80" o="v" sz="30" flp="false">
+			<prs>
+				<p k="t" v="Plug" />
+			</prs>
+			<cns>
+				<cn id="44" pt="com" />
+			</cns>
+		</c>
+		<c id="179" tp="{2}" x="1690" y="110" o="v" sz="30" flp="true">
+			<prs>
+				<p k="t" v="Socket" />
+			</prs>
+			<cns />
+		</c>
+		<c id="180" tp="{2}" x="1670" y="80" o="v" sz="30" flp="false">
+			<prs>
+				<p k="t" v="Plug" />
+			</prs>
+			<cns>
+				<cn id="44" pt="com" />
+			</cns>
+		</c>
+		<c id="181" tp="{2}" x="1670" y="110" o="v" sz="30" flp="true">
+			<prs>
+				<p k="t" v="Socket" />
+			</prs>
+			<cns />
+		</c>
+		<c id="182" tp="{2}" x="1630" y="80" o="v" sz="30" flp="false">
+			<fx>
+				<color r="34" g="139" b="34" a="255" />
+			</fx>
+			<prs>
+				<p k="t" v="Plug" />
+			</prs>
+			<cns>
+				<cn id="45" pt="com" />
+			</cns>
+		</c>
+		<c id="183" tp="{2}" x="1630" y="110" o="v" sz="30" flp="true">
+			<fx>
+				<color r="34" g="139" b="34" a="255" />
+			</fx>
+			<prs>
+				<p k="t" v="Socket" />
+			</prs>
+			<cns>
+				<cn id="43" pt="com" />
+			</cns>
+		</c>
+		<c id="184" tp="{2}" x="1600" y="80" o="v" sz="30" flp="false">
+			<fx>
+				<color r="34" g="139" b="34" a="255" />
+			</fx>
+			<prs>
+				<p k="t" v="Plug" />
+			</prs>
+			<cns>
+				<cn id="45" pt="com" />
+			</cns>
+		</c>
+		<c id="185" tp="{2}" x="1600" y="110" o="v" sz="30" flp="true">
+			<fx>
+				<color r="34" g="139" b="34" a="255" />
+			</fx>
+			<prs>
+				<p k="t" v="Socket" />
+			</prs>
+			<cns>
+				<cn id="5" pt="com" />
+			</cns>
+		</c>
+		<w x="1580" y="160" o="h" sz="130" flp="false">
+			<fx>
+				<color r="100" g="149" b="237" a="255" />
+			</fx>
+		</w>
+		<w x="1710" y="20" o="v" sz="140" flp="false">
+			<fx>
+				<color r="100" g="149" b="237" a="255" />
+			</fx>
+		</w>
+		<w x="1580" y="20" o="h" sz="130" flp="false">
+			<fx>
+				<color r="100" g="149" b="237" a="255" />
+			</fx>
+		</w>
+		<c id="186" tp="{1}" x="1520" y="360" o="v" sz="20" flp="false">
+			<prs>
+				<p k="text" v="A4" />
+				<p k="textpos" v="False" />
+			</prs>
+			<cns>
+				<cn id="5" pt="com" />
+			</cns>
+		</c>
+		<w x="1230" y="800" o="v" sz="80" flp="false">
+			<fx>
+				<color r="34" g="139" b="34" a="255" />
+			</fx>
+		</w>
+		<w x="1120" y="880" o="h" sz="540" flp="false">
+			<fx>
+				<color r="34" g="139" b="34" a="255" />
+			</fx>
+		</w>
+		<w x="1600" y="50" o="v" sz="30" flp="false">
+			<fx>
+				<color r="34" g="139" b="34" a="255" />
+			</fx>
+		</w>
+		<w x="1230" y="380" o="v" sz="210" flp="false">
+			<fx>
+				<color r="34" g="139" b="34" a="255" />
+			</fx>
+		</w>
+		<w x="1190" y="570" o="h" sz="40" flp="false">
+			<fx>
+				<color r="34" g="139" b="34" a="255" />
+			</fx>
+		</w>
+		<w x="1580" y="20" o="v" sz="140" flp="false">
+			<fx>
+				<color r="100" g="149" b="237" a="255" />
+			</fx>
+		</w>
+		<w x="970" y="380" o="h" sz="320" flp="false">
+			<fx>
+				<color r="34" g="139" b="34" a="255" />
+			</fx>
+		</w>
+		<w x="970" y="570" o="h" sz="170" flp="false">
+			<fx>
+				<color r="34" g="139" b="34" a="255" />
+			</fx>
+		</w>
+		<w x="830" y="570" o="h" sz="60" flp="false">
+			<fx>
+				<color r="34" g="139" b="34" a="255" />
+			</fx>
+		</w>
+		<w x="830" y="380" o="v" sz="190" flp="false">
+			<fx>
+				<color r="34" g="139" b="34" a="255" />
+			</fx>
+		</w>
+		<w x="620" y="940" o="h" sz="100" flp="false">
+			<fx>
+				<color r="34" g="139" b="34" a="255" />
+			</fx>
+		</w>
+		<c id="187" tp="{6}" x="900" y="940" o="h" sz="80" flp="false">
+			<fx>
+				<color r="34" g="139" b="34" a="255" />
+			</fx>
+			<prs>
+				<p k="value" v="200" />
+			</prs>
+			<cns>
+				<cn id="6" pt="b" />
+				<cn id="46" pt="a" />
+			</cns>
+		</c>
+		<w x="110" y="940" o="h" sz="270" flp="false">
+			<fx>
+				<color r="34" g="139" b="34" a="255" />
+			</fx>
+		</w>
+		<w x="730" y="380" o="h" sz="160" flp="false">
+			<fx>
+				<color r="34" g="139" b="34" a="255" />
+			</fx>
+		</w>
+		<c id="188" tp="{8}" x="230" y="800" o="v" sz="80" flp="false">
+			<prs>
+				<p k="voltage" v="18.5" />
+				<p k="frequency" v="50" />
+				<p k="showvoltage" v="True" />
+				<p k="t" v="Battery" />
+			</prs>
+			<cns>
+				<cn id="28" pt="neg" />
+				<cn id="34" pt="pos" />
+			</cns>
+		</c>
+		<c id="189" tp="{8}" x="230" y="660" o="v" sz="80" flp="false">
+			<prs>
+				<p k="voltage" v="18.5" />
+				<p k="frequency" v="50" />
+				<p k="showvoltage" v="True" />
+				<p k="t" v="Battery" />
+			</prs>
+			<cns>
+				<cn id="32" pt="pos" />
+				<cn id="33" pt="neg" />
+			</cns>
+		</c>
+		<c id="190" tp="{8}" x="230" y="520" o="v" sz="80" flp="false">
+			<prs>
+				<p k="voltage" v="18.5" />
+				<p k="frequency" v="50" />
+				<p k="showvoltage" v="True" />
+				<p k="t" v="Battery" />
+			</prs>
+			<cns>
+				<cn id="26" pt="pos" />
+				<cn id="31" pt="neg" />
+			</cns>
+		</c>
+		<c id="191" tp="{9}" x="890" y="600" o="h" sz="80" flp="false">
+			<prs>
+				<p k="t" v="SPST_NO" />
+				<p k="energised" v="False" />
+			</prs>
+			<cns>
+				<cn id="3" pt="b" />
+				<cn id="3" pt="a" />
+				<cn id="4" pt="com" />
+				<cn id="8" pt="no" />
+			</cns>
+		</c>
+		<c id="192" tp="{9}" x="890" y="410" o="h" sz="80" flp="false">
+			<prs>
+				<p k="t" v="SPST_NO" />
+				<p k="energised" v="False" />
+			</prs>
+			<cns>
+				<cn id="3" pt="b" />
+				<cn id="3" pt="a" />
+				<cn id="5" pt="com" />
+				<cn id="8" pt="no" />
+			</cns>
+		</c>
+		<c id="193" tp="{10}" x="1200" y="720" o="v" sz="80" flp="false">
+			<prs>
+				<p k="t" v="SPST_NC" />
+				<p k="energised" v="False" />
+			</prs>
+			<cns>
+				<cn id="3" pt="b" />
+				<cn id="3" pt="a" />
+				<cn id="47" pt="no" />
+				<cn id="6" pt="com" />
+			</cns>
+		</c>
+		<c id="194" tp="{9}" x="720" y="910" o="h" sz="90" flp="s">
+			<prs>
+				<p k="t" v="SPST_NO" />
+				<p k="energised" v="False" />
+			</prs>
+			<cns>
+				<cn id="46" pt="com" />
+				<cn id="3" pt="a" />
+				<cn id="3" pt="b" />
+				<cn id="7" pt="no" />
+			</cns>
+		</c>
+		<c id="195" tp="{8}" x="230" y="380" o="v" sz="80" flp="false">
+			<prs>
+				<p k="voltage" v="18.5" />
+				<p k="frequency" v="50" />
+				<p k="showvoltage" v="True" />
+				<p k="t" v="Battery" />
+			</prs>
+			<cns>
+				<cn id="25" pt="neg" />
+				<cn id="27" pt="pos" />
+			</cns>
+		</c>
+		<c id="196" tp="{11}" x="1230" y="590" o="v" sz="90" flp="false">
+			<prs>
+				<p k="style" v="IEC" />
+				<p k="text" v="" />
+				<p k="resistance" v="600" />
+				<p k="showResistance" v="True" />
+				<p k="t" v="Standard" />
+			</prs>
+			<cns>
+				<cn id="47" pt="b" />
+				<cn id="5" pt="a" />
+			</cns>
+		</c>
+		<c id="197" tp="{11}" x="1140" y="570" o="h" sz="50" flp="false">
+			<prs>
+				<p k="style" v="IEC" />
+				<p k="text" v="" />
+				<p k="resistance" v="60" />
+				<p k="showResistance" v="True" />
+				<p k="t" v="Standard" />
+			</prs>
+			<cns>
+				<cn id="5" pt="b" />
+				<cn id="4" pt="a" />
+			</cns>
+		</c>
+	</elements>
+</circuit>

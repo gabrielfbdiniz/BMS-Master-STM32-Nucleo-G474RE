@@ -1,0 +1,57 @@
+* Netlist created with www.circuit-diagram.org
+* TSSI by Carlos Cesar Eguti
+V1 0 0
+'polarisedcapacitor b:0 a:1 style=US text=1000uF capacitance=0.1 showCapacitance=False t=Polarised
+'Connector com:2 t=Socket
+'Connector com:5 t=Plug
+'Connector com:4 t=Socket
+'Connector com:1 t=Plug
+'Connector com:3 t=Socket
+'Connector com:6 t=Plug
+V2 7 0
+V3 8 0
+V4 9 0
+V5 5 0
+V6 10 0
+R7 12 11 1000
+R8 13 14 1000
+R9 15 11 1000
+R10 16 11 1000
+R11 17 11 1000
+R12 18 11 1000
+R13 19 11 1000
+R14 20 11 1000
+R15 21 11 1000
+R16 22 11 1000
+R17 13 23 1000
+R18 13 24 1000
+R19 13 25 1000
+R20 13 26 1000
+R21 13 27 1000
+R22 13 28 1000
+'transnpn col:29 base:9 t=NPN
+D23 29 1
+'Relay 3:1 2:29 1:1 5:11 4:13
+R24 13 30 1000
+R25 13 31 1000
+D26 12 10
+D27 15 10
+D28 16 10
+D29 17 10
+D30 18 10
+D31 19 10
+D32 20 10
+D33 21 10
+D34 22 10
+D35 14 10
+D36 23 10
+D37 24 10
+D38 25 10
+D39 26 10
+D40 27 10
+D41 28 10
+D42 30 10
+D43 31 10
+R44 32 7 3300
+R45 6 32 3300
+'polarisedcapacitor a:6 b:8 style=US text= capacitance=1E-06 showCapacitance=True t=Polarised

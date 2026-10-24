@@ -1,0 +1,423 @@
+* Netlist created with www.circuit-diagram.org
+* ShuntDown Circuit V8c by Carlos Cesar Eguti
+'Connector com:0 t=Plug
+'Connector com:1 t=Socket
+'Connector com:2 t=Plug
+'Connector com:1 t=Socket
+'Connector com:3 t=Plug
+'Connector com:1 t=Socket
+'Connector com:4 t=Plug
+'Connector com:1 t=Socket
+'Connector com:5 t=Plug
+'Connector com:1 t=Socket
+R1 6 6 0.1
+C2 6 6 0.00047
+'Connector com:7 t=Plug
+'Connector com:8 t=Socket
+'Connector com:9 t=Plug
+'Connector com:8 t=Socket
+'Connector com:10 t=Plug
+'Connector com:11 t=Socket
+'Connector com:6 t=Plug
+'Connector com:11 t=Socket
+'Connector com:12 t=Plug
+'Connector com:13 t=Socket
+'Connector com:6 t=Plug
+'Connector com:13 t=Socket
+'Connector com:14 t=Plug
+'Connector com:15 t=Socket
+'Connector com:16 t=Plug
+'Connector com:15 t=Socket
+'Connector com:17 t=Plug
+'Connector com:18 t=Socket
+'Connector com:19 t=Plug
+'Connector com:18 t=Socket
+'switchdpst b2:20 a2:21 a1:6 b1:22 t=DPST
+'lamp b:6 a:21 t=Generic islit=False
+C3 20 6 0.00047
+'ptbswitch a:14 b:23 t=PushToBreak closed=False
+'toggleswitch b:24 a:6 t=Toggle closed=False
+'toggleswitch b:24 a:6 t=Toggle closed=False
+'fuse b:20 a:6 value=5
+'Alternative Ground a:6 type=Earth
+'Connector com:25 t=Plug
+'Connector com:26 t=Plug
+'Connector com:27 t=Plug
+'Connector com:28 t=Socket
+'Connector com:29 t=Plug
+'Connector com:30 t=Plug
+'Connector com:31 t=Socket
+'Connector com:31 t=Socket
+'Connector com:32 t=Plug
+'Connector com:1 t=Plug
+'Connector com:33 t=Socket
+'toggleswitch b:34 a:35 t=Toggle closed=False
+'lamp a:17 b:23 t=Generic islit=False
+'switchdpst a1:6 b1:36 a2:6 b2:22 t=DPST
+'inductor a:6 b:37 text=CT1 inductance=0.1 showInductance=False
+V4 32 0
+V5 30 0
+'Alternative Ground a:10 type=Earth
+'fuse b:38 a:39 value=300
+D6 41 40
+'Connector com:42 t=Socket
+'Connector com:43 t=Plug
+'Connector com:44 t=Plug
+'Connector com:45 t=Socket
+'Connector com:46 t=Plug
+'Connector com:47 t=Socket
+D7 45 42
+'Connector com:48 t=Socket
+'Connector com:49 t=Plug
+'Connector com:50 t=Socket
+'Connector com:51 t=Plug
+'Connector com:52 t=Socket
+'Connector com:53 t=Plug
+'Connector com:54 t=Socket
+'Connector com:55 t=Plug
+'Connector com:56 t=Socket
+'Connector com:57 t=Plug
+'Connector com:58 t=Socket
+'Connector com:59 t=Plug
+'Connector com:60 t=Socket
+'Connector com:61 t=Plug
+'Connector com:62 t=Socket
+'Connector com:63 t=Plug
+'Connector com:64 t=Socket
+'Connector com:65 t=Plug
+'Connector com:66 t=Socket
+'Connector com:67 t=Plug
+'Connector com:58 t=Socket
+'Connector com:68 t=Plug
+'Connector com:69 t=Socket
+'Connector com:70 t=Plug
+'Connector com:64 t=Socket
+'Connector com:71 t=Plug
+'Connector com:27 t=Socket
+'Connector com:72 t=Plug
+'Connector com:40 t=Socket
+'Connector com:73 t=Plug
+'Connector com:74 t=Plug
+'Connector com:41 t=Socket
+'Connector com:75 t=Plug
+'Connector com:76 t=Socket
+'Connector t=Socket
+'Connector t=Plug
+'Connector com:77 t=Plug
+'Connector com:54 t=Socket
+'Connector com:78 t=Plug
+'Connector com:79 t=Socket
+'Connector com:82 t=Socket
+'Connector com:81 t=Plug
+'Connector com:83 t=Plug
+'Connector com:84 t=Plug
+'Connector com:31 t=Socket
+'Connector com:31 t=Socket
+'Connector com:85 t=Plug
+'Connector com:86 t=Plug
+C8 35 87 0.001
+D9 54 88
+'Connector com:89 t=Socket
+'Connector com:90 t=Plug
+'Connector com:87 t=Socket
+'Connector com:91 t=Plug
+'Connector com:92 t=Socket
+'Connector com:34 t=Plug
+'Connector com:93 t=Socket
+'Connector com:94 t=Plug
+'Connector t=Plug
+'Connector com:95 t=Socket
+'switchdpdt a1:29 c1:51 a2:49 c2:53 t=DPDT
+R10 100 101 4700
+'Connector com:102 t=Plug
+'Connector com:103 t=Socket
+'Connector com:104 t=Plug
+'Connector com:105 t=Socket
+R11 100 101 4700
+'Connector com:106 t=Plug
+'Connector com:107 t=Socket
+'Connector com:108 t=Plug
+'Connector com:109 t=Socket
+'Connector t=Plug
+'Connector t=Socket
+'Connector t=Plug
+'Connector t=Socket
+'Connector com:54 t=Plug
+'Connector com:87 t=Socket
+'Connector com:28 t=Plug
+'Connector com:28 t=Plug
+'Connector com:35 t=Plug
+'Connector com:95 t=Socket
+'Connector com:91 t=Socket
+'Connector com:90 t=Socket
+'Connector com:110 t=Plug
+'Connector com:111 t=Plug
+'Connector com:112 t=Plug
+'Connector com:95 t=Socket
+'Connector com:113 t=Plug
+'Connector com:91 t=Socket
+'Connector com:114 t=Plug
+'fuse a:115 b:116 value=20
+'Alternative Ground a:117 type=Earth
+'Connector com:113 t=Socket
+'Connector com:118 t=Plug
+'Connector com:114 t=Socket
+'Connector com:118 t=Plug
+D12 119 87
+R13 120 119 1000
+C14 120 87 0
+'Connector com:121 t=Plug
+'Connector com:122 t=Socket
+'Connector com:110 t=Socket
+'Connector com:111 t=Socket
+'Connector com:112 t=Socket
+'Connector com:123 t=Plug
+'Connector com:124 t=Plug
+'Connector com:125 t=Plug
+'Connector com:125 t=Plug
+'fuse a:126 b:127 value=20
+'toggleswitch b:128 a:129 t=Toggle closed=False
+'motor a:130 b:129 t=Generic
+'motor b:129 a:130 t=Generic
+'motor b:129 a:130 t=Generic
+'motor b:129 a:130 t=Generic
+'Connector com:128 t=Plug
+'Connector com:130 t=Plug
+'Connector com:131 t=Socket
+'Connector com:127 t=Socket
+V15 126 131 12
+'Connector com:104 t=Plug
+'Connector com:132 t=Socket
+'Connector com:102 t=Plug
+'Connector com:133 t=Socket
+'Connector com:134 t=Plug
+'Connector com:4 t=Socket
+'Connector com:135 t=Plug
+'Connector com:136 t=Socket
+'Connector com:137 t=Plug
+'Connector com:138 t=Socket
+'Connector com:139 t=Plug
+'Connector com:140 t=Socket
+'Connector com:141 t=Plug
+'Connector com:142 t=Socket
+'Connector com:28 t=Plug
+'Connector com:25 t=Socket
+'Connector t=Plug
+'Connector t=Socket
+'Connector com:26 t=Plug
+'Connector com:93 t=Socket
+'Connector com:27 t=Plug
+'Connector com:35 t=Socket
+'Connector com:79 t=Plug
+'Connector com:143 t=Socket
+'Connector com:50 t=Plug
+'Connector com:144 t=Socket
+'Connector com:60 t=Plug
+'Connector com:145 t=Socket
+'Connector com:69 t=Plug
+'Connector com:146 t=Socket
+'Connector com:1 t=Plug
+'Connector com:101 t=Socket
+'Connector com:147 t=Plug
+'Connector com:148 t=Socket
+'Connector com:149 t=Plug
+'Connector com:150 t=Socket
+'Connector com:1 t=Plug
+'Connector com:151 t=Socket
+'Connector com:4 t=Plug
+'Connector com:1 t=Socket
+'Connector com:150 t=Plug
+'Connector com:1 t=Socket
+'Connector com:1 t=Plug
+'Connector com:100 t=Socket
+'Connector com:152 t=Plug
+'Connector com:153 t=Socket
+'Connector com:154 t=Plug
+'Connector com:107 t=Socket
+'Connector com:54 t=Plug
+'Connector com:155 t=Socket
+'Connector com:28 t=Plug
+'Connector com:99 t=Socket
+'Connector com:156 t=Plug
+'Connector com:157 t=Socket
+'Connector com:158 t=Plug
+'Connector com:159 t=Socket
+'Connector com:160 t=Plug
+'Connector com:161 t=Socket
+'Connector com:162 t=Plug
+'Connector com:163 t=Socket
+'Connector com:124 t=Socket
+'Connector com:123 t=Socket
+'Connector com:164 t=Socket
+'Connector com:164 t=Plug
+'Connector com:125 t=Plug
+'Connector com:117 t=Socket
+'Connector com:118 t=Plug
+'Connector com:165 t=Plug
+'Connector com:166 t=Plug
+'Connector com:167 t=Socket
+'Connector com:25 t=Socket
+'Connector com:168 t=Plug
+'Connector com:169 t=Socket
+'Connector com:170 t=Plug
+'Connector com:171 t=Socket
+'Connector com:172 t=Plug
+'Connector com:54 t=Socket
+'Connector com:173 t=Plug
+'Connector com:174 t=Socket
+'Connector com:175 t=Plug
+'Connector com:121 t=Socket
+'Connector com:52 t=Plug
+'Connector com:98 t=Socket
+'Connector com:176 t=Plug
+'Connector com:177 t=Socket
+'Connector com:178 t=Plug
+'Connector com:179 t=Plug
+'Connector com:180 t=Plug
+'pushswitch a:42 b:47 t=Push closed=False
+'Connector com:181 t=Socket
+'pushswitch a:40 b:76 t=Push closed=False
+'Connector com:182 t=Socket
+'Connector com:34 t=Socket
+'Connector com:185 t=Socket
+'Connector com:186 t=Plug
+'Connector com:187 t=Socket
+'Connector com:188 t=Plug
+D16 ? ?
+D17 ? ?
+D18 ? ?
+'fuse a:120 b:122 value=3
+D19 60 174
+D20 69 174
+D21 ? ?
+'Connector com:190 t=Socket
+'Connector com:189 t=Plug
+R22 192 191 5000
+R23 193 194 5000
+'Alternative Ground a:54 type=Earth
+R24 195 196 5000
+R25 197 198 5000
+'Connector com:196 t=Plug
+'Connector com:198 t=Plug
+'Connector com:82 t=Socket
+'Alternative Ground a:199 type=Earth
+'Connector com:190 t=Socket
+R26 90 203 1000
+'Alternative Ground a:87 type=Earth
+'pushswitch b:91 a:202 t=Push closed=False
+'lamp b:91 a:204 t=Generic islit=False
+'Alternative Ground a:6 type=Earth
+'switchdpst b2:6 b1:6 a1:194 a2:191 t=DPST
+'Connector com:205 t=Plug
+R27 132 133 4700
+'inductor a:54 b:206 text=IL+ inductance=0.1 showInductance=False
+'Connector com:207 t=Socket
+'Connector com:208 t=Socket
+'Connector com:209 t=Socket
+'Connector com:210 t=Socket
+'pushswitch b:149 a:147 t=Push closed=True
+'buzzer a:106 b:108
+'lamp a:152 b:154 t=Generic islit=False
+'Connector com:187 t=Socket
+'lamp b:160 a:162 t=Generic islit=False
+'lamp b:160 a:178 t=Generic islit=False
+'changeoverswitch a:160 c:158 b:156 t=Changeover closed=False
+'Hall Effect Sensor a:141 b:134 x:135 y:134
+'Hall Effect Sensor a:141 b:134 x:139 y:134
+'Hall Effect Sensor a:141 b:134 x:137 y:134
+'Motor #0:213 b:214 a:212 t=ThreePhase
+'Connector com:216 t=Plug
+'Connector com:82 t=Plug
+'Connector com:215 t=Socket
+'Connector com:215 t=Socket
+'Connector com:200 t=Plug
+'Connector com:201 t=Plug
+'Connector com:176 t=Socket
+'Connector com:54 t=Socket
+'Connector com:219 t=Plug
+'Connector com:219 t=Plug
+'Connector com:218 t=Socket
+'Connector com:217 t=Socket
+'Connector com:220 t=Plug
+'Connector com:220 t=Plug
+'Connector com:62 t=Socket
+'Connector com:221 t=Socket
+'Connector com:222 t=Plug
+'Connector com:222 t=Plug
+'Connector com:221 t=Socket
+'Connector com:26 t=Socket
+'Connector com:223 t=Plug
+'Connector com:39 t=Plug
+'Connector com:190 t=Socket
+'Connector com:216 t=Socket
+'Connector com:97 t=Plug
+'Connector com:185 t=Socket
+'Connector com:224 t=Plug
+'Connector com:80 t=Socket
+'Connector com:190 t=Socket
+R28 224 96 1500
+'Alternative Ground a:6 type=Earth
+'Connector com:190 t=Plug
+'lamp b:225 a:6 t=Generic islit=False
+'lamp b:36 a:22 t=Generic islit=False
+'switch4pdt c4:20 a4:225 c3:20 a3:37 a1:226 a2:7 c2:23 c1:227 t=4PDT
+'ptbswitch a:227 b:23 t=PushToBreak closed=False
+'pushswitch b:227 a:226 t=Push closed=False
+'Connector com:10 t=Socket
+'Connector com:191 t=Socket
+'Connector com:82 t=Plug
+'Connector com:194 t=Socket
+'Connector com:228 t=Plug
+'Connector com:19 t=Socket
+'Connector com:228 t=Plug
+'fuse a:6 b:6 value=5
+'inductor a:17 b:226 text=RL6 inductance=0.1 showInductance=False
+'switchdpst a2:6 a1:24 b2:22 b1:36 t=DPST
+'Alternative Ground a:85 type=Earth
+'switchdpst b1:205 b2:86 a2:22 a1:36 t=DPST
+'Connector com:184 t=Plug
+'Connector com:183 t=Plug
+'switchdpdt c2:229 a2:230 c1:231 a1:232 t=DPDT
+D29 54 233
+'inductor a:54 b:233 text=RLPC inductance=0.1 showInductance=False
+'inductor b:88 a:54 text=IL- inductance=0.1 showInductance=False
+'inductor b:88 a:54 text=RLD inductance=0.1 showInductance=False
+'inductor b:234 a:54 text=RL5 inductance=0.1 showInductance=False
+'switch4pdt c1:234 a1:88 b2:28 b1:28 c3:234 a2:233 a3:206 b3:48 t=4PDT
+D30 66 79
+'Connector com:66 t=Socket
+'Connector com:12 t=Plug
+'Connector com:234 t=Socket
+'Connector com:9 t=Plug
+'Connector com:56 t=Socket
+'Connector com:16 t=Plug
+'Connector com:54 t=Socket
+'Connector com:10 t=Plug
+D31 235 143
+'lamp a:144 b:87 t=Generic islit=False
+'lamp b:87 a:145 t=Generic islit=False
+'lamp b:87 a:146 t=Generic islit=False
+'ptbswitch b:181 a:167 t=PushToBreak closed=False
+'switchdpdt c1:92 c2:204 a2:203 a1:94 t=DPDT
+'switchdpdt c1:59 a1:57 a2:65 b2:61 c2:63 t=DPDT
+'switchdpdt a1:67 c1:68 b2:70 a2:72 c2:71 t=DPDT
+'ptbswitch a:236 b:179 t=PushToBreak closed=False
+'ptbswitch a:180 b:236 t=PushToBreak closed=False
+'ptbswitch a:168 b:170 t=PushToBreak closed=False
+'fuse b:89 a:120 value=3
+'fuse b:177 a:120 value=3
+'fuse b:35 a:120 value=5
+'fuse b:235 a:120 value=4
+'fuse b:120 a:237 value=10
+'Connector com:237 t=Plug
+'Connector com:238 t=Socket
+'Connector com:87 t=Plug
+'Connector com:199 t=Socket
+'ptbswitch a:165 b:171 t=PushToBreak closed=False
+'toggleswitch a:166 b:169 t=Toggle closed=False
+'toggleswitch b:238 a:239 t=Toggle closed=False
+'Connector com:239 t=Plug
+'Connector com:199 t=Plug
+'Connector com:240 t=Socket
+V32 116 240 12
+'Connector com:115 t=Socket

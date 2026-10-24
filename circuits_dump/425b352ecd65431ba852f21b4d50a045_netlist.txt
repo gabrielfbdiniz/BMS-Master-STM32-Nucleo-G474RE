@@ -1,0 +1,44 @@
+* Netlist created with www.circuit-diagram.org
+* PCC Circuit v2b by Carlos Cesar Eguti
+'transnpn col:0 base:1 emit:2 t=NPN
+'Connector com:1 t=Plug
+'Connector t=Socket
+C1 3 1 1E-07
+C2 4 1 1E-07
+C3 5 1 0.001
+R4 3 1 470
+R5 4 1 470
+R6 6 7 1000
+R7 8 9 1000
+'phototransnpn2 emit:4 col:5 t=NPNPhototransistor2
+D8 7 10
+'phototransnpn2 emit:3 col:5 t=NPNPhototransistor2
+D9 9 10
+R10 2 1 3300
+R11 11 2 4700
+D12 12 1
+R13 13 12 1000
+R14 5 14 1000
+'inductor a:5 b:0 text= inductance=0.1 showInductance=False
+'switchdpdt a2:15 a1:5 c1:13 c2:16 t=DPDT
+'Connector t=Socket
+'Connector com:16 t=Plug
+'Connector t=Socket
+'Connector com:13 t=Plug
+D15 0 5
+'Connector t=Socket
+'Connector com:5 t=Plug
+'Connector t=Socket
+'Connector com:15 t=Plug
+'Connector t=Socket
+'Connector com:10 t=Plug
+'Connector t=Socket
+'Connector com:17 t=Plug
+'Connector t=Socket
+'Connector com:18 t=Plug
+R16 17 6 24600
+R17 6 10 12000
+R18 18 8 21600
+R19 8 10 3900
+'opamp vsn:1 inv:4 out:11 ninv:3 vsp:5 showSupply=True
+D20 14 1

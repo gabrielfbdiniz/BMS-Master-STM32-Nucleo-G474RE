@@ -1,0 +1,51 @@
+* Netlist created with www.circuit-diagram.org
+* APPSv0 by Carlos Cesar Eguti
+V1 0 0
+R2 1 2 470
+D3 1 0
+V4 3 0
+D5 5 4
+'toggleswitch a:4 b:6 t=Toggle closed=False
+'inductor a:4 b:5 text= inductance=0.1 showInductance=False
+R6 7 3 3300
+'transnpn base:3 col:5 emit:7 t=NPN
+R7 8 7 3900
+V8 9 0
+C9 4 10 0.00047
+C10 10 11 0.0001
+R11 10 10 4700
+R12 10 10 4700
+R13 13 12 10000
+R14 14 12 10000
+'Connector com:11 t=Socket
+'Connector com:15 t=Plug
+'Connector com:10 t=Socket
+'Connector com:16 t=Plug
+'Connector com:13 t=Socket
+'Connector com:17 t=Plug
+'Connector com:14 t=Socket
+'Connector com:18 t=Plug
+'Connector com:6 t=Socket
+'Connector t=Plug
+'Connector com:19 t=Socket
+'Connector t=Plug
+'Connector t=Socket
+'Connector t=Plug
+'Connector t=Socket
+'Connector t=Plug
+'Connector com:9 t=Socket
+'Connector t=Plug
+'Connector com:4 t=Socket
+'Connector t=Plug
+'Connector com:10 t=Socket
+'Connector t=Plug
+V15 12 0
+V16 10 0
+V17 11 0
+V18 20 0
+R19 20 21 10000
+R20 21 19 10000
+R21 16 15 4700
+R22 16 15 4700
+'microcontroller #16:8 #10:2 #25:10 #7:10 #17:14 #19:13 #3:10 #1:4 #13:10 #15:10 header=Arduino Nano v3 sz=30 p0=D1 TX p1=Vin p2=D0 RX p3=GND p4=RST p5=RST p6=GND p7=5V p8=D2 p9=A7 p10=D3 p11=A6 p12=D4 p13=A5 p14=D5 p15=A4 p16=D6 p17=A3 p18=D7 p19=A2 p20=D8 p21=A1 p22=D9 p23=A0 p24=D10 p25=AREF p26=D11 p27=3V3 p28=D12 p29=D13 p30= p31= p32= p33= p34= p35= p36= p37= p38= p39=
+'opamp out:19 ninv:10 inv:21 showSupply=False

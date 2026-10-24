@@ -1,0 +1,574 @@
+(kicad_sch
+	(version 20260306)
+	(generator "eeschema")
+	(generator_version "10.0")
+	(uuid "b5e9f801-447a-428d-93e1-7d12f38a9010")
+	(paper "A3")
+	(title_block
+		(title "BMS Master Carrier Shield — NUCLEO-G474RE")
+		(date "2026-10-22")
+		(rev "V0.1")
+		(company "Formula ITA — Formula SAE Electric")
+		(comment 1 "ECU Central de Gerenciamento do Acumulador 20s18p")
+		(comment 2 "Conformidade com Regulamento FSAE EV4.8 / EV8")
+		(comment 3 "Barreira Galvânica Iso-SPI >= 2500V RMS (HMU2103NL)")
+		(comment 4 "Repositório Monorepo: Hardware + Firmware + Docs")
+	)
+	(lib_symbols)
+	(wire
+		(pts
+			(xy 148.59 69.85) (xy 161.29 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "026d13b4-fb7d-4e95-a8d5-4b205aca2c0f")
+	)
+	(wire
+		(pts
+			(xy 205.74 91.44) (xy 205.74 129.54)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "172f2850-d3dd-4fc2-86c2-7230ad921b41")
+	)
+	(wire
+		(pts
+			(xy 232.41 59.69) (xy 245.11 59.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1a41895b-eb73-487a-96ba-a6ab8ba59e83")
+	)
+	(wire
+		(pts
+			(xy 148.59 64.77) (xy 161.29 64.77)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3f07bba5-7cff-4b98-92f2-2f28ee500054")
+	)
+	(wire
+		(pts
+			(xy 232.41 63.5) (xy 245.11 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "427dfce2-984f-49ad-97ad-d4639719063f")
+	)
+	(wire
+		(pts
+			(xy 210.82 91.44) (xy 210.82 124.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "49b100a6-ce7b-4932-baa6-a07b2198405b")
+	)
+	(wire
+		(pts
+			(xy 205.74 129.54) (xy 236.22 129.54)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "74c1458a-1c3b-4b9d-903c-2abc546f2e2a")
+	)
+	(wire
+		(pts
+			(xy 210.82 124.46) (xy 236.22 124.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "791edca3-0643-48bb-9d70-9be1fc1f41a8")
+	)
+	(wire
+		(pts
+			(xy 148.59 59.69) (xy 161.29 59.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7e5ffd7e-2af6-4598-b941-262d14f78acc")
+	)
+	(wire
+		(pts
+			(xy 148.59 74.93) (xy 161.29 74.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9e1e3601-ceef-41d6-a20d-d9eafb047447")
+	)
+	(wire
+		(pts
+			(xy 148.59 80.01) (xy 161.29 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c20abbcb-c775-4e91-8c94-813d036bd561")
+	)
+	(wire
+		(pts
+			(xy 148.59 85.09) (xy 161.29 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d2186eff-530a-4a00-bcc9-9af0f8404ea0")
+	)
+	(sheet
+		(at 110.654 118.364)
+		(size 70 40)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "a1000001-0000-0000-0000-000000000001")
+		(property "Sheetname" "01_Power_Supply_GLV"
+			(at 110.654 117.364 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "01_power_supply.kicad_sch"
+			(at 110.654 159.364 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "bms_carrier_shield"
+				(path "/b5e9f801-447a-428d-93e1-7d12f38a9010"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 79.606 54.102)
+		(size 68.984 37.973)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "a1000002-0000-0000-0000-000000000002")
+		(property "Sheetname" "02_IsoSPI_Galvanic_Barrier"
+			(at 79.606 53.3904 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "02_isospi_barrier.kicad_sch"
+			(at 79.606 92.6596 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "PA0_ISOSPI_IRQ" input
+			(at 148.59 59.69 0)
+			(uuid "6ac07123-850e-4356-a8d4-3a21521b4b29")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "PA4_ISOSPI_CS" input
+			(at 148.59 64.77 0)
+			(uuid "aec872f7-2961-431c-8c52-02b7c7695f28")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "PB3_SPI1_SCK" input
+			(at 148.59 69.85 0)
+			(uuid "156c5e69-c9c5-44d0-aee5-c3989d4168bc")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "PB4_SPI1_MISO" input
+			(at 148.59 74.93 0)
+			(uuid "6e9ac3af-59de-4aa4-9ac6-ee9ed2456558")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "PB5_SPI1_MOSI" input
+			(at 148.59 80.01 0)
+			(uuid "552cdd15-e865-40a4-a8fa-35a937b52245")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "PC4_ISOSPI_EN" input
+			(at 148.59 85.09 0)
+			(uuid "66fac07c-c881-48ff-8de6-6d4cb8a64c13")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "bms_carrier_shield"
+				(path "/b5e9f801-447a-428d-93e1-7d12f38a9010"
+					(page "4")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 245.11 54.356)
+		(size 69.686 37.338)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "a1000003-0000-0000-0000-000000000003")
+		(property "Sheetname" "03_SDC_Safety_Latch"
+			(at 245.11 53.6444 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "03_sdc_latch.kicad_sch"
+			(at 245.11 92.2786 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "PB0_AMS_FAULT_SET" input
+			(at 245.11 59.69 180)
+			(uuid "59a7077e-634c-443d-849b-9bb065d10e42")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "PC1_AMS_FAULT_FB" input
+			(at 245.11 63.5 180)
+			(uuid "3488ccff-058e-4607-a794-96f0f16d53d8")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "bms_carrier_shield"
+				(path "/b5e9f801-447a-428d-93e1-7d12f38a9010"
+					(page "6")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 236.22 116.84)
+		(size 70 40)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "a1000005-0000-0000-0000-000000000005")
+		(property "Sheetname" "04_Isolated_CANFD_Interface"
+			(at 236.22 116.1284 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "05_canfd_interface.kicad_sch"
+			(at 236.22 157.4246 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "PB8_FDCAN1_RX" input
+			(at 236.22 124.46 180)
+			(uuid "f102d6c2-91e3-4b78-82aa-774154774815")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "PB9_FDCAN1_TX" input
+			(at 236.22 129.54 180)
+			(uuid "4b011d40-3aa2-48df-bfdd-356b73e22776")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "bms_carrier_shield"
+				(path "/b5e9f801-447a-428d-93e1-7d12f38a9010"
+					(page "5")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 161.29 53.975)
+		(size 71.12 37.465)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "a1000006-0000-0000-0000-000000000006")
+		(property "Sheetname" "05_Nucleo_G474RE_Morpho_Headers"
+			(at 161.29 53.2634 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "06_nucleo_headers.kicad_sch"
+			(at 161.29 92.0246 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "PA0_ISOSPI_IRQ" input
+			(at 161.29 59.69 180)
+			(uuid "26bfee8a-aefd-40d7-a133-0a2fd31ed4f8")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "PA4_ISOSPI_CS" input
+			(at 161.29 64.77 180)
+			(uuid "e8d065c9-92d7-4a26-ae0d-5adf94ac7c5d")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "PB3_SPI1_SCK" input
+			(at 161.29 69.85 180)
+			(uuid "74de7e63-7afe-41d8-8f24-f8723f355885")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "PB4_SPI1_MISO" input
+			(at 161.29 74.93 180)
+			(uuid "9b5ec5ef-b0b6-4878-a85b-2ffbd838041d")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "PB5_SPI1_MOSI" input
+			(at 161.29 80.01 180)
+			(uuid "bab46b8b-6a78-473d-be0e-83ecb2d21a56")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "PC4_ISOSPI_EN" input
+			(at 161.29 85.09 180)
+			(uuid "63996221-82ca-47b0-824c-f8abc02e34cc")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "PB8_FDCAN1_RX" input
+			(at 205.74 91.44 270)
+			(uuid "a02a6060-4add-4661-9b22-832e28f20e24")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "PB9_FDCAN1_TX" input
+			(at 210.82 91.44 270)
+			(uuid "62482d38-a1b0-48f5-b539-fb6b6f6e237d")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "PB0_AMS_FAULT_SET" input
+			(at 232.41 59.69 0)
+			(uuid "0d5640f5-9546-47fb-ab9c-8d785a783969")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "PC1_AMS_FAULT_FB" input
+			(at 232.41 63.5 0)
+			(uuid "b8934b52-16e7-41c7-81de-2e890d3a3822")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "bms_carrier_shield"
+				(path "/b5e9f801-447a-428d-93e1-7d12f38a9010"
+					(page "7")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+	(embedded_fonts no)
+)

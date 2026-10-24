@@ -1,0 +1,60 @@
+# ==========================================
+# KiCad EDA
+# ==========================================
+**/[Bb]ackup*/
+**/*-backups/
+**/*-bak/
+*.bak
+*.kicad_pcb-bak
+*.kicad_sch-bak
+*.kicad_prl
+_autosave-*
+*.tmp
+fp-info-cache
+
+# ==========================================
+# VS Code & Local History
+# ==========================================
+.history/
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+*.swp
+*~
+
+# ==========================================
+# C / C++ / Embedded Firmware Build Artifacts
+# ==========================================
+*.o
+*.obj
+*.d
+*.elf
+*.bin
+*.hex
+*.exe
+*.map
+*.su
+build/
+bin/
+obj/
+
+# ==========================================
+# Python & Simulations
+# ==========================================
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.env
+.venv
+env/
+venv/
+ENV/
+
+# ==========================================
+# Operating System files
+# ==========================================
+Thumbs.db
+Desktop.ini
+.DS_Store

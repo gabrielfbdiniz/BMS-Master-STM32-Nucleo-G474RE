@@ -1,0 +1,10 @@
+(fp_lib_table
+	(version 7)
+	(lib
+		(name "HMU2103NL")
+		(type "KiCad")
+		(uri "${KIPRJMOD}/libraries/HMU2103NL.pretty")
+		(options "")
+		(descr "Pulse HMU2103NL Isolation Transformer Footprint")
+	)
+)

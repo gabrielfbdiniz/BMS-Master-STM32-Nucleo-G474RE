@@ -1,0 +1,38 @@
+(sym_lib_table
+	(version 7)
+	(lib
+		(name "LMR14020SDDA")
+		(type "KiCad")
+		(uri "${KIPRJMOD}/libraries/LMR14020SDDA.kicad_sym")
+		(options "")
+		(descr "Texas Instruments LMR14020SDDAR 40V 2A Step-Down Converter SOIC-8-EP")
+	)
+	(lib
+		(name "LMR36015_Q1")
+		(type "KiCad")
+		(uri "${KIPRJMOD}/libraries/LMR36015_Q1.kicad_sym")
+		(options "")
+		(descr "Texas Instruments LMR36015-Q1 Automotive Step-Down Converter")
+	)
+	(lib
+		(name "HMU2103NL")
+		(type "KiCad")
+		(uri "${KIPRJMOD}/libraries/HMU2103NL.kicad_sym")
+		(options "")
+		(descr "Pulse HMU2103NL High Isolation Pulse Transformer")
+	)
+	(lib
+		(name "L99BM1TR")
+		(type "KiCad")
+		(uri "${KIPRJMOD}/libraries/L99BM1TR.kicad_sym")
+		(options "")
+		(descr "STMicroelectronics L99BM1TR SPI to Isolated SPI Transceiver")
+	)
+	(lib
+		(name "B0505S-1WR3")
+		(type "KiCad")
+		(uri "${KIPRJMOD}/libraries/B0505S-1WR3.kicad_sym")
+		(options "")
+		(descr "Mornsun B0505S-1WR3 1W Isolated 5V to 5V DC-DC Converter SIP-4")
+	)
+)

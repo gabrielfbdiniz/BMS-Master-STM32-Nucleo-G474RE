@@ -1,0 +1,129 @@
+=== SHEET: 01_power_supply.kicad_sch ===
+Total Components: 18
+Labels count: 0, Global labels: 0, Hierarchical: 5
+Missing footprints: 0
+  L2         | L                    | FP: Inductor_SMD:L_Bourns_SRR1260 | Lib: Device:L
+  D2         | D_TVS                | FP: Diode_SMD:D_SMA | Lib: Device:D_TVS
+  C1         | 100u                 | FP: Capacitor_SMD:CP_Elec_8x10 | Lib: Device:C
+  D1         | D_Schottky           | FP: Diode_SMD:D_SMA | Lib: Device:D_Schottky
+  C6         | C                    | FP: Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder | Lib: Device:C
+  D3         | LED                  | FP: LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder | Lib: Device:LED
+  C5         | C                    | FP: Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder | Lib: Device:C
+  C4         | C                    | FP: Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder | Lib: Device:C
+  D4         | LED                  | FP: LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder | Lib: Device:LED
+  L1         | 10u                  | FP: Inductor_SMD:L_6.3x6.3mm | Lib: Device:L
+  U1         | LMR36510ADDA         | FP: Package_SO:Texas_HTSOP-8-1EP_3.9x4.9mm_P1.27mm_EP2.95x4.9mm_Mask2.4x3.1mm_ThermalVias | Lib: Regulator_Switching:LMR36510ADDA
+  R4         | R                    | FP: Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder | Lib: Device:R
+  C2         | 10u                  | FP: Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder | Lib: Device:C
+  R1         | R                    | FP: Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder | Lib: Device:R
+  R3         | R                    | FP: Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder | Lib: Device:R
+  J3         | GLV 12V              | FP: Connector_Molex:Molex_Micro-Fit_3.0_43650-0200_1x02_P3.00mm_Horizontal | Lib: Connector_Generic:Conn_01x02
+  R2         | R                    | FP: Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder | Lib: Device:R
+  C3         | C                    | FP: Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder | Lib: Device:C
+
+
+=== SHEET: 02_isospi_barrier.kicad_sch ===
+Total Components: 16
+Labels count: 0, Global labels: 0, Hierarchical: 6
+Missing footprints: 0
+  C8         | 4u7                  | FP: Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder | Lib: Device:C
+  C10        | 1u                   | FP: Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder | Lib: Device:C
+  R7         | 10k                  | FP: Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder | Lib: Device:R
+  R5         | 47k                  | FP: Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder | Lib: Device:R
+  R6         | 10k                  | FP: Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder | Lib: Device:R
+  U3         | USBLC6-2SC6          | FP: Package_TO_SOT_SMD:SOT-23-6 | Lib: Power_Protection:USBLC6-2SC6
+  R11        | 60.4                 | FP: Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder | Lib: Device:R
+  R10        | 60.4                 | FP: Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder | Lib: Device:R
+  J4         | Conn_01x04           | FP: Connector_Molex:Molex_Micro-Fit_3.0_43650-0400_1x04_P3.00mm_Horizontal | Lib: Connector_Generic:Conn_01x04
+  T1         | HMU2103NL            | FP: HMU2103NL:HMU2103NL | Lib: HMU2103NL:HMU2103NL
+  C7         | 100n                 | FP: Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder | Lib: Device:C
+  R8         | 10k                  | FP: Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder | Lib: Device:R
+  U2         | L99BM1TR             | FP: Package_SO:SOIC-16_3.9x9.9mm_P1.27mm | Lib: L99BM1TR:L99BM1TR
+  C9         | 100n                 | FP: Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder | Lib: Device:C
+  C11        | 10n                  | FP: Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder | Lib: Device:C
+  R9         | 10k                  | FP: Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder | Lib: Device:R
+
+
+=== SHEET: 03_sdc_latch.kicad_sch ===
+Total Components: 21
+Labels count: 0, Global labels: 0, Hierarchical: 2
+Missing footprints: 0
+  K1         | G5V-1                | FP: Relay_THT:Relay_SPDT_Omron_G5V-1 | Lib: Relay:G5V-1
+  R18        | 100                  | FP: Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder | Lib: Device:R
+  U4         | 74HC74               | FP: Package_SO:SOIC-14_3.9x8.7mm_P1.27mm | Lib: 74xx:74HC74
+  U4         | 74HC74               | FP: Package_SO:SOIC-14_3.9x8.7mm_P1.27mm | Lib: 74xx:74HC74
+  R15        | 1k                   | FP: Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder | Lib: Device:R
+  D7         | SS14                 | FP: Diode_SMD:D_SMA | Lib: Diode:SS14
+  J5         | Conn_01x02           | FP: Connector_Molex:Molex_Micro-Fit_3.0_43650-0200_1x02_P3.00mm_Horizontal | Lib: Connector_Generic:Conn_01x02
+  C12        | 100n                 | FP: Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder | Lib: Device:C
+  R17        | 1k                   | FP: Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder | Lib: Device:R
+  R16        | 1k                   | FP: Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder | Lib: Device:R
+  Q3         | 2N7002               | FP: Package_TO_SOT_SMD:SOT-23 | Lib: Transistor_FET:2N7002
+  R19        | 100k                 | FP: Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder | Lib: Device:R
+  U4         | 74HC74               | FP: Package_SO:SOIC-14_3.9x8.7mm_P1.27mm | Lib: 74xx:74HC74
+  R13        | 10k                  | FP: Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder | Lib: Device:R
+  R12        | 10k                  | FP: Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder | Lib: Device:R
+  D5         | SDC OK               | FP: LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder | Lib: Device:LED
+  C13        | 100n                 | FP: Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder | Lib: Device:C
+  Q2         | BC817                | FP: Package_TO_SOT_SMD:SOT-23 | Lib: Transistor_BJT:BC817
+  R14        | 100k                 | FP: Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder | Lib: Device:R
+  D6         | AMS FAULT            | FP: LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder | Lib: Device:LED
+  SW1        | SW_Push              | FP: Button_Switch_THT:SW_PUSH_6mm_H5mm | Lib: Switch:SW_Push
+
+
+=== SHEET: 04_contactors_drivers.kicad_sch ===
+Total Components: 18
+Labels count: 0, Global labels: 0, Hierarchical: 3
+Missing footprints: 0
+  Q6         | 2N7002               | FP: Package_TO_SOT_SMD:SOT-23 | Lib: Transistor_FET:2N7002
+  D8         | SS34                 | FP: Diode_SMD:D_SMA | Lib: Diode:SS34
+  Q5         | IRLML6402            | FP: Package_TO_SOT_SMD:SOT-23 | Lib: Transistor_FET:IRLML6402
+  D10        | SS34                 | FP: Diode_SMD:D_SMA | Lib: Diode:SS34
+  R20        | 100R                 | FP: Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder | Lib: Device:R
+  R21        | 1k                   | FP: Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder | Lib: Device:R
+  R22        | 1k                   | FP: Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder | Lib: Device:R
+  R28        | 1k                   | FP: Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder | Lib: Device:R
+  R27        | 1k                   | FP: Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder | Lib: Device:R
+  Q7         | IRLML6402            | FP: Package_TO_SOT_SMD:SOT-23 | Lib: Transistor_FET:IRLML6402
+  R24        | 1k                   | FP: Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder | Lib: Device:R
+  D9         | SS34                 | FP: Diode_SMD:D_SMA | Lib: Diode:SS34
+  Q8         | 2N7002               | FP: Package_TO_SOT_SMD:SOT-23 | Lib: Transistor_FET:2N7002
+  R23        | 100R                 | FP: Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder | Lib: Device:R
+  Q4         | 2N7002               | FP: Package_TO_SOT_SMD:SOT-23 | Lib: Transistor_FET:2N7002
+  Q9         | IRLML6402            | FP: Package_TO_SOT_SMD:SOT-23 | Lib: Transistor_FET:IRLML6402
+  R25        | 1k                   | FP: Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder | Lib: Device:R
+  R26        | 100R                 | FP: Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder | Lib: Device:R
+
+
+=== SHEET: 05_canfd_interface.kicad_sch ===
+Total Components: 13
+Labels count: 0, Global labels: 0, Hierarchical: 2
+Missing footprints: 0
+  D8         | NUP2105L             | FP: Package_TO_SOT_SMD:SOT-23 | Lib: Power_Protection:NUP2105L
+  C17        | 100n                 | FP: Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder | Lib: Device:C
+  R20        | 60.4                 | FP: Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder | Lib: Device:R
+  R21        | 60.4                 | FP: Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder | Lib: Device:R
+  U5         | ISO1044BD            | FP: Package_SO:SOIC-8_3.9x4.9mm_P1.27mm | Lib: Interface_CAN_LIN:ISO1044BD
+  C18        | 100n                 | FP: Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder | Lib: Device:C
+  JP1        | Jumper ON/OFF        | FP: Jumper:SolderJumper-2_P1.3mm_Open_Pad1.0x1.5mm | Lib: Jumper:SolderJumper_2_Open
+  U6         | MEE1S0303SC          | FP: Converter_DCDC:Converter_DCDC_Murata_MEE1SxxxxSC_THT | Lib: Converter_DCDC:MEE1S0303SC
+  C14        | 10u                  | FP: Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder | Lib: Device:C
+  C15        | 10u                  | FP: Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder | Lib: Device:C
+  C16        | 100n                 | FP: Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder | Lib: Device:C
+  C19        | 4n7                  | FP: Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder | Lib: Device:C
+  J6         | Conn_01x04           | FP: Connector_Molex:Molex_Micro-Fit_3.0_43650-0400_1x04_P3.00mm_Horizontal | Lib: Connector_Generic:Conn_01x04
+
+
+=== SHEET: 06_nucleo_headers.kicad_sch ===
+Total Components: 2
+Labels count: 84, Global labels: 0, Hierarchical: 8
+Missing footprints: 0
+  J2         | Conn_02x19_Odd_Even  | FP: Connector_PinSocket_2.54mm:PinSocket_2x19_P2.54mm_Vertical | Lib: Connector_Generic:Conn_02x19_Odd_Even
+  J1         | Conn_02x19_Odd_Even  | FP: Connector_PinSocket_2.54mm:PinSocket_2x19_P2.54mm_Vertical | Lib: Connector_Generic:Conn_02x19_Odd_Even
+
+
+=== SHEET: bms_carrier_shield.kicad_sch ===
+Total Components: 0
+Labels count: 0, Global labels: 0, Hierarchical: 0
+Missing footprints: 0
+

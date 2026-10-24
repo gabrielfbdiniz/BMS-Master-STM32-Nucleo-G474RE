@@ -1,0 +1,42 @@
+** Drc report for bms_carrier_shield.kicad_pcb **
+** Created on 2026-10-24T01:13:49 **
+** Report includes: Errors, Warnings **
+
+** Found 0 DRC violations **
+
+** Found 6 unconnected pads **
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(116.7550 mm, 105.7757 mm): PTH pad 10 [/05_Nucleo_G474RE_Morpho_Headers/NC] of J1
+    @(116.7550 mm, 108.3157 mm): PTH pad 12 [/05_Nucleo_G474RE_Morpho_Headers/NC] of J1
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(116.7550 mm, 108.3157 mm): PTH pad 12 [/05_Nucleo_G474RE_Morpho_Headers/NC] of J1
+    @(119.2950 mm, 126.0957 mm): PTH pad 25 [/05_Nucleo_G474RE_Morpho_Headers/NC] of J1
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(119.2950 mm, 105.7757 mm): PTH pad 9 [/05_Nucleo_G474RE_Morpho_Headers/NC] of J1
+    @(116.7550 mm, 105.7757 mm): PTH pad 10 [/05_Nucleo_G474RE_Morpho_Headers/NC] of J1
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(180.2550 mm, 105.7757 mm): PTH pad 9 [/05_Nucleo_G474RE_Morpho_Headers/NC] of J2
+    @(119.2950 mm, 105.7757 mm): PTH pad 9 [/05_Nucleo_G474RE_Morpho_Headers/NC] of J1
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(180.2550 mm, 138.7957 mm): PTH pad 35 [/05_Nucleo_G474RE_Morpho_Headers/NC] of J2
+    @(180.2550 mm, 105.7757 mm): PTH pad 9 [/05_Nucleo_G474RE_Morpho_Headers/NC] of J2
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(180.2550 mm, 141.3357 mm): PTH pad 37 [/05_Nucleo_G474RE_Morpho_Headers/NC] of J2
+    @(180.2550 mm, 138.7957 mm): PTH pad 35 [/05_Nucleo_G474RE_Morpho_Headers/NC] of J2
+
+** Found 0 Footprint errors **
+
+** Ignored checks **
+    - Footprint has no courtyard defined
+    - Track endpoint not centered on via
+    - Tuning profile track geometries
+    - Footprint doesn't match symbol's footprint filters
+    - Footprint component type doesn't match footprint pads
+
+** End of Report **

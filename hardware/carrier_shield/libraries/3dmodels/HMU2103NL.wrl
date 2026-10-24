@@ -1,0 +1,150 @@
+#VRML V2.0 utf8
+# Pulse Transformer HMU2103NL 3D Model
+Group {
+  children [
+    # Main Body (Black plastic/epoxy)
+    Transform {
+      translation 0 0 2.86
+      children [
+        Shape {
+          appearance Appearance {
+            material Material {
+              diffuseColor 0.12 0.12 0.12
+              specularColor 0.2 0.2 0.2
+              ambientIntensity 0.2
+              shininess 0.3
+            }
+          }
+          geometry Box {
+            size 7.62 6.73 5.72
+          }
+        }
+      ]
+    }
+    # Bevel / Chamfer top mark
+    Transform {
+      translation -2.5 0 5.73
+      children [
+        Shape {
+          appearance Appearance {
+            material Material {
+              diffuseColor 0.8 0.8 0.8
+            }
+          }
+          geometry Cylinder {
+            radius 0.4
+            height 0.05
+          }
+        }
+      ]
+    }
+    # Pin 1 Lead
+    Transform {
+      translation -2.54 3.75 0.3
+      children [
+        Shape {
+          appearance Appearance {
+            material Material {
+              diffuseColor 0.8 0.8 0.85
+              specularColor 0.9 0.9 0.9
+              shininess 0.8
+            }
+          }
+          geometry Box {
+            size 0.76 1.4 0.6
+          }
+        }
+      ]
+    }
+    # Pin 2 Lead
+    Transform {
+      translation 0 3.75 0.3
+      children [
+        Shape {
+          appearance Appearance {
+            material Material {
+              diffuseColor 0.8 0.8 0.85
+              specularColor 0.9 0.9 0.9
+              shininess 0.8
+            }
+          }
+          geometry Box {
+            size 0.76 1.4 0.6
+          }
+        }
+      ]
+    }
+    # Pin 3 Lead
+    Transform {
+      translation 2.54 3.75 0.3
+      children [
+        Shape {
+          appearance Appearance {
+            material Material {
+              diffuseColor 0.8 0.8 0.85
+              specularColor 0.9 0.9 0.9
+              shininess 0.8
+            }
+          }
+          geometry Box {
+            size 0.76 1.4 0.6
+          }
+        }
+      ]
+    }
+    # Pin 4 Lead
+    Transform {
+      translation 2.54 -3.75 0.3
+      children [
+        Shape {
+          appearance Appearance {
+            material Material {
+              diffuseColor 0.8 0.8 0.85
+              specularColor 0.9 0.9 0.9
+              shininess 0.8
+            }
+          }
+          geometry Box {
+            size 0.76 1.4 0.6
+          }
+        }
+      ]
+    }
+    # Pin 5 Lead
+    Transform {
+      translation 0 -3.75 0.3
+      children [
+        Shape {
+          appearance Appearance {
+            material Material {
+              diffuseColor 0.8 0.8 0.85
+              specularColor 0.9 0.9 0.9
+              shininess 0.8
+            }
+          }
+          geometry Box {
+            size 0.76 1.4 0.6
+          }
+        }
+      ]
+    }
+    # Pin 6 Lead
+    Transform {
+      translation -2.54 -3.75 0.3
+      children [
+        Shape {
+          appearance Appearance {
+            material Material {
+              diffuseColor 0.8 0.8 0.85
+              specularColor 0.9 0.9 0.9
+              shininess 0.8
+            }
+          }
+          geometry Box {
+            size 0.76 1.4 0.6
+          }
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,236 @@
+{
+    "$schema": "https://schemas.kicad.org/drc.v1.json",
+    "coordinate_units": "mm",
+    "date": "2026-10-24T00:04:42",
+    "ignored_checks": [
+        {
+            "description": "Footprint has no courtyard defined",
+            "key": "missing_courtyard"
+        },
+        {
+            "description": "Track endpoint not centered on via",
+            "key": "track_not_centered_on_via"
+        },
+        {
+            "description": "Tuning profile track geometries",
+            "key": "tuning_profile_track_geometries"
+        },
+        {
+            "description": "Footprint doesn't match symbol's footprint filters",
+            "key": "footprint_filters_mismatch"
+        },
+        {
+            "description": "Footprint component type doesn't match footprint pads",
+            "key": "footprint_type_mismatch"
+        }
+    ],
+    "included_severities": [
+        "error",
+        "warning"
+    ],
+    "kicad_version": "10.0.1",
+    "schematic_parity": [],
+    "source": "bms_carrier_shield.kicad_pcb",
+    "unconnected_items": [
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "Ilha PTH 10 [/05_Nucleo_G474RE_Morpho_Headers/NC] de J1",
+                    "pos": {
+                        "x": 116.755,
+                        "y": 105.775742
+                    },
+                    "uuid": "4a418337-2346-4069-b53c-311f97618945"
+                },
+                {
+                    "description": "Ilha PTH 12 [/05_Nucleo_G474RE_Morpho_Headers/NC] de J1",
+                    "pos": {
+                        "x": 116.755,
+                        "y": 108.315742
+                    },
+                    "uuid": "8e1f2ecf-8f18-4fbd-a760-cb39af07138a"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "Ilha PTH 12 [/05_Nucleo_G474RE_Morpho_Headers/NC] de J1",
+                    "pos": {
+                        "x": 116.755,
+                        "y": 108.315742
+                    },
+                    "uuid": "8e1f2ecf-8f18-4fbd-a760-cb39af07138a"
+                },
+                {
+                    "description": "Ilha PTH 25 [/05_Nucleo_G474RE_Morpho_Headers/NC] de J1",
+                    "pos": {
+                        "x": 119.295,
+                        "y": 126.095742
+                    },
+                    "uuid": "e78a9bd9-f7a9-4325-9bde-009e6bb7583c"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "Ilha PTH 9 [/05_Nucleo_G474RE_Morpho_Headers/NC] de J1",
+                    "pos": {
+                        "x": 119.295,
+                        "y": 105.775742
+                    },
+                    "uuid": "9831988c-c3d1-484d-9e05-589d1eae07e4"
+                },
+                {
+                    "description": "Ilha PTH 10 [/05_Nucleo_G474RE_Morpho_Headers/NC] de J1",
+                    "pos": {
+                        "x": 116.755,
+                        "y": 105.775742
+                    },
+                    "uuid": "4a418337-2346-4069-b53c-311f97618945"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "Ilha PTH 9 [/05_Nucleo_G474RE_Morpho_Headers/NC] de J2",
+                    "pos": {
+                        "x": 180.255,
+                        "y": 105.775742
+                    },
+                    "uuid": "e8bbf5ac-6314-41ef-8298-fee116a50732"
+                },
+                {
+                    "description": "Ilha PTH 9 [/05_Nucleo_G474RE_Morpho_Headers/NC] de J1",
+                    "pos": {
+                        "x": 119.295,
+                        "y": 105.775742
+                    },
+                    "uuid": "9831988c-c3d1-484d-9e05-589d1eae07e4"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "Ilha PTH 35 [/05_Nucleo_G474RE_Morpho_Headers/NC] de J2",
+                    "pos": {
+                        "x": 180.255,
+                        "y": 138.795742
+                    },
+                    "uuid": "bde89ba0-d565-49b2-990a-e18d6fde3558"
+                },
+                {
+                    "description": "Ilha PTH 9 [/05_Nucleo_G474RE_Morpho_Headers/NC] de J2",
+                    "pos": {
+                        "x": 180.255,
+                        "y": 105.775742
+                    },
+                    "uuid": "e8bbf5ac-6314-41ef-8298-fee116a50732"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "Ilha PTH 37 [/05_Nucleo_G474RE_Morpho_Headers/NC] de J2",
+                    "pos": {
+                        "x": 180.255,
+                        "y": 141.335742
+                    },
+                    "uuid": "23df463b-48c1-4daf-b5d8-d4bb86e5d3fd"
+                },
+                {
+                    "description": "Ilha PTH 35 [/05_Nucleo_G474RE_Morpho_Headers/NC] de J2",
+                    "pos": {
+                        "x": 180.255,
+                        "y": 138.795742
+                    },
+                    "uuid": "bde89ba0-d565-49b2-990a-e18d6fde3558"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        }
+    ],
+    "violations": [
+        {
+            "description": "Isolated copper fill",
+            "items": [
+                {
+                    "description": "Zona [<no net>] em F.Cu, B.Cu e 2 mais, prioridade 1",
+                    "pos": {
+                        "x": 140.795,
+                        "y": 156.975742
+                    },
+                    "uuid": "3a8df92b-2d92-4b05-a37e-5bfe403a863b"
+                }
+            ],
+            "severity": "warning",
+            "type": "isolated_copper"
+        },
+        {
+            "description": "Isolated copper fill",
+            "items": [
+                {
+                    "description": "Zona [<no net>] em F.Cu, B.Cu e 2 mais, prioridade 1",
+                    "pos": {
+                        "x": 140.795,
+                        "y": 156.975742
+                    },
+                    "uuid": "3a8df92b-2d92-4b05-a37e-5bfe403a863b"
+                }
+            ],
+            "severity": "warning",
+            "type": "isolated_copper"
+        },
+        {
+            "description": "Isolated copper fill",
+            "items": [
+                {
+                    "description": "Zona [<no net>] em F.Cu, B.Cu e 2 mais, prioridade 1",
+                    "pos": {
+                        "x": 140.795,
+                        "y": 156.975742
+                    },
+                    "uuid": "3a8df92b-2d92-4b05-a37e-5bfe403a863b"
+                }
+            ],
+            "severity": "warning",
+            "type": "isolated_copper"
+        },
+        {
+            "description": "Isolated copper fill",
+            "items": [
+                {
+                    "description": "Zona [<no net>] em F.Cu, B.Cu e 2 mais, prioridade 1",
+                    "pos": {
+                        "x": 140.795,
+                        "y": 156.975742
+                    },
+                    "uuid": "3a8df92b-2d92-4b05-a37e-5bfe403a863b"
+                }
+            ],
+            "severity": "warning",
+            "type": "isolated_copper"
+        }
+    ]
+}

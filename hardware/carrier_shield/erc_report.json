@@ -1,0 +1,1051 @@
+{
+    "$schema": "https://schemas.kicad.org/erc.v1.json",
+    "coordinate_units": "mm",
+    "date": "2026-10-23T23:04:41",
+    "ignored_checks": [
+        {
+            "description": "Global label only appears once in the schematic",
+            "key": "single_global_label"
+        },
+        {
+            "description": "Four connection points are joined together",
+            "key": "four_way_junction"
+        },
+        {
+            "description": "SPICE model issue",
+            "key": "simulation_model_issue"
+        },
+        {
+            "description": "Assigned footprint doesn't match footprint filters",
+            "key": "footprint_filter"
+        }
+    ],
+    "included_severities": [
+        "error",
+        "warning"
+    ],
+    "kicad_version": "10.0.1",
+    "sheets": [
+        {
+            "path": "/",
+            "uuid_path": "/b5e9f801-447a-428d-93e1-7d12f38a9010",
+            "violations": [
+                {
+                    "description": "Label connected to only one pin",
+                    "items": [
+                        {
+                            "description": "Rótulo 'PC10'",
+                            "pos": {
+                                "x": 1.1684,
+                                "y": 0.4572
+                            },
+                            "uuid": "1f00855e-8afd-4fcd-8dd3-5946d1f0aeb4"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "isolated_pin_label"
+                },
+                {
+                    "description": "Label connected to only one pin",
+                    "items": [
+                        {
+                            "description": "Rótulo 'PC12'",
+                            "pos": {
+                                "x": 1.1684,
+                                "y": 0.4826
+                            },
+                            "uuid": "912b1e71-139b-4bfc-b8bf-2a5d5b29a9df"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "isolated_pin_label"
+                },
+                {
+                    "description": "Label connected to only one pin",
+                    "items": [
+                        {
+                            "description": "Rótulo 'VDD_MCU'",
+                            "pos": {
+                                "x": 1.1684,
+                                "y": 0.508
+                            },
+                            "uuid": "dbd3b5e1-5d0f-40de-b915-f0671b0a5def"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "isolated_pin_label"
+                },
+                {
+                    "description": "Label connected to only one pin",
+                    "items": [
+                        {
+                            "description": "Rótulo 'BOOT0'",
+                            "pos": {
+                                "x": 1.1684,
+                                "y": 0.5334
+                            },
+                            "uuid": "5e5cf99d-780f-461d-aa9a-280602d1f28b"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "isolated_pin_label"
+                },
+                {
+                    "description": "Label connected to only one pin",
+                    "items": [
+                        {
+                            "description": "Rótulo 'PA13_SWDIO'",
+                            "pos": {
+                                "x": 1.1684,
+                                "y": 0.6096
+                            },
+                            "uuid": "f9b9173f-0f8b-4ebb-9283-b706e0a59d0e"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "isolated_pin_label"
+                },
+                {
+                    "description": "Label connected to only one pin",
+                    "items": [
+                        {
+                            "description": "Rótulo 'PA14_SWCLK'",
+                            "pos": {
+                                "x": 1.1684,
+                                "y": 0.635
+                            },
+                            "uuid": "170589ce-ec58-43fa-b43e-8d4626777e0e"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "isolated_pin_label"
+                },
+                {
+                    "description": "Label connected to only one pin",
+                    "items": [
+                        {
+                            "description": "Rótulo 'PA15'",
+                            "pos": {
+                                "x": 1.1684,
+                                "y": 0.6604
+                            },
+                            "uuid": "72e71245-14e9-429a-bb08-b6e49a33ae96"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "isolated_pin_label"
+                },
+                {
+                    "description": "Label connected to only one pin",
+                    "items": [
+                        {
+                            "description": "Rótulo 'PB7'",
+                            "pos": {
+                                "x": 1.1684,
+                                "y": 0.7112
+                            },
+                            "uuid": "87d8ff50-7dad-426d-b355-9ee28ec5a199"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "isolated_pin_label"
+                },
+                {
+                    "description": "Label connected to only one pin",
+                    "items": [
+                        {
+                            "description": "Rótulo 'PC13'",
+                            "pos": {
+                                "x": 1.1684,
+                                "y": 0.7366
+                            },
+                            "uuid": "c4addb72-5ecc-4aea-8107-47c8d1d11a60"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "isolated_pin_label"
+                },
+                {
+                    "description": "Label connected to only one pin",
+                    "items": [
+                        {
+                            "description": "Rótulo 'PC14'",
+                            "pos": {
+                                "x": 1.1684,
+                                "y": 0.762
+                            },
+                            "uuid": "19e77fc0-fb98-449c-a382-7ee4fcc122c3"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "isolated_pin_label"
+                },
+                {
+                    "description": "Label connected to only one pin",
+                    "items": [
+                        {
+                            "description": "Rótulo 'PC15'",
+                            "pos": {
+                                "x": 1.1684,
+                                "y": 0.7874
+                            },
+                            "uuid": "b3b7cb59-fdb9-4758-9480-0874af867f03"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "isolated_pin_label"
+                },
+                {
+                    "description": "Label connected to only one pin",
+                    "items": [
+                        {
+                            "description": "Rótulo 'PF0'",
+                            "pos": {
+                                "x": 1.1684,
+                                "y": 0.8128
+                            },
+                            "uuid": "cd429840-c423-4d89-9007-3c8c4e195e60"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "isolated_pin_label"
+                },
+                {
+                    "description": "Label connected to only one pin",
+                    "items": [
+                        {
+                            "description": "Rótulo 'PF1'",
+                            "pos": {
+                                "x": 1.1684,
+                                "y": 0.8382
+                            },
+                            "uuid": "584674d4-ab37-4995-8390-75b4b758be8c"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "isolated_pin_label"
+                },
+                {
+                    "description": "Label connected to only one pin",
+                    "items": [
+                        {
+                            "description": "Rótulo 'VBAT'",
+                            "pos": {
+                                "x": 1.1684,
+                                "y": 0.8636
+                            },
+                            "uuid": "74c18a58-295e-40b9-9947-11eca64187cf"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "isolated_pin_label"
+                },
+                {
+                    "description": "Label connected to only one pin",
+                    "items": [
+                        {
+                            "description": "Rótulo 'PC2'",
+                            "pos": {
+                                "x": 1.1684,
+                                "y": 0.889
+                            },
+                            "uuid": "ade58c40-78fd-4b20-9aee-9b4caa376751"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "isolated_pin_label"
+                },
+                {
+                    "description": "Label connected to only one pin",
+                    "items": [
+                        {
+                            "description": "Rótulo 'PC3'",
+                            "pos": {
+                                "x": 1.1684,
+                                "y": 0.9144
+                            },
+                            "uuid": "b48e43c4-c25f-4835-be24-32d017cdffe9"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "isolated_pin_label"
+                },
+                {
+                    "description": "Label connected to only one pin",
+                    "items": [
+                        {
+                            "description": "Rótulo 'PC11'",
+                            "pos": {
+                                "x": 1.524,
+                                "y": 0.4572
+                            },
+                            "uuid": "e8a74d3b-ff0e-4534-a489-95812b9229ab"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "isolated_pin_label"
+                },
+                {
+                    "description": "Label connected to only one pin",
+                    "items": [
+                        {
+                            "description": "Rótulo 'PD2'",
+                            "pos": {
+                                "x": 1.524,
+                                "y": 0.4826
+                            },
+                            "uuid": "dcccf492-f154-4a59-a1a3-0a881de37d1c"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "isolated_pin_label"
+                },
+                {
+                    "description": "Label connected to only one pin",
+                    "items": [
+                        {
+                            "description": "Rótulo 'IOREF'",
+                            "pos": {
+                                "x": 1.524,
+                                "y": 0.5842
+                            },
+                            "uuid": "afd338a1-9050-48dc-a1ba-80970f6ebcbb"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "isolated_pin_label"
+                },
+                {
+                    "description": "Label connected to only one pin",
+                    "items": [
+                        {
+                            "description": "Rótulo 'NRST'",
+                            "pos": {
+                                "x": 1.524,
+                                "y": 0.6096
+                            },
+                            "uuid": "a238cb24-edb4-4135-8891-5e4495908e3d"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "isolated_pin_label"
+                },
+                {
+                    "description": "Label connected to only one pin",
+                    "items": [
+                        {
+                            "description": "Rótulo '+5V_USB'",
+                            "pos": {
+                                "x": 1.524,
+                                "y": 0.6604
+                            },
+                            "uuid": "4a9a77fb-0667-4829-9183-b528b085dbb6"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "isolated_pin_label"
+                },
+                {
+                    "description": "Label connected to only one pin",
+                    "items": [
+                        {
+                            "description": "Rótulo 'VIN_RAW'",
+                            "pos": {
+                                "x": 1.524,
+                                "y": 0.7366
+                            },
+                            "uuid": "d7e9224d-03c1-429c-83e0-3bea1b6c3877"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "isolated_pin_label"
+                },
+                {
+                    "description": "Label connected to only one pin",
+                    "items": [
+                        {
+                            "description": "Rótulo 'PA1_HV_PACK'",
+                            "pos": {
+                                "x": 1.524,
+                                "y": 0.8128
+                            },
+                            "uuid": "9e11f1a6-3cbc-4eff-9fd6-74c179187134"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "isolated_pin_label"
+                },
+                {
+                    "description": "Label connected to only one pin",
+                    "items": [
+                        {
+                            "description": "Rótulo 'PC0'",
+                            "pos": {
+                                "x": 1.524,
+                                "y": 0.9144
+                            },
+                            "uuid": "2dbaae87-6dce-4fad-9cde-1ac7a6675051"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "isolated_pin_label"
+                },
+                {
+                    "description": "Label connected to only one pin",
+                    "items": [
+                        {
+                            "description": "Rótulo 'PC9'",
+                            "pos": {
+                                "x": 2.0193,
+                                "y": 0.4572
+                            },
+                            "uuid": "938416e6-9069-4eae-9d32-06f5315e1a0a"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "isolated_pin_label"
+                },
+                {
+                    "description": "Label connected to only one pin",
+                    "items": [
+                        {
+                            "description": "Rótulo 'AVDD'",
+                            "pos": {
+                                "x": 2.0193,
+                                "y": 0.5334
+                            },
+                            "uuid": "4237faf9-da7d-4ebf-b6d7-e0771f87154e"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "isolated_pin_label"
+                },
+                {
+                    "description": "Label connected to only one pin",
+                    "items": [
+                        {
+                            "description": "Rótulo 'PA5_LED'",
+                            "pos": {
+                                "x": 2.0193,
+                                "y": 0.5842
+                            },
+                            "uuid": "778a53ae-35eb-4019-b0a2-b1daf8469551"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "isolated_pin_label"
+                },
+                {
+                    "description": "Label connected to only one pin",
+                    "items": [
+                        {
+                            "description": "Rótulo 'PA6_CURR_LEM1'",
+                            "pos": {
+                                "x": 2.0193,
+                                "y": 0.6096
+                            },
+                            "uuid": "14d1abba-97a8-469d-bcde-3d540ab01721"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "isolated_pin_label"
+                },
+                {
+                    "description": "Label connected to only one pin",
+                    "items": [
+                        {
+                            "description": "Rótulo 'PA7_CURR_LEM2'",
+                            "pos": {
+                                "x": 2.0193,
+                                "y": 0.635
+                            },
+                            "uuid": "e9706d54-80f9-4f64-b199-8056aeebd3e0"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "isolated_pin_label"
+                },
+                {
+                    "description": "Label connected to only one pin",
+                    "items": [
+                        {
+                            "description": "Rótulo 'PB6'",
+                            "pos": {
+                                "x": 2.0193,
+                                "y": 0.6604
+                            },
+                            "uuid": "d88be23d-8129-4d64-9e8d-5838acf5c61c"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "isolated_pin_label"
+                },
+                {
+                    "description": "Label connected to only one pin",
+                    "items": [
+                        {
+                            "description": "Rótulo 'PC7'",
+                            "pos": {
+                                "x": 2.0193,
+                                "y": 0.6858
+                            },
+                            "uuid": "6af79b47-c248-4a62-8a19-3f3ba7174eec"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "isolated_pin_label"
+                },
+                {
+                    "description": "Label connected to only one pin",
+                    "items": [
+                        {
+                            "description": "Rótulo 'PA9'",
+                            "pos": {
+                                "x": 2.0193,
+                                "y": 0.7112
+                            },
+                            "uuid": "80822eca-ac09-4521-a969-57b38fa3f237"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "isolated_pin_label"
+                },
+                {
+                    "description": "Label connected to only one pin",
+                    "items": [
+                        {
+                            "description": "Rótulo 'PA8'",
+                            "pos": {
+                                "x": 2.0193,
+                                "y": 0.7366
+                            },
+                            "uuid": "ca6832a9-e1d5-4eb5-832f-7ba883cf99d7"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "isolated_pin_label"
+                },
+                {
+                    "description": "Label connected to only one pin",
+                    "items": [
+                        {
+                            "description": "Rótulo 'PB10'",
+                            "pos": {
+                                "x": 2.0193,
+                                "y": 0.762
+                            },
+                            "uuid": "b13d49f7-626e-4d1d-ac85-01e06ff733ad"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "isolated_pin_label"
+                },
+                {
+                    "description": "Label connected to only one pin",
+                    "items": [
+                        {
+                            "description": "Rótulo 'PA10'",
+                            "pos": {
+                                "x": 2.0193,
+                                "y": 0.8636
+                            },
+                            "uuid": "0a754a73-62bc-4238-9a54-714b7774421d"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "isolated_pin_label"
+                },
+                {
+                    "description": "Label connected to only one pin",
+                    "items": [
+                        {
+                            "description": "Rótulo 'PA2_HV_DCLINK'",
+                            "pos": {
+                                "x": 2.0193,
+                                "y": 0.889
+                            },
+                            "uuid": "3d131b87-6b9a-4750-8da7-a7dd3a10375f"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "isolated_pin_label"
+                },
+                {
+                    "description": "Label connected to only one pin",
+                    "items": [
+                        {
+                            "description": "Rótulo 'PA3_DEBUG_RX'",
+                            "pos": {
+                                "x": 2.0193,
+                                "y": 0.9144
+                            },
+                            "uuid": "455b0c3b-22a1-4441-8ce9-35d42c167967"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "isolated_pin_label"
+                },
+                {
+                    "description": "Label connected to only one pin",
+                    "items": [
+                        {
+                            "description": "Rótulo 'PC8'",
+                            "pos": {
+                                "x": 2.3749,
+                                "y": 0.4572
+                            },
+                            "uuid": "a3fa3466-6fc2-42b3-8a0f-9dadab017fa9"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "isolated_pin_label"
+                },
+                {
+                    "description": "Label connected to only one pin",
+                    "items": [
+                        {
+                            "description": "Rótulo 'PC6'",
+                            "pos": {
+                                "x": 2.3749,
+                                "y": 0.4826
+                            },
+                            "uuid": "35021c01-2d00-4e7c-9a11-dbc9d05e6e5a"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "isolated_pin_label"
+                },
+                {
+                    "description": "Label connected to only one pin",
+                    "items": [
+                        {
+                            "description": "Rótulo 'PC5'",
+                            "pos": {
+                                "x": 2.3749,
+                                "y": 0.508
+                            },
+                            "uuid": "ae207e2d-babf-4f52-a637-ff19805c4d1c"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "isolated_pin_label"
+                },
+                {
+                    "description": "Label connected to only one pin",
+                    "items": [
+                        {
+                            "description": "Rótulo 'U5V'",
+                            "pos": {
+                                "x": 2.3749,
+                                "y": 0.5334
+                            },
+                            "uuid": "829e9479-6a39-45ac-933c-55cd29a9a68d"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "isolated_pin_label"
+                },
+                {
+                    "description": "Label connected to only one pin",
+                    "items": [
+                        {
+                            "description": "Rótulo 'PA12'",
+                            "pos": {
+                                "x": 2.3749,
+                                "y": 0.5842
+                            },
+                            "uuid": "860cd3ff-ae30-47d3-9f72-397d1f003c72"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "isolated_pin_label"
+                },
+                {
+                    "description": "Label connected to only one pin",
+                    "items": [
+                        {
+                            "description": "Rótulo 'PA11'",
+                            "pos": {
+                                "x": 2.3749,
+                                "y": 0.6096
+                            },
+                            "uuid": "47747d45-d5fd-428b-8978-1524b38a5656"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "isolated_pin_label"
+                },
+                {
+                    "description": "Label connected to only one pin",
+                    "items": [
+                        {
+                            "description": "Rótulo 'PB12'",
+                            "pos": {
+                                "x": 2.3749,
+                                "y": 0.635
+                            },
+                            "uuid": "dfc832f7-10f0-4378-838b-9db7ce21a629"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "isolated_pin_label"
+                },
+                {
+                    "description": "Label connected to only one pin",
+                    "items": [
+                        {
+                            "description": "Rótulo 'PB11'",
+                            "pos": {
+                                "x": 2.3749,
+                                "y": 0.6604
+                            },
+                            "uuid": "00dfac4c-5885-4f79-8947-ccb1d8aaed7f"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "isolated_pin_label"
+                },
+                {
+                    "description": "Label connected to only one pin",
+                    "items": [
+                        {
+                            "description": "Rótulo 'PB2'",
+                            "pos": {
+                                "x": 2.3749,
+                                "y": 0.7112
+                            },
+                            "uuid": "e7d80866-1cfc-4eac-a7a1-6a6e1f8dae6e"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "isolated_pin_label"
+                },
+                {
+                    "description": "Label connected to only one pin",
+                    "items": [
+                        {
+                            "description": "Rótulo 'PB1'",
+                            "pos": {
+                                "x": 2.3749,
+                                "y": 0.7366
+                            },
+                            "uuid": "dafc8477-b37a-486a-961d-6b9ca773f88f"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "isolated_pin_label"
+                },
+                {
+                    "description": "Label connected to only one pin",
+                    "items": [
+                        {
+                            "description": "Rótulo 'PB15'",
+                            "pos": {
+                                "x": 2.3749,
+                                "y": 0.762
+                            },
+                            "uuid": "5a484a59-e0f3-461a-aed8-64942e22b5f1"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "isolated_pin_label"
+                },
+                {
+                    "description": "Label connected to only one pin",
+                    "items": [
+                        {
+                            "description": "Rótulo 'PB14'",
+                            "pos": {
+                                "x": 2.3749,
+                                "y": 0.7874
+                            },
+                            "uuid": "6e0e2751-08f4-49e6-83da-51a078dff314"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "isolated_pin_label"
+                },
+                {
+                    "description": "Label connected to only one pin",
+                    "items": [
+                        {
+                            "description": "Rótulo 'PB13'",
+                            "pos": {
+                                "x": 2.3749,
+                                "y": 0.8128
+                            },
+                            "uuid": "70a6cff8-dca3-4304-8647-127c099f5398"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "isolated_pin_label"
+                }
+            ]
+        },
+        {
+            "path": "/01_Power_Supply_GLV/",
+            "uuid_path": "/b5e9f801-447a-428d-93e1-7d12f38a9010/a1000001-0000-0000-0000-000000000001",
+            "violations": [
+                {
+                    "description": "Input Power pin not driven by any Output Power pins",
+                    "items": [
+                        {
+                            "description": "Symbol U1 Pino 2 [VIN, Power input, Line]",
+                            "pos": {
+                                "x": 1.27,
+                                "y": 0.6096
+                            },
+                            "uuid": "d2e1f114-0841-4556-9774-99fc27929eb8"
+                        }
+                    ],
+                    "severity": "error",
+                    "type": "power_pin_not_driven"
+                },
+                {
+                    "description": "Input Power pin not driven by any Output Power pins",
+                    "items": [
+                        {
+                            "description": "Symbol U1 Pino 1 [PGND, Power input, Line]",
+                            "pos": {
+                                "x": 1.3716,
+                                "y": 0.762
+                            },
+                            "uuid": "e32cc9e6-6e58-4318-857f-0aca038eeb47"
+                        }
+                    ],
+                    "severity": "error",
+                    "type": "power_pin_not_driven"
+                }
+            ]
+        },
+        {
+            "path": "/02_IsoSPI_Galvanic_Barrier/",
+            "uuid_path": "/b5e9f801-447a-428d-93e1-7d12f38a9010/a1000002-0000-0000-0000-000000000002",
+            "violations": [
+                {
+                    "description": "Input Power pin not driven by any Output Power pins",
+                    "items": [
+                        {
+                            "description": "Symbol U2 Pino 16 [VDD, Power input, Line]",
+                            "pos": {
+                                "x": 1.2827,
+                                "y": 0.4826
+                            },
+                            "uuid": "b4d5730c-f230-4fa4-9f9d-3c6b75bcc1fe"
+                        }
+                    ],
+                    "severity": "error",
+                    "type": "power_pin_not_driven"
+                },
+                {
+                    "description": "Input Power pin not driven by any Output Power pins",
+                    "items": [
+                        {
+                            "description": "Symbol U2 Pino 1 [VIO, Power input, Line]",
+                            "pos": {
+                                "x": 1.3843,
+                                "y": 0.4826
+                            },
+                            "uuid": "d964cd3d-6054-4b8f-a7aa-eb8f3b7794f0"
+                        }
+                    ],
+                    "severity": "error",
+                    "type": "power_pin_not_driven"
+                },
+                {
+                    "description": "Pin not connected",
+                    "items": [
+                        {
+                            "description": "Symbol T1 Pino 2 [PRI_2, Passive, Line]",
+                            "pos": {
+                                "x": 2.1209,
+                                "y": 0.6731
+                            },
+                            "uuid": "941c23d8-e1bc-4801-9f21-1811581b13ca"
+                        }
+                    ],
+                    "severity": "error",
+                    "type": "pin_not_connected"
+                },
+                {
+                    "description": "Pin not connected",
+                    "items": [
+                        {
+                            "description": "Symbol T1 Pino 5 [SEC_2, Passive, Line]",
+                            "pos": {
+                                "x": 2.4257,
+                                "y": 0.6731
+                            },
+                            "uuid": "dc26cf8c-58ef-4cf0-81e7-d989a08d6fc3"
+                        }
+                    ],
+                    "severity": "error",
+                    "type": "pin_not_connected"
+                },
+                {
+                    "description": "Pin not connected",
+                    "items": [
+                        {
+                            "description": "Symbol J4 Pino 1 [Pin_1, Passive, Line]",
+                            "pos": {
+                                "x": 2.6035,
+                                "y": 0.635
+                            },
+                            "uuid": "42f8b6b0-dcf0-4538-b208-2b9b4b41166d"
+                        }
+                    ],
+                    "severity": "error",
+                    "type": "pin_not_connected"
+                },
+                {
+                    "description": "Pin not connected",
+                    "items": [
+                        {
+                            "description": "Symbol J4 Pino 4 [Pin_4, Passive, Line]",
+                            "pos": {
+                                "x": 2.6035,
+                                "y": 0.7112
+                            },
+                            "uuid": "5351986d-e718-4028-998a-ab6b58c0da88"
+                        }
+                    ],
+                    "severity": "error",
+                    "type": "pin_not_connected"
+                }
+            ]
+        },
+        {
+            "path": "/04_Isolated_CANFD_Interface/",
+            "uuid_path": "/b5e9f801-447a-428d-93e1-7d12f38a9010/a1000005-0000-0000-0000-000000000005",
+            "violations": [
+                {
+                    "description": "Pin not connected",
+                    "items": [
+                        {
+                            "description": "Symbol J6 Pino 4 [Pin_4, Passive, Line]",
+                            "pos": {
+                                "x": 2.0701,
+                                "y": 1.0541
+                            },
+                            "uuid": "9fea227c-409e-4c68-8435-a3bdeae10133"
+                        }
+                    ],
+                    "severity": "error",
+                    "type": "pin_not_connected"
+                }
+            ]
+        },
+        {
+            "path": "/03_SDC_Safety_Latch/",
+            "uuid_path": "/b5e9f801-447a-428d-93e1-7d12f38a9010/a1000003-0000-0000-0000-000000000003",
+            "violations": [
+                {
+                    "description": "Input Power pin not driven by any Output Power pins",
+                    "items": [
+                        {
+                            "description": "Symbol #PWR053 Pino 1 [Power input, Line]",
+                            "pos": {
+                                "x": 1.9304,
+                                "y": 0.3048
+                            },
+                            "uuid": "5a79fdbb-4904-4bcf-9ef0-946bf9635b14"
+                        }
+                    ],
+                    "severity": "error",
+                    "type": "power_pin_not_driven"
+                },
+                {
+                    "description": "Pin not connected",
+                    "items": [
+                        {
+                            "description": "Symbol K1 Pino 1 [Passive, Line]",
+                            "pos": {
+                                "x": 2.0066,
+                                "y": 0.508
+                            },
+                            "uuid": "2b2fc35a-fa3f-4804-8c44-d811b8ace0d9"
+                        }
+                    ],
+                    "severity": "error",
+                    "type": "pin_not_connected"
+                }
+            ]
+        },
+        {
+            "path": "/05_Nucleo_G474RE_Morpho_Headers/",
+            "uuid_path": "/b5e9f801-447a-428d-93e1-7d12f38a9010/a1000006-0000-0000-0000-000000000006",
+            "violations": [
+                {
+                    "description": "Ambos os +5V e +5V_E5V estão ligados aos mesmos itens; o +5V será utilizado na netlist",
+                    "items": [
+                        {
+                            "description": "Symbol #PWR060 Pino 1 [Power input, Line]",
+                            "pos": {
+                                "x": 1.7145,
+                                "y": 1.3462
+                            },
+                            "uuid": "866a7fda-87eb-40d2-a10b-a29d8de6763e"
+                        },
+                        {
+                            "description": "Rótulo '+5V_E5V'",
+                            "pos": {
+                                "x": 1.524,
+                                "y": 0.508
+                            },
+                            "uuid": "e065ca9b-a7a3-4bd8-81a2-21d572d9bd40"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "multiple_net_names"
+                },
+                {
+                    "description": "Ambos os +3V3 e +3V3_MCU estão ligados aos mesmos itens; o +3V3 será utilizado na netlist",
+                    "items": [
+                        {
+                            "description": "Symbol #PWR061 Pino 1 [Power input, Line]",
+                            "pos": {
+                                "x": 1.7145,
+                                "y": 1.4478
+                            },
+                            "uuid": "3d16d311-b7c7-4017-8366-496d48c08476"
+                        },
+                        {
+                            "description": "Rótulo '+3V3_MCU'",
+                            "pos": {
+                                "x": 1.6002,
+                                "y": 1.4732
+                            },
+                            "uuid": "06c41138-544e-4a86-b313-8a187a9b5bcf"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "multiple_net_names"
+                },
+                {
+                    "description": "Ambos os GND e AGND estão ligados aos mesmos itens; o GND será utilizado na netlist",
+                    "items": [
+                        {
+                            "description": "Symbol #PWR059 Pino 1 [Power input, Line]",
+                            "pos": {
+                                "x": 1.7145,
+                                "y": 1.2192
+                            },
+                            "uuid": "0de6e028-7c3a-427b-976f-bccc5257fec3"
+                        },
+                        {
+                            "description": "Rótulo 'AGND'",
+                            "pos": {
+                                "x": 2.3749,
+                                "y": 0.8382
+                            },
+                            "uuid": "787e92b2-1f58-4142-8f78-c68efe754814"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "multiple_net_names"
+                }
+            ]
+        }
+    ],
+    "source": "bms_carrier_shield.kicad_sch"
+}
