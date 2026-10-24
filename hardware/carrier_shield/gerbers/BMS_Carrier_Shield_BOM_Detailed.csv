@@ -1,0 +1,38 @@
+Item,Designator,Quantity,Value,Package,Description,Manufacturer,MPN,LCSC_Mouser
+1,U1,1,LMR36510ADDA,HTSOP-8-EP (3.9x4.9mm),Automotive Synchronous Step-Down Voltage Regulator 65V 1A,Texas Instruments,LMR36510ADDAR,Mouser: 595-LMR36510ADDAR / LCSC: C2682705
+2,U2,1,L99BM1TR,SOIC-16 (3.9x9.9mm),Automotive Isolated SPI Physical Layer Transceiver,STMicroelectronics,L99BM1TR,Mouser: 511-L99BM1TR
+3,U3,1,USBLC6-2SC6,SOT-23-6,Very Low Capacitance ESD Protection Diode Array,STMicroelectronics,USBLC6-2SC6,Mouser: 511-USBLC6-2SC6 / LCSC: C7519
+4,U4,1,74HC74,SOIC-14 (3.9x8.7mm),Dual D-Type Positive-Edge-Triggered Flip-Flop with Clear and Preset,Texas Instruments,SN74HC74DR,Mouser: 595-SN74HC74DR / LCSC: C5595
+5,U5,1,ISO1044BD,SOIC-8 (3.9x4.9mm),Galvanically Isolated CAN-FD Transceiver with 5000-Vrms Isolation,Texas Instruments,ISO1044BDR,Mouser: 595-ISO1044BDR / LCSC: C711585
+6,U6,1,B0505S-1WR3,SIP-4 (11.5x6.0mm THT),Isolated DC-DC Converter 5V to 5V 1W 3kVDC Isolation,Mornsun,B0505S-1WR3,LCSC: C148866 / Mouser: 805-B0505S-1WR3
+7,T1,1,HMU2103NL,SMD-16 (16.2x11.8mm),Dual-Channel Automotive Iso-SPI Pulse Transformer 2500Vrms 4.0mm Creepage,Pulse Electronics,HMU2103NL,Mouser: 673-HMU2103NL
+8,K1,1,G5V-1-DC5,THT DIP (12.5x7.5mm),Ultra-miniature SPDT Low Signal Relay 5VDC Coil 1A Contact,Omron Electronics,G5V-1-DC5,Mouser: 653-G5V-1-DC5 / LCSC: C38198
+9,Q2,1,BC817-40,SOT-23,NPN General Purpose BJT 45V 500mA,Nexperia,"BC817-40,215",Mouser: 771-BC817-40215 / LCSC: C109033
+10,Q3,1,2N7002,SOT-23,N-Channel Enhancement Mode MOSFET 60V 115mA,Diodes Incorporated,2N7002-7-F,Mouser: 621-2N7002-F / LCSC: C8502
+11,D1,1,B340A / SS34,SMA (DO-214AC),Schottky Barrier Rectifier Diode 40V 3A (Reverse Polarity Protection),Diodes Incorporated,B340A-13-F,Mouser: 621-B340A-F / LCSC: C15950
+12,D2,1,SMAJ15CA,SMA (DO-214AC),Bidirectional Transient Voltage Suppressor (TVS) Diode 15V Vrwm 400W,Littelfuse,SMAJ15CA,Mouser: 576-SMAJ15CA / LCSC: C81747
+13,D7,1,SS14,SMA (DO-214AC),Schottky Rectifier Diode 40V 1A (Flyback suppression),Diodes Incorporated,B140-13-F,Mouser: 621-B140-F / LCSC: C1577
+14,D8,1,NUP2105L,SOT-23,Dual Bidirectional Automotive CAN Bus TVS Protection Diode 24V,onsemi,NUP2105LT1G,Mouser: 863-NUP2105LT1G / LCSC: C14444
+15,"D3, D4, D5",3,Green LED,0805 (2012 Metric),"SMD LED Green (12V GLV Power, 5V Logic Rail, SDC Status OK)",Lite-On,LTST-C170GKT,Mouser: 859-LTST-C170GKT / LCSC: C72043
+16,D6,1,Red LED,0805 (2012 Metric),SMD LED Red (AMS Fault Indicator),Lite-On,LTST-C170CKT,Mouser: 859-LTST-C170CKT / LCSC: C72038
+17,SW1,1,PTS645SL43,6.0x6.0mm THT H=5.0mm,Tactile Push Button SPST-NO (Manual SDC Reset),C&K / Littelfuse,PTS645SL43-2 LFS,Mouser: 611-PTS645SL43-2LFS / LCSC: C318884
+18,"J1, J2",2,Morpho Female 2x19,2.54mm Pitch 2x19 Socket THT,Female Header Receptacle Strip 38-pin (NUCLEO-G474RE Morpho),Samtec / Amphenol,SSW-119-01-T-D,Mouser: 200-SSW11901TD
+19,J3,1,XT30U-F / Micro-Fit 2P,XT30U-F / Molex 43650-0200,DC Power Input GLV 12V High-Reliability Connector,Amass / Molex,XT30U-F / 43650-0200,Mouser: 538-43650-0200
+20,"J4, J6",2,Micro-Fit 3.0 4P RA,Molex 43650-0400 (3.0mm Pitch),Molex Micro-Fit 3.0 Single Row 4-Pin Right Angle Header (Iso-SPI & CAN),Molex,0436500400,Mouser: 538-43650-0400 / LCSC: C2687158
+21,J5,1,Micro-Fit 3.0 2P RA,Molex 43650-0200 (3.0mm Pitch),Molex Micro-Fit 3.0 Single Row 2-Pin Right Angle Header (SDC Loop),Molex,0436500200,Mouser: 538-43650-0200 / LCSC: C2687156
+22,"L1, L2",2,10uH 3.5A,Bourns SRR1260 (12.5x12.5x6.0mm),Shielded Power Inductor 10uH 3.5A+ (Buck output & Input Filter),Bourns,SRR1260-100M,Mouser: 652-SRR1260-100M / LCSC: C108047
+23,C1,1,100uF 35V,Alum Elec SMD 8.0x10.0mm,Aluminum Electrolytic Capacitor Low-ESR 100uF 35V AEC-Q200,Panasonic,EEE-FK1V101P,Mouser: 667-EEE-FK1V101P / LCSC: C144131
+24,"C2, C14, C15",3,10uF 25V,0805 (2012 Metric),Multilayer Ceramic Capacitor MLCC X7R 10uF 25V 10%,Murata,GRM21BZ71E106KE15L,Mouser: 81-GRM21BZ71E106KE5L / LCSC: C15850
+25,C6,1,22uF 16V,0805 (2012 Metric),Multilayer Ceramic Capacitor MLCC X7R 22uF 16V 10%,Murata,GRM21BR71C226ME15L,Mouser: 81-GRM21BR71C226ME5L / LCSC: C96927
+26,C8,1,4.7uF 25V,0805 (2012 Metric),Multilayer Ceramic Capacitor MLCC X7R 4.7uF 25V 10%,Murata,GRM21BR71E475KA73L,Mouser: 81-GRM21BR71E475KA3L / LCSC: C19666
+27,"C4, C10",2,1uF 25V,0603 (1608 Metric),Multilayer Ceramic Capacitor MLCC X7R 1uF 25V 10%,Murata,GRM188R71E105KA12D,Mouser: 81-GRM188R71E105KA2D / LCSC: C15849
+28,"C3, C5, C7, C9, C12, C16, C17, C18",8,100nF 50V,0603 (1608 Metric),Multilayer Ceramic Capacitor MLCC X7R 100nF 50V 10%,Yageo / Murata,CC0603KRX7R9BB104,Mouser: 603-CC603KRX7R9BB104 / LCSC: C14663
+29,C11,1,10nF 50V,0603 (1608 Metric),Multilayer Ceramic Capacitor MLCC X7R 10nF 50V 10%,Yageo / Murata,CC0603KRX7R9BB103,Mouser: 603-CC603KRX7R9BB103 / LCSC: C57112
+30,C19,1,4.7nF 50V,0603 (1608 Metric),Multilayer Ceramic Capacitor MLCC X7R 4.7nF 50V 10%,Yageo / Murata,CC0603KRX7R9BB472,Mouser: 603-CC603KRX7R9BB472 / LCSC: C57114
+31,"R1, R19",2,100k 1%,0603 (1608 Metric),Thick Film Chip Resistor 100k Ohm 1/10W 1%,Yageo,RC0603FR-07100KL,Mouser: 603-RC0603FR-07100KL / LCSC: C25804
+32,R2,1,24.9k 1%,0603 (1608 Metric),Precision Resistor 24.9k Ohm 1/10W 1% (LMR36510 Vout Feedback),Yageo,RC0603FR-0724K9L,Mouser: 603-RC0603FR-0724K9L / LCSC: C23171
+33,"R3, R4, R15, R16, R22",5,1k 1%,0603 (1608 Metric),Thick Film Chip Resistor 1k Ohm 1/10W 1%,Yageo,RC0603FR-071KL,Mouser: 603-RC0603FR-071KL / LCSC: C21190
+34,R5,1,47k 1%,0603 (1608 Metric),Thick Film Chip Resistor 47k Ohm 1/10W 1%,Yageo,RC0603FR-0747KL,Mouser: 603-RC0603FR-0747KL / LCSC: C25817
+35,"R6, R7, R8, R9, R12, R13, R17",7,10k 1%,0603 (1608 Metric),Thick Film Chip Resistor 10k Ohm 1/10W 1%,Yageo,RC0603FR-0710KL,Mouser: 603-RC0603FR-0710KL / LCSC: C25804
+36,"R10, R11, R20, R21",4,60.4 1%,0603 (1608 Metric),Precision Resistor 60.4 Ohm 1/10W 1% (Split CAN / Iso-SPI Termination),Yageo,RC0603FR-0760R4L,Mouser: 603-RC0603FR-0760R4L / LCSC: C23238
+37,R18,1,100 1%,0603 (1608 Metric),Thick Film Chip Resistor 100 Ohm 1/10W 1%,Yageo,RC0603FR-07100RL,Mouser: 603-RC0603FR-07100RL / LCSC: C22775

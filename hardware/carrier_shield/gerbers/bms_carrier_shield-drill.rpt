@@ -1,0 +1,32 @@
+Drill report for bms_carrier_shield.kicad_pcb
+Created on 2026-10-24T02:28:04
+
+Copper Layer Stackup:
+    =============================================================
+    L1 :  F.Cu                      front
+    L2 :  GND_Plane                 in1
+    L3 :  PWR_Plane                 in2
+    L4 :  B.Cu                      back
+
+
+Drill file 'bms_carrier_shield-PTH.drl' contains
+    plated through holes:
+    =============================================================
+    T1  0.330mm  0.0130"  (6 holes))
+    T2  0.400mm  0.0157"  (31 holes))
+    T3  1.000mm  0.0394"  (82 holes))
+    T4  1.020mm  0.0402"  (10 holes))
+    T5  1.075mm  0.0423"  (4 holes))
+    T6  1.100mm  0.0433"  (4 holes))
+    T7  2.700mm  0.1063"  (2 holes))
+
+    Total plated holes count 139
+
+
+Drill file 'bms_carrier_shield-NPTH.drl' contains
+    unplated through holes:
+    =============================================================
+    T1  3.000mm  0.1181"  (5 holes))
+    T2  3.200mm  0.1260"  (4 holes))
+
+    Total unplated holes count 9

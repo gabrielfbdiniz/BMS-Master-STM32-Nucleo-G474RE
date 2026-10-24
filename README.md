@@ -73,6 +73,11 @@ BMS Master - STM - V0/
 │       ├── bms_carrier_shield.kicad_sch  # Esquemático hierárquico
 │       ├── bms_carrier_shield.kicad_pcb  # Layout de 4 camadas (Top/GND/PWR/Bot)
 │       ├── bms_master_schematic.pdf      # Esquemático completo em PDF vetorial
+│       ├── FABRICATION_NOTES.md          # Especificações para manufatura e montagem
+│       ├── gerbers/                      # Pacote de fabricação (ZIP, Gerbers, Drill, CPL, BOM)
+│       │   ├── BMS_Carrier_Shield_Gerbers_v0.zip # Pacote ZIP pronto para envio à fábrica
+│       │   ├── BMS_Carrier_Shield_BOM_Detailed.csv # BOM detalhada com Part Numbers e referências
+│       │   └── bms_carrier_shield-pos.csv        # Centroid / Pick-and-Place para SMT
 │       ├── 01_power_supply.kicad_sch     # Folha: Regulador GLV 12V -> 5V
 │       ├── 02_isospi_barrier.kicad_sch   # Folha: Barreira Iso-SPI L99BM1TR + HMU2103NL
 │       ├── 03_sdc_latch.kicad_sch        # Folha: Circuito Latch biestável do SDC
