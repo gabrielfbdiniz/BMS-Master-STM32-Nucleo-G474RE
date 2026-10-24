@@ -1,11 +1,11 @@
-# 🏎️ BMS Master — STM32 V0 (Formula ITA)
+# BMS Master — STM32 Nucleo G474RE V0 (Formula ITA)
 ## ECU Central de Gerenciamento do Acumulador de Tração (20s18p)
 
 Repositório unificado (Monorepo) de **Hardware**, **Firmware** e **Documentação Técnica** do BMS Master do protótipo Formula SAE Electric da equipe **Formula ITA**.
 
 ---
 
-## 📑 Estrutura do Repositório (Monorepo)
+## Estrutura do Repositório (Monorepo)
 
 ```text
 BMS Master - STM - V0/
@@ -48,7 +48,7 @@ BMS Master - STM - V0/
 
 ---
 
-## ⚡ Especificações do Sistema
+## Especificações do Sistema
 
 * **Topologia do Acumulador:** 20 blocos em série, cada bloco com 18 células em paralelo (**20s18p = 360 células**).
 * **Célula Adotada:** Samsung INR21700 (40T / 30T).
@@ -60,7 +60,7 @@ BMS Master - STM - V0/
 
 ---
 
-## 🛠️ Como Executar os Testes SIL (PC)
+## Como Executar os Testes SIL (PC)
 
 Abra o terminal PowerShell na pasta `firmware/` e execute:
 
@@ -75,7 +75,7 @@ python tools/plot_telemetry.py
 
 ---
 
-## 🖥️ Como Abrir o Projeto Eletrônico no KiCad 10
+## Como Abrir o Projeto Eletrônico no KiCad 10
 
 1. Abra o **KiCad 10**.
 2. Clique em **Abrir Projeto** e selecione o arquivo:  
