@@ -1,0 +1,37 @@
+Mouser Part Number,Manufacturer Part Number,Manufacturer,Quantity,Customer Part Number,Description
+595-LMR36510ADDAR,LMR36510ADDAR,Texas Instruments,1,U1,Automotive 65V 1A Synchronous Step-Down Voltage Regulator
+511-L99BM1TR,L99BM1TR,STMicroelectronics,1,U2,Automotive Isolated SPI Transceiver SOIC-16
+511-USBLC6-2SC6,USBLC6-2SC6,STMicroelectronics,1,U3,Low Capacitance ESD Protection Diode SOT-23-6
+595-SN74HC74DR,SN74HC74DR,Texas Instruments,1,U4,Dual D-Type Flip-Flop with Set/Reset SOIC-14
+595-ISO1044BDR,ISO1044BDR,Texas Instruments,1,U5,Galvanically Isolated CAN-FD Transceiver SOIC-8
+805-B0505S-1WR3,B0505S-1WR3,Mornsun,1,U6,1W Isolated DC-DC Converter 5V to 5V SIP-4
+673-HMU2103NL,HMU2103NL,Pulse Electronics,1,T1,Dual-Channel Automotive Iso-SPI Pulse Transformer 2500Vrms
+653-G5V-1-DC5,G5V-1 DC5,Omron Electronics,1,K1,SPDT 5VDC Coil 1A Low Signal Relay for SDC
+771-BC817-40215,"BC817-40,215",Nexperia,1,Q2,NPN BJT 45V 500mA SOT-23
+621-2N7002-F,2N7002-7-F,Diodes Incorporated,1,Q3,N-Channel MOSFET 60V 115mA SOT-23
+621-B340A-F,B340A-13-F,Diodes Incorporated,1,D1,Schottky Diode 40V 3A SMA (Reverse Polarity Protection)
+576-SMAJ15CA,SMAJ15CA,Littelfuse,1,D2,Bidirectional TVS Diode 15V Vrwm 400W SMA
+621-B140-F,B140-13-F,Diodes Incorporated,1,D7,Schottky Diode 40V 1A SMA (Relay Flyback)
+863-NUP2105LT1G,NUP2105LT1G,onsemi,1,D8,Dual Automotive CAN Bus TVS Diode 24V SOT-23
+859-LTST-C170GKT,LTST-C170GKT,Lite-On,3,"D3, D4, D5","Green SMD LED 0805 (12V GLV, 5V, SDC OK)"
+859-LTST-C170CKT,LTST-C170CKT,Lite-On,1,D6,Red SMD LED 0805 (AMS FAULT)
+611-PTS645SL43-2LFS,PTS645SL43-2 LFS,C&K / Littelfuse,1,SW1,Tactile Push Button SPST-NO 6x6mm H=5mm (SDC Reset)
+200-SSW11901TD,SSW-119-01-T-D,Samtec,2,"J1, J2",Socket Strip 2x19 2.54mm Pitch (NUCLEO Morpho Headers)
+538-43650-0200,0436500200,Molex,2,"J3, J5",Molex Micro-Fit 3.0 Header Right Angle 2-Circuit (GLV 12V & SDC Loop)
+538-43650-0400,0436500400,Molex,2,"J4, J6",Molex Micro-Fit 3.0 Header Right Angle 4-Circuit (Iso-SPI & CAN-FD)
+652-SRR1260-100M,SRR1260-100M,Bourns,2,"L1, L2",Shielded Power Inductor 10uH 3.5A SMD 12.5x12.5mm
+667-EEE-FK1V101P,EEE-FK1V101P,Panasonic,1,C1,Aluminum Electrolytic Capacitor Low ESR 100uF 35V SMD 8x10mm
+81-GRM21BZ71E106KE5L,GRM21BZ71E106KE15L,Murata,3,"C2, C14, C15",Capacitor Ceramic MLCC X7R 10uF 25V 10% 0805
+81-GRM21BR71C226ME5L,GRM21BR71C226ME15L,Murata,1,C6,Capacitor Ceramic MLCC X7R 22uF 16V 10% 0805
+81-GRM21BR71E475KA3L,GRM21BR71E475KA73L,Murata,1,C8,Capacitor Ceramic MLCC X7R 4.7uF 25V 10% 0805
+81-GRM188R71E105KA2D,GRM188R71E105KA12D,Murata,2,"C4, C10",Capacitor Ceramic MLCC X7R 1uF 25V 10% 0603
+603-CC603KRX7R9BB104,CC0603KRX7R9BB104,Yageo,8,"C3, C5, C7, C9, C12, C16, C17, C18",Capacitor Ceramic MLCC X7R 100nF 50V 10% 0603
+603-CC603KRX7R9BB103,CC0603KRX7R9BB103,Yageo,1,C11,Capacitor Ceramic MLCC X7R 10nF 50V 10% 0603
+603-CC603KRX7R9BB472,CC0603KRX7R9BB472,Yageo,1,C19,Capacitor Ceramic MLCC X7R 4.7nF 50V 10% 0603
+603-RC0603FR-07100KL,RC0603FR-07100KL,Yageo,2,"R1, R19",Resistor Thick Film 100k Ohm 1/10W 1% 0603
+603-RC0603FR-0724K9L,RC0603FR-0724K9L,Yageo,1,R2,Resistor Thick Film 24.9k Ohm 1/10W 1% 0603 (LMR36510 Vout Feedback)
+603-RC0603FR-071KL,RC0603FR-071KL,Yageo,5,"R3, R4, R15, R16, R22",Resistor Thick Film 1k Ohm 1/10W 1% 0603
+603-RC0603FR-0747KL,RC0603FR-0747KL,Yageo,1,R5,Resistor Thick Film 47k Ohm 1/10W 1% 0603
+603-RC0603FR-0710KL,RC0603FR-0710KL,Yageo,7,"R6, R7, R8, R9, R12, R13, R17",Resistor Thick Film 10k Ohm 1/10W 1% 0603
+603-RC0603FR-0760R4L,RC0603FR-0760R4L,Yageo,4,"R10, R11, R20, R21",Resistor Thick Film 60.4 Ohm 1/10W 1% 0603 (CAN / Iso-SPI Split Termination)
+603-RC0603FR-07100RL,RC0603FR-07100RL,Yageo,1,R18,Resistor Thick Film 100 Ohm 1/10W 1% 0603
