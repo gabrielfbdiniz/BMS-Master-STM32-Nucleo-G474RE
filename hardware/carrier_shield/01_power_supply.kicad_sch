@@ -1845,6 +1845,12 @@
 		(uuid "15f43a1b-b860-4b8f-85a9-ba1f991efa33")
 	)
 	(junction
+		(at 44.45 60.96)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "1969ef50-2108-451f-bd2a-dd2019ca9b5a")
+	)
+	(junction
 		(at 111.76 60.96)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1869,10 +1875,10 @@
 		(uuid "763dc4e3-5157-4893-9570-c723adb996c7")
 	)
 	(junction
-		(at 44.45 60.96)
+		(at 72.39 60.96)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "9d457c80-723a-4f9e-83e8-56c7a831cb01")
+		(uuid "9b78dc61-2396-4ad2-8943-84468f2453a2")
 	)
 	(junction
 		(at 180.34 73.66)
@@ -1895,6 +1901,16 @@
 	(no_connect
 		(at 147.32 71.12)
 		(uuid "76e87f8c-fb63-48ad-8a09-3454da06b738")
+	)
+	(wire
+		(pts
+			(xy 72.39 60.96) (xy 72.39 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "05b99209-5af1-4e45-bca4-3dd13ac4ca5b")
 	)
 	(wire
 		(pts
@@ -1955,6 +1971,16 @@
 			(type default)
 		)
 		(uuid "183764f2-8a88-43be-91e9-fcba8886dbb4")
+	)
+	(wire
+		(pts
+			(xy 72.39 60.96) (xy 83.82 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1b855948-69f2-4f24-b998-2149216a6b29")
 	)
 	(wire
 		(pts
@@ -2028,6 +2054,16 @@
 	)
 	(wire
 		(pts
+			(xy 72.39 71.12) (xy 72.39 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3061be5d-afd5-45bc-9a71-9f715b8175ac")
+	)
+	(wire
+		(pts
 			(xy 180.34 85.09) (xy 180.34 86.36)
 		)
 		(stroke
@@ -2048,7 +2084,7 @@
 	)
 	(wire
 		(pts
-			(xy 71.12 60.96) (xy 64.77 60.96)
+			(xy 62.23 60.96) (xy 72.39 60.96)
 		)
 		(stroke
 			(width 0)
@@ -2238,16 +2274,6 @@
 	)
 	(wire
 		(pts
-			(xy 78.74 60.96) (xy 83.82 60.96)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a4fd39c0-f11d-4668-8c6b-81cb3f1350f5")
-	)
-	(wire
-		(pts
 			(xy 137.16 76.2) (xy 137.16 77.47)
 		)
 		(stroke
@@ -2368,7 +2394,7 @@
 	)
 	(wire
 		(pts
-			(xy 44.45 60.96) (xy 57.15 60.96)
+			(xy 44.45 60.96) (xy 54.61 60.96)
 		)
 		(stroke
 			(width 0)
@@ -2573,6 +2599,165 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:D_TVS")
+		(at 72.39 67.31 270)
+		(mirror x)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "0dda436f-af04-44b6-9554-403398465e2a")
+		(property "Reference" "D2"
+			(at 69.85 66.0399 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "D_TVS"
+			(at 69.85 68.5799 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SMA"
+			(at 72.39 67.31 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 72.39 67.31 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Bidirectional transient-voltage-suppression diode"
+			(at 72.39 67.31 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "4b7b8a19-cd75-4344-81c4-0806a2238749")
+		)
+		(pin "2"
+			(uuid "38ae4e3f-7685-4c2f-9e76-c3c9873897f1")
+		)
+		(instances
+			(project "bms_carrier_shield"
+				(path "/b5e9f801-447a-428d-93e1-7d12f38a9010/a1000001-0000-0000-0000-000000000001"
+					(reference "D2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 72.39 73.66 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "187ad240-87c8-4e38-9b53-5f2d66d7bcf8")
+		(property "Reference" "#PWR069"
+			(at 72.39 80.01 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 72.39 77.724 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 72.39 73.66 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 72.39 73.66 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 72.39 73.66 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "c8a4b44c-b290-420c-9f24-98e1dab626c3")
+		)
+		(instances
+			(project "bms_carrier_shield"
+				(path "/b5e9f801-447a-428d-93e1-7d12f38a9010/a1000001-0000-0000-0000-000000000001"
+					(reference "#PWR069")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 232.41 85.09 0)
 		(unit 1)
@@ -2724,86 +2909,6 @@
 			(project "bms_carrier_shield"
 				(path "/b5e9f801-447a-428d-93e1-7d12f38a9010/a1000001-0000-0000-0000-000000000001"
 					(reference "L2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:D_TVS")
-		(at 74.93 60.96 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "37b4bfcf-7590-4668-8292-5a2dd720b4ad")
-		(property "Reference" "D2"
-			(at 74.93 54.61 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "D_TVS"
-			(at 74.93 57.15 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Diode_SMD:D_SMA"
-			(at 74.93 60.96 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 74.93 60.96 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Bidirectional transient-voltage-suppression diode"
-			(at 74.93 60.96 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "9526d0b6-e58a-46a1-a85c-ecdae45f9cc6")
-		)
-		(pin "2"
-			(uuid "d34a2b04-99a6-429e-8caf-447148d7220d")
-		)
-		(instances
-			(project "bms_carrier_shield"
-				(path "/b5e9f801-447a-428d-93e1-7d12f38a9010/a1000001-0000-0000-0000-000000000001"
-					(reference "D2")
 					(unit 1)
 				)
 			)
@@ -2970,7 +3075,7 @@
 	)
 	(symbol
 		(lib_id "Device:D_Schottky")
-		(at 60.96 60.96 180)
+		(at 58.42 60.96 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -2981,7 +3086,7 @@
 		(fields_autoplaced yes)
 		(uuid "4dcf2795-e3ae-483f-81e6-ebb824406308")
 		(property "Reference" "D1"
-			(at 61.2775 54.61 0)
+			(at 58.7375 54.61 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2991,7 +3096,7 @@
 			)
 		)
 		(property "Value" "D_Schottky"
-			(at 61.2775 57.15 0)
+			(at 58.7375 57.15 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3001,7 +3106,7 @@
 			)
 		)
 		(property "Footprint" "Diode_SMD:D_SMA"
-			(at 60.96 60.96 0)
+			(at 58.42 60.96 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3012,7 +3117,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 60.96 60.96 0)
+			(at 58.42 60.96 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3023,7 +3128,7 @@
 			)
 		)
 		(property "Description" "Schottky diode"
-			(at 60.96 60.96 0)
+			(at 58.42 60.96 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)

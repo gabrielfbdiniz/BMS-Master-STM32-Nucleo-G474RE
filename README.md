@@ -41,58 +41,57 @@ A placa **BMS Master Carrier Shield** é uma PCB de 4 camadas projetada para aco
 
 ```text
 BMS Master - STM - V0/
-├── docs/                        # Engenharia de sistemas, especificações e relatórios técnicos
+├── .gitignore                         # Regras de exclusão Git (KiCad, builds, temporários)
+├── README.md                          # Visão geral, especificações e documentação rápida
+├── docs/                              # Engenharia de sistemas, especificações e manuais
+│   ├── schematics/                    # Esquemáticos oficiais em PDF vetorial
+│   │   └── BMS_Master_Schematic.pdf   # Esquemático hierárquico vetorial completo (KiCad 10)
 │   ├── PLANO_MESTRE_BMS_MASTER_CONSOLIDADO.md  # Especificação técnica completa do sistema
-│   ├── RELATORIO_AUDITORIA_SENIOR_JUIZ_FSAE.md # Auditoria de conformidade com regras FSAE EV
 │   ├── MANUAL_OPERACIONAL_E_MONTAGEM_BMS.md    # Procedimentos de montagem, testes e comissionamento
 │   ├── PLANO_DETECCAO_FUSIVEL_METODO_1.md      # Formulação matemática do algoritmo RLS e Z-score
 │   ├── GUIA_ENSAIO_CARACTERIZACAO_CELULAS_21700.md # Manual de bancada HPPC (FreedomCAR)
 │   └── ARQUITETURA_E_PLANEJAMENTO_BMS_MASTER.md    # Arquitetura conceitual e interfaces
 │
-├── firmware/                    # Código em C99 Puro (ARM Cortex-M4F & Simulação SIL)
-│   ├── core/                    # Algoritmos puros desacoplados de hardware
-│   │   ├── bms_types.h          # Definições da topologia 20s18p, limites e telemetria
-│   │   ├── alg_fuse_detect.c/.h # RLS incremental, Z-score e Pre-Flight Check de fusíveis
-│   │   ├── alg_soc.c/.h         # Coulomb counting, tabela OCV e limites CCL/DCL dinâmicos
-│   │   └── fsm_master.c/.h      # Máquina de estados finitos (FSAE EV4.8 / EV8)
-│   ├── mock/                    # Motor de sensoriamento sintético de alta fidelidade
-│   │   ├── bms_mock_battery.c/.h# Modelo eletrotérmico Thévenin 1RC (Samsung 21700)
-│   │   └── drive_cycle.c/.h     # Perfil de corrida FSAE sem regeneração (frenagem mecânica)
-│   ├── tests_sil/               # Testes de Software-in-the-Loop (SIL) no Host (PC)
-│   │   ├── main_sil_runner.c    # Simulação temporal de 60s com injeção de faltas programadas
-│   │   ├── sil_telemetry_log.csv# Log temporal com 6.000 amostras
-│   │   └── sil_telemetry_plot.png # Gráfico consolidado da telemetria de simulação
-│   ├── tools/                   # Ferramentas de análise e simulação
-│   │   ├── sim_runner.py        # Simulador interativo em Python
-│   │   └── plot_telemetry.py    # Gerador de gráficos da telemetria SIL
-│   └── Makefile                 # Build para Clang/GCC Host e ARM Toolchain
-│
-├── hardware/                    # Projeto Eletrônico no KiCad 10
-│   └── carrier_shield/          # Carrier Board de 4 camadas para NUCLEO-G474RE
+├── hardware/                          # Projeto Eletrônico no KiCad 10
+│   └── carrier_shield/                # Carrier Board de 4 camadas para NUCLEO-G474RE
 │       ├── bms_carrier_shield.kicad_pro  # Projeto mestre KiCad
-│       ├── bms_carrier_shield.kicad_sch  # Esquemático hierárquico
+│       ├── bms_carrier_shield.kicad_sch  # Esquemático mestre
 │       ├── bms_carrier_shield.kicad_pcb  # Layout de 4 camadas (Top/GND/PWR/Bot)
-│       ├── bms_master_schematic.pdf      # Esquemático completo em PDF vetorial
-│       ├── FABRICATION_NOTES.md          # Especificações para manufatura e montagem
-│       ├── gerbers/                      # Pacote de fabricação (ZIP, Gerbers, Drill, CPL, BOM)
-│       │   ├── BMS_Carrier_Shield_Gerbers_v0.zip # Pacote ZIP pronto para envio à fábrica
-│       │   ├── BMS_Carrier_Shield_BOM_Detailed.csv # BOM detalhada com Part Numbers e referências
-│       │   └── bms_carrier_shield-pos.csv        # Centroid / Pick-and-Place para SMT
 │       ├── 01_power_supply.kicad_sch     # Folha: Regulador GLV 12V -> 5V
 │       ├── 02_isospi_barrier.kicad_sch   # Folha: Barreira Iso-SPI L99BM1TR + HMU2103NL
 │       ├── 03_sdc_latch.kicad_sch        # Folha: Circuito Latch biestável do SDC
 │       ├── 05_canfd_interface.kicad_sch  # Folha: Interface CAN-FD isolada ISO1042
 │       ├── 06_nucleo_headers.kicad_sch   # Folha: Conectores Morpho NUCLEO-G474RE
-│       └── libraries/                    # Modelos 3D (.stp/.wrl), símbolos e footprints
+│       ├── fp-lib-table, sym-lib-table   # Mapeamento local de bibliotecas
+│       ├── libraries/                    # Modelos 3D (.stp/.wrl), símbolos e footprints
+│       └── fabrication/                  # Pacote de manufatura e montagem SMT
+│           ├── FABRICATION_NOTES.md      # Especificações para fabricação da placa
+│           ├── gerbers/                  # Arquivos Gerber RS-274X e Drill Excellon (ZIP)
+│           ├── bom/                      # Listas de materiais (CSV, TSV, Mouser, Interactive BOM)
+│           └── cpl/                      # Arquivo de posicionamento Pick & Place (pos.csv)
 │
-├── renders/                     # Renderizações fotorrealistas em alta resolução da PCB
+├── renders/                           # Renderizações fotorrealistas em alta resolução da PCB (KiCad 10)
 │   ├── master_render_iso_top.png
 │   ├── master_render_iso_bottom.png
 │   ├── master_render_top.png
 │   └── master_render_bottom.png
 │
-└── simulation/                  # Simulação de circuitos analógicos (Proteus VSM)
-    └── proteus_sdc_precharge/   # Circuito biestável SDC e transitório RC de pré-carga
+├── firmware/                          # Código em C99 Puro (ARM Cortex-M4F & Simulação SIL)
+│   ├── core/                          # Algoritmos puros desacoplados de hardware
+│   │   ├── bms_types.h                # Definições da topologia 20s18p, limites e telemetria
+│   │   ├── alg_fuse_detect.c/.h       # RLS incremental, Z-score e Pre-Flight Check de fusíveis
+│   │   ├── alg_soc.c/.h               # Coulomb counting, tabela OCV e limites CCL/DCL dinâmicos
+│   │   └── fsm_master.c/.h            # Máquina de estados finitos (FSAE EV4.8 / EV8)
+│   ├── mock/                          # Motor de sensoriamento sintético de alta fidelidade
+│   ├── tests_sil/                     # Testes de Software-in-the-Loop (SIL) no Host (PC)
+│   └── tools/                         # Scripts de simulação e plotagem em Python
+│
+├── can/                               # Matriz de comunicação veicular CAN-FD
+│   ├── README.md                      # Documentação das mensagens CAN e taxas de atualização
+│   └── bms_can_matrix.dbc             # Arquivo DBC padronizado
+│
+└── simulation/                        # Simulação de circuitos analógicos (Proteus VSM)
+    └── proteus_sdc_precharge/         # Circuito biestável SDC e transitório RC de pré-carga
 ```
 
 ---
@@ -134,14 +133,16 @@ python tools/plot_telemetry.py
    - Abra o editor de PCB (`bms_carrier_shield.kicad_pcb`).
    - Pressione <kbd>Alt</kbd> + <kbd>3</kbd> para abrir o **Visualizador 3D**.
    - As bibliotecas de modelos (`libraries/3dmodels/`) já estão configuradas relativamente no projeto.
+4. Para consultar o esquemático em PDF sem abrir o KiCad:
+   - Abra diretamente: [`docs/schematics/BMS_Master_Schematic.pdf`](docs/schematics/BMS_Master_Schematic.pdf).
 
 ---
 
 ## Documentação Técnica de Referência
 
 Consulte a pasta [`docs/`](docs/) para aprofundamento técnico:
+* [**Esquemático Oficial (PDF)**](docs/schematics/BMS_Master_Schematic.pdf) — Desenho esquemático elétrico completo vetorial.
 * [**Plano Mestre Consolidado**](docs/PLANO_MESTRE_BMS_MASTER_CONSOLIDADO.md) — Documento mestre de especificação técnica e funcional.
-* [**Relatório de Auditoria FSAE EV**](docs/RELATORIO_AUDITORIA_SENIOR_JUIZ_FSAE.md) — Parecer técnico de conformidade com os artigos do regulamento FSAE.
 * [**Manual Operacional e de Montagem**](docs/MANUAL_OPERACIONAL_E_MONTAGEM_BMS.md) — Roteiro detalhado de fabricação, montagem de chicotes e testes de bancada.
 * [**Plano de Detecção de Fusível Rompido**](docs/PLANO_DETECCAO_FUSIVEL_METODO_1.md) — Formulação matemática do RLS incremental e teste Z-score.
 * [**Guia de Caracterização de Células 21700**](docs/GUIA_ENSAIO_CARACTERIZACAO_CELULAS_21700.md) — Protocolo de ensaio experimental HPPC em bancada.

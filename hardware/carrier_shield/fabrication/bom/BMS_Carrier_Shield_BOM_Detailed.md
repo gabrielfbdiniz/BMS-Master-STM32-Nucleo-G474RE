@@ -10,12 +10,13 @@
 | 5 | `U5` | 1 | **ISO1044BD** | SOIC-8 (3.9x4.9mm) | Texas Instruments | `ISO1044BDR` | Mouser: 595-ISO1044BDR / LCSC: C711585 |
 | 6 | `U6` | 1 | **B0505S-1WR3** | SIP-4 (11.5x6.0mm THT) | Mornsun | `B0505S-1WR3` | LCSC: C148866 / Mouser: 805-B0505S-1WR3 |
 | 7 | `T1` | 1 | **HMU2103NL** | SMD-16 (16.2x11.8mm) | Pulse Electronics | `HMU2103NL` | Mouser: 673-HMU2103NL |
-| 8 | `K1` | 1 | **G5V-1-DC5** | THT DIP (12.5x7.5mm) | Omron Electronics | `G5V-1-DC5` | Mouser: 653-G5V-1-DC5 / LCSC: C38198 |
+| 8 | `K1` | 1 | **G5V-1-DC12** | THT DIP (12.5x7.5mm) | Omron Electronics | `G5V-1-DC12` | Mouser: 653-G5V-1-DC12 / LCSC: C38197 |
 | 9 | `Q2` | 1 | **BC817-40** | SOT-23 | Nexperia | `BC817-40,215` | Mouser: 771-BC817-40215 / LCSC: C109033 |
 | 10 | `Q3` | 1 | **2N7002** | SOT-23 | Diodes Incorporated | `2N7002-7-F` | Mouser: 621-2N7002-F / LCSC: C8502 |
 | 11 | `D1` | 1 | **B340A / SS34** | SMA (DO-214AC) | Diodes Incorporated | `B340A-13-F` | Mouser: 621-B340A-F / LCSC: C15950 |
 | 12 | `D2` | 1 | **SMAJ15CA** | SMA (DO-214AC) | Littelfuse | `SMAJ15CA` | Mouser: 576-SMAJ15CA / LCSC: C81747 |
 | 13 | `D7` | 1 | **SS14** | SMA (DO-214AC) | Diodes Incorporated | `B140-13-F` | Mouser: 621-B140-F / LCSC: C1577 |
+| 13b | `D9` | 1 | **1N4148W** | SOD-123 | Diodes Incorporated | `1N4148W-7-F` | Mouser: 621-1N4148W-F / LCSC: C81598 |
 | 14 | `D8` | 1 | **NUP2105L** | SOT-23 | onsemi | `NUP2105LT1G` | Mouser: 863-NUP2105LT1G / LCSC: C14444 |
 | 15 | `D3, D4, D5` | 3 | **Green LED** | 0805 (2012 Metric) | Lite-On | `LTST-C170GKT` | Mouser: 859-LTST-C170GKT / LCSC: C72043 |
 | 16 | `D6` | 1 | **Red LED** | 0805 (2012 Metric) | Lite-On | `LTST-C170CKT` | Mouser: 859-LTST-C170CKT / LCSC: C72038 |

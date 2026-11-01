@@ -6,12 +6,13 @@ Mouser Part Number,Manufacturer Part Number,Manufacturer,Quantity,Customer Part 
 595-ISO1044BDR,ISO1044BDR,Texas Instruments,1,U5,Galvanically Isolated CAN-FD Transceiver SOIC-8
 805-B0505S-1WR3,B0505S-1WR3,Mornsun,1,U6,1W Isolated DC-DC Converter 5V to 5V SIP-4
 673-HMU2103NL,HMU2103NL,Pulse Electronics,1,T1,Dual-Channel Automotive Iso-SPI Pulse Transformer 2500Vrms
-653-G5V-1-DC5,G5V-1 DC5,Omron Electronics,1,K1,SPDT 5VDC Coil 1A Low Signal Relay for SDC
+653-G5V-1-DC12,G5V-1 DC12,Omron Electronics,1,K1,SPDT 12VDC Coil 1A Low Signal Relay for SDC (12V GLV)
 771-BC817-40215,"BC817-40,215",Nexperia,1,Q2,NPN BJT 45V 500mA SOT-23
 621-2N7002-F,2N7002-7-F,Diodes Incorporated,1,Q3,N-Channel MOSFET 60V 115mA SOT-23
 621-B340A-F,B340A-13-F,Diodes Incorporated,1,D1,Schottky Diode 40V 3A SMA (Reverse Polarity Protection)
 576-SMAJ15CA,SMAJ15CA,Littelfuse,1,D2,Bidirectional TVS Diode 15V Vrwm 400W SMA
 621-B140-F,B140-13-F,Diodes Incorporated,1,D7,Schottky Diode 40V 1A SMA (Relay Flyback)
+621-1N4148W-F,1N4148W-7-F,Diodes Incorporated,1,D9,Fast Switching Diode 100V 300mA SOD-123 (Latch Reset Protection)
 863-NUP2105LT1G,NUP2105LT1G,onsemi,1,D8,Dual Automotive CAN Bus TVS Diode 24V SOT-23
 859-LTST-C170GKT,LTST-C170GKT,Lite-On,3,"D3, D4, D5","Green SMD LED 0805 (12V GLV, 5V, SDC OK)"
 859-LTST-C170CKT,LTST-C170CKT,Lite-On,1,D6,Red SMD LED 0805 (AMS FAULT)

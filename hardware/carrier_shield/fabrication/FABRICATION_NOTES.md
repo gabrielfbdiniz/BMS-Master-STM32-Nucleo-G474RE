@@ -76,7 +76,7 @@ Espessura Total: ~1.6 mm
 2. **Barreira CAN-FD (TI ISO1044 + Mornsun B0505S-1WR3):**
    - Isolação de até 5000 Vrms com separação física entre o domínio GLV do veículo e o barramento externo de telemetria.
 3. **Malha do Shutdown Circuit (SDC Latch):**
-   - Contatos secos do relé Omron `G5V-1-DC5` operando estritamente na malha de 12V GLV.
+   - Contatos secos do relé Omron `G5V-1-DC12` operando estritamente na malha de 12V GLV.
 
 ---
 

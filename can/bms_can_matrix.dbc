@@ -1,0 +1,165 @@
+VERSION ""
+
+NS_ : 
+	NS_DESC_
+	CM_
+	BA_DEF_
+	BA_
+	VAL_
+	CAT_DEF_
+	CAT_
+	FILTER
+	BA_DEF_DEF_
+	EV_DATA_
+	ENVVAR_DATA_
+	SGTYPE_
+	SGTYPE_VAL_
+	BA_DEF_SGTYPE_
+	BA_SGTYPE_
+	SIG_TYPE_REF_
+	VAL_TABLE_
+	SIG_GROUP_
+	SIG_VALTYPE_
+	SIGTYPE_VALTYPE_
+	BO_TX_BU_
+	BA_DEF_REL_
+	BA_REL_
+	BA_DEF_DEF_REL_
+	BU_SG_REL_
+	BU_EV_REL_
+	BU_BO_REL_
+	SG_MUL_VAL_
+
+BS_:
+
+BU_: BMS VCU INV TELEMETRY
+
+VAL_TABLE_ FSM_State_Enum 0 "BOOT" 1 "STANDBY" 2 "PRECHARGE" 3 "DRIVE" 4 "CHARGING" 5 "FAULT" ;
+VAL_TABLE_ SDC_State_Enum 0 "TRIPPED" 1 "ARMED" ;
+VAL_TABLE_ Bool_Enum 0 "FALSE" 1 "TRUE" ;
+
+BO_ 256 BMS_Heartbeat_Status: 8 BMS
+ SG_ BMS_FSM_State : 0|4@1+ (1,0) [0|15] "" VCU,TELEMETRY
+ SG_ BMS_SDC_Armed : 4|1@1+ (1,0) [0|1] "" VCU,TELEMETRY
+ SG_ BMS_AIR_Plus_Closed : 5|1@1+ (1,0) [0|1] "" VCU,TELEMETRY
+ SG_ BMS_AIR_Minus_Closed : 6|1@1+ (1,0) [0|1] "" VCU,TELEMETRY
+ SG_ BMS_Precharge_Active : 7|1@1+ (1,0) [0|1] "" VCU,TELEMETRY
+ SG_ BMS_Fault_Undervoltage : 8|1@1+ (1,0) [0|1] "" VCU,TELEMETRY
+ SG_ BMS_Fault_Overvoltage : 9|1@1+ (1,0) [0|1] "" VCU,TELEMETRY
+ SG_ BMS_Fault_Overtemp : 10|1@1+ (1,0) [0|1] "" VCU,TELEMETRY
+ SG_ BMS_Fault_Undertemp : 11|1@1+ (1,0) [0|1] "" VCU,TELEMETRY
+ SG_ BMS_Fault_Overcurrent : 12|1@1+ (1,0) [0|1] "" VCU,TELEMETRY
+ SG_ BMS_Fault_IsoSPI_Drop : 13|1@1+ (1,0) [0|1] "" VCU,TELEMETRY
+ SG_ BMS_Fault_Hardware_Trip : 14|1@1+ (1,0) [0|1] "" VCU,TELEMETRY
+ SG_ BMS_Warning_Fuse_Suspect : 15|1@1+ (1,0) [0|1] "" VCU,TELEMETRY
+ SG_ BMS_Rolling_Counter : 16|4@1+ (1,0) [0|15] "" VCU,TELEMETRY
+ SG_ BMS_Checksum : 20|4@1+ (1,0) [0|15] "" VCU,TELEMETRY
+ SG_ BMS_Error_Code : 24|8@1+ (1,0) [0|255] "" VCU,TELEMETRY
+ SG_ BMS_Reserved_HBeat : 32|32@1+ (1,0) [0|4294967295] "" TELEMETRY
+
+BO_ 257 BMS_Pack_Metrics: 8 BMS
+ SG_ BMS_Pack_Voltage : 0|16@1+ (0.01,0) [0|100] "V" VCU,INV,TELEMETRY
+ SG_ BMS_Pack_Current : 16|16@1+ (0.1,-500) [-500|500] "A" VCU,INV,TELEMETRY
+ SG_ BMS_Pack_SOC : 32|16@1+ (0.1,0) [0|100] "%" VCU,INV,TELEMETRY
+ SG_ BMS_Pack_SOH : 48|16@1+ (0.1,0) [0|100] "%" VCU,TELEMETRY
+
+BO_ 258 BMS_Dynamic_Limits: 8 BMS
+ SG_ BMS_Discharge_Limit_DCL : 0|16@1+ (0.1,0) [0|500] "A" VCU,INV,TELEMETRY
+ SG_ BMS_Charge_Limit_CCL : 16|16@1+ (0.1,0) [0|200] "A" VCU,INV,TELEMETRY
+ SG_ BMS_DCLink_Voltage : 32|16@1+ (0.01,0) [0|100] "V" VCU,INV,TELEMETRY
+ SG_ BMS_Max_Allowable_Temp : 48|8@1+ (1,0) [0|100] "degC" VCU,INV,TELEMETRY
+ SG_ BMS_Derating_Active : 56|1@1+ (1,0) [0|1] "" VCU,INV,TELEMETRY
+
+BO_ 259 BMS_Extremes_MinMax: 8 BMS
+ SG_ BMS_Cell_Volt_Min : 0|16@1+ (1,0) [0|5000] "mV" VCU,TELEMETRY
+ SG_ BMS_Cell_Volt_Min_ID : 16|8@1+ (1,1) [1|20] "ID" VCU,TELEMETRY
+ SG_ BMS_Cell_Volt_Max : 24|16@1+ (1,0) [0|5000] "mV" VCU,TELEMETRY
+ SG_ BMS_Cell_Volt_Max_ID : 40|8@1+ (1,1) [1|20] "ID" VCU,TELEMETRY
+ SG_ BMS_Cell_Temp_Min : 48|8@1+ (1,-40) [-40|85] "degC" VCU,TELEMETRY
+ SG_ BMS_Cell_Temp_Max : 56|8@1+ (1,-40) [-40|85] "degC" VCU,TELEMETRY
+
+BO_ 272 BMS_CellVoltages_Group1: 8 BMS
+ SG_ BMS_Cell_Volt_01 : 0|16@1+ (1,0) [0|5000] "mV" TELEMETRY
+ SG_ BMS_Cell_Volt_02 : 16|16@1+ (1,0) [0|5000] "mV" TELEMETRY
+ SG_ BMS_Cell_Volt_03 : 32|16@1+ (1,0) [0|5000] "mV" TELEMETRY
+ SG_ BMS_Cell_Volt_04 : 48|16@1+ (1,0) [0|5000] "mV" TELEMETRY
+
+BO_ 273 BMS_CellVoltages_Group2: 8 BMS
+ SG_ BMS_Cell_Volt_05 : 0|16@1+ (1,0) [0|5000] "mV" TELEMETRY
+ SG_ BMS_Cell_Volt_06 : 16|16@1+ (1,0) [0|5000] "mV" TELEMETRY
+ SG_ BMS_Cell_Volt_07 : 32|16@1+ (1,0) [0|5000] "mV" TELEMETRY
+ SG_ BMS_Cell_Volt_08 : 48|16@1+ (1,0) [0|5000] "mV" TELEMETRY
+
+BO_ 274 BMS_CellVoltages_Group3: 8 BMS
+ SG_ BMS_Cell_Volt_09 : 0|16@1+ (1,0) [0|5000] "mV" TELEMETRY
+ SG_ BMS_Cell_Volt_10 : 16|16@1+ (1,0) [0|5000] "mV" TELEMETRY
+ SG_ BMS_Cell_Volt_11 : 32|16@1+ (1,0) [0|5000] "mV" TELEMETRY
+ SG_ BMS_Cell_Volt_12 : 48|16@1+ (1,0) [0|5000] "mV" TELEMETRY
+
+BO_ 275 BMS_CellVoltages_Group4: 8 BMS
+ SG_ BMS_Cell_Volt_13 : 0|16@1+ (1,0) [0|5000] "mV" TELEMETRY
+ SG_ BMS_Cell_Volt_14 : 16|16@1+ (1,0) [0|5000] "mV" TELEMETRY
+ SG_ BMS_Cell_Volt_15 : 32|16@1+ (1,0) [0|5000] "mV" TELEMETRY
+ SG_ BMS_Cell_Volt_16 : 48|16@1+ (1,0) [0|5000] "mV" TELEMETRY
+
+BO_ 276 BMS_CellVoltages_Group5: 8 BMS
+ SG_ BMS_Cell_Volt_17 : 0|16@1+ (1,0) [0|5000] "mV" TELEMETRY
+ SG_ BMS_Cell_Volt_18 : 16|16@1+ (1,0) [0|5000] "mV" TELEMETRY
+ SG_ BMS_Cell_Volt_19 : 32|16@1+ (1,0) [0|5000] "mV" TELEMETRY
+ SG_ BMS_Cell_Volt_20 : 48|16@1+ (1,0) [0|5000] "mV" TELEMETRY
+
+BO_ 288 BMS_Temperatures: 8 BMS
+ SG_ BMS_Slave1_Temperature : 0|16@1+ (0.1,-40) [-40|125] "degC" TELEMETRY
+ SG_ BMS_Slave2_Temperature : 16|16@1+ (0.1,-40) [-40|125] "degC" TELEMETRY
+ SG_ BMS_Slave3_Temperature : 32|16@1+ (0.1,-40) [-40|125] "degC" TELEMETRY
+ SG_ BMS_Slave4_Temperature : 48|16@1+ (0.1,-40) [-40|125] "degC" TELEMETRY
+
+BO_ 304 BMS_Diagnostics_Fuse: 8 BMS
+ SG_ BMS_Fuse_Blown_Detected : 0|1@1+ (1,0) [0|1] "" VCU,TELEMETRY
+ SG_ BMS_Blown_Block_Index : 1|7@1+ (1,0) [0|19] "" VCU,TELEMETRY
+ SG_ BMS_Estimated_R0_uOhm : 8|16@1+ (1,0) [0|65535] "uOhm" TELEMETRY
+ SG_ BMS_Average_R_uOhm : 24|16@1+ (1,0) [0|65535] "uOhm" TELEMETRY
+ SG_ BMS_Z_Score : 40|16@1+ (0.01,0) [0|50] "" TELEMETRY
+ SG_ BMS_Fuse_Diag_Reserved : 56|8@1+ (1,0) [0|255] "" TELEMETRY
+
+CM_ BU_ BMS "Battery Management System Master (Formula ITA 2025-2026)";
+CM_ BU_ VCU "Vehicle Control Unit Central";
+CM_ BU_ INV "Traction Inverter Motor Controller";
+CM_ BU_ TELEMETRY "Pit Box and Onboard Telemetry Logger";
+
+CM_ BO_ 256 "Heartbeat periódico e status da máquina de estados (FSM) e malha de segurança SDC";
+CM_ BO_ 257 "Métricas fundamentais do acumulador de tração: Tensão, Corrente, SOC e SOH";
+CM_ BO_ 258 "Limites dinâmicos de potência (DCL e CCL) enviados para proteção do inversor";
+CM_ BO_ 259 "Extremos operacionais: tensões máxima e mínima com IDs das células e temperaturas";
+CM_ BO_ 272 "Tensões individuais dos blocos 01 a 04 (Módulo Escravo 1)";
+CM_ BO_ 273 "Tensões individuais dos blocos 05 a 08 (Módulo Escravo 1 e 2)";
+CM_ BO_ 274 "Tensões individuais dos blocos 09 a 12 (Módulo Escravo 2 e 3)";
+CM_ BO_ 275 "Tensões individuais dos blocos 13 a 16 (Módulo Escravo 3 e 4)";
+CM_ BO_ 276 "Tensões individuais dos blocos 17 a 20 (Módulo Escravo 4)";
+CM_ BO_ 288 "Temperaturas dos 4 módulos escravos 5S lidas pelos termistores NTC";
+CM_ BO_ 304 "Diagnóstico detalhado em tempo real da resistência ôhmica interna e detecção de fusível rompido";
+
+BA_DEF_  "BusType" STRING ;
+BA_DEF_ BO_  "GenMsgCycleTime" INT 0 10000;
+BA_DEF_DEF_  "BusType" "CAN";
+BA_DEF_DEF_  "GenMsgCycleTime" 100;
+
+BA_ "GenMsgCycleTime" BO_ 256 50;
+BA_ "GenMsgCycleTime" BO_ 257 20;
+BA_ "GenMsgCycleTime" BO_ 258 50;
+BA_ "GenMsgCycleTime" BO_ 259 50;
+BA_ "GenMsgCycleTime" BO_ 272 100;
+BA_ "GenMsgCycleTime" BO_ 273 100;
+BA_ "GenMsgCycleTime" BO_ 274 100;
+BA_ "GenMsgCycleTime" BO_ 275 100;
+BA_ "GenMsgCycleTime" BO_ 276 100;
+BA_ "GenMsgCycleTime" BO_ 288 100;
+BA_ "GenMsgCycleTime" BO_ 304 200;
+
+VAL_ 256 BMS_FSM_State 0 "BOOT" 1 "STANDBY" 2 "PRECHARGE" 3 "DRIVE" 4 "CHARGING" 5 "FAULT" ;
+VAL_ 256 BMS_SDC_Armed 0 "TRIPPED" 1 "ARMED" ;
+VAL_ 256 BMS_AIR_Plus_Closed 0 "OPEN" 1 "CLOSED" ;
+VAL_ 256 BMS_AIR_Minus_Closed 0 "OPEN" 1 "CLOSED" ;
+VAL_ 256 BMS_Precharge_Active 0 "INACTIVE" 1 "ACTIVE" ;
+VAL_ 258 BMS_Derating_Active 0 "NO_DERATING" 1 "DERATING_ACTIVE" ;
+VAL_ 304 BMS_Fuse_Blown_Detected 0 "NORMAL_18P" 1 "FUSE_BLOWN_17P" ;
